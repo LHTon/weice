@@ -13,7 +13,7 @@ use think\Db;
 header('Access-Control-Allow-Origin: *');
 class Albumlst extends Controller
 {
-    //图集的列表
+    //查询所有图集的列表
     public function index()
     {
         $openid = $_POST['openid'];
@@ -30,7 +30,7 @@ class Albumlst extends Controller
         echo json_encode($result);
     }
 
-    //设置热点图片
+    //处理图集设置为热点图集
     public function hot()
     {
         $is_hot = $_POST['is_hot'];
