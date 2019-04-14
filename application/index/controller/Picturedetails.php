@@ -8,6 +8,7 @@ use think\Db;
 header('Access-Control-Allow-Origin: *');
 class Picturedetails extends Controller
 {
+    //图集的详情页面
     public function index()
     {
         $routeid = $_POST['route_dy_id'];
