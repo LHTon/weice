@@ -8,6 +8,8 @@ header('Access-Control-Allow-Origin: *');
 
 class Login extends Controller
 {
+
+    //处理微信登录小程序的授权
     public function index()
     {
         $code = $_GET["code"];
