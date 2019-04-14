@@ -8,6 +8,7 @@ header('Access-Control-Allow-Origin: *');
 
 class Headimgurl extends Controller
 {
+    //将微信的头像和用户名存入数据库
     public function index()
     {
         $openid = $_POST['openid'];
