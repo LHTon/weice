@@ -41,9 +41,9 @@ class Albumlst extends Controller
 
             ];
         }
-        print_r($arr);
-//        $cs = json_encode($arr);
-//        echo $cs;
+//        print_r($arr);
+        $cs = json_encode($arr);
+        echo $cs;
     }
 
 
