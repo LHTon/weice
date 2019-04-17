@@ -10,9 +10,9 @@ class Headimgurl extends Controller
 {
     public function index()
     {
-        $openid = $_POST['openid'];
-        $nickname = $_POST['nickname'];
-        $headimgurl = $_POST['headimgurl'];
+        $openid = $_GET['openid'];
+        $nickname = $_GET['nickname'];
+        $headimgurl = $_GET['headimgurl'];
 
         $re = Db::name('user')
             ->where('nickname',$nickname)
