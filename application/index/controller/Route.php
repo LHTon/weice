@@ -59,7 +59,8 @@ class Route extends \think\Controller
 
                 $info = $file->move($filePaths);
                 if ($info) {
-                    $imgpath = 'uploads/' . $filePath . '/' . $info->getSaveName();
+
+                    $imgpath = 'uploads/' . $filePath . '/' . $getSaveName = str_replace("\\","/",$info->getSaveName());
                     $image = \think\Image::open($imgpath);
                     $date_path = 'uploads/' . $filePath . '/thumb/' . date('Ymd');
                     if (!file_exists($date_path)) {
