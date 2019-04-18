@@ -67,7 +67,7 @@ class Route extends \think\Controller
                         mkdir($date_path, 0777, true);
                     }
                     $thumb_path = $date_path . '/' . $info->getFilename();
-                    $image->thumb(110, 110, Image::THUMB_SCALING)->save($thumb_path);
+                    $image->thumb(110, 110, Image::THUMB_CENTER)->save($thumb_path);
                     $re[] = 'http://39.97.184.156/weice/public/'.$imgpath;
                     $se[] = 'http://39.97.184.156/weice/public/'.$thumb_path;
                 } else {
