@@ -13,14 +13,9 @@ class Login extends Controller
     public function index()
     {
         $code = $_GET["code"];
-//配置appid
         $appid = $_GET["appid"];
-//配置appscret
         $secret = $_GET["appSecret"];
-
-//api接口
         $api = "https://api.weixin.qq.com/sns/jscode2session?appid={$appid}&secret={$secret}&js_code={$code}&grant_type=authorization_code";
-//获取GET请求
         function httpGet($url){
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
@@ -35,6 +30,9 @@ class Login extends Controller
 //发送
         $str = httpGet($api);
         echo $str;
+        $rs = json_encode($str);
+        $openid = $rs['openid'];
+
 
 
     }

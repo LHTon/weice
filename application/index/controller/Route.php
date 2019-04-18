@@ -68,8 +68,8 @@ class Route extends \think\Controller
                     }
                     $thumb_path = $date_path . '/' . $info->getFilename();
                     $image->thumb(110, 110, Image::THUMB_SCALING)->save($thumb_path);
-                    $re[] = $imgpath;
-                    $se[] = $thumb_path;
+                    $re[] = 'http://39.97.184.156/weice/public/'.$imgpath;
+                    $se[] = 'http://39.97.184.156/weice/public/'.$thumb_path;
                 } else {
                     // 上传失败获取错误信息
                     return $file->getError();

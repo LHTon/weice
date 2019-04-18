@@ -46,16 +46,6 @@ class Albumlst extends Controller
         echo $cs;
     }
 
-
-
-
-
-
-
-
-
-
-
     //处理图集设置为热点图集
     public function hot()
     {
