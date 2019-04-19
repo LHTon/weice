@@ -30,11 +30,17 @@ class Login extends Controller
 //发送
         $str = httpGet($api);
         echo $str;
-        $rs = json_encode($str);
-        $openid = $rs['openid'];
+        $arr = json_encode($str,true);
+        $openid = $arr['openid'];
+        $re = Db::table('dy_user')->where('openid',$openid)->select();
+        if($re) {
 
-
-
+        } else {
+            $insert = Db::table('dy_user')
+                ->insert([
+                    'openid' => $openid,
+                ]);
+        }
     }
 
 }
