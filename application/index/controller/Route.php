@@ -17,25 +17,11 @@ use app\index\model\Route as RouteModel;
 header('Access-Control-Allow-Origin: *');
 class Route extends \think\Controller
 {
-    public function index(Request $request)
+    public function index() 
     {
-// 获取表单上传文件
-        $files = $request->file('image');
-        exit;
-        $item = [];
-        foreach($files as $file){
-// 移动到框架应用根目录/public/uploads/ 目录下
-            $info = $file->move(ROOT_PATH . 'public' . DS . 'uploads');
-            if($info){
-                $item = $info->getInfo();
-            }else{
-// 上传失败获取错误信息
-                $this->error($file->getError());
-            }
-        }
-//        $this->success('文件上传成功'.implode('<br/>',$item));
-        dump($item);
+        return 'http://39.97.184.156/weice/public/uploads/erweima.jpg';
     }
+
 
 
 

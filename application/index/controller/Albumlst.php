@@ -46,11 +46,21 @@ class Albumlst extends Controller
         echo $cs;
     }
 
+
+
+
+
+
+
+
+
+
+
     //处理图集设置为热点图集
     public function hot()
     {
-        $is_hot = $_POST['is_hot'];
-        $routeid = $_POST['route_dy_id'];
+        $is_hot = $_GET['is_hot'];
+        $routeid = $_GET['route_dy_id'];
         $re = Db::name('route')
             ->where('route_dy_id', $routeid)
             ->update(['is_hot' => $is_hot]);
