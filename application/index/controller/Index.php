@@ -18,7 +18,7 @@ class Index extends Controller
     //获取所有openid  自己以及关注好友
     public function openid() {
         $dy['openid'] = $_GET['openid'];
-        $dyid[] =$dy['openid'];
+        $dyid[] = $dy['openid'];
         $sql = Db::table('dy_user')
             ->alias('u')
             ->join('dy_friend f', 'u.openid = f.openid')

@@ -10,16 +10,8 @@ class Login extends Controller
 {
     public function index()
     {
-        $code = $_GET["code"];
-//配置appid
-        $appid = $_GET["appid"];
-//配置appscret
-        $secret = $_GET["appSecret"];
-
-//api接口
-        $api = "https://api.weixin.qq.com/sns/jscode2session?appid={$appid}&secret={$secret}&js_code={$code}&grant_type=authorization_code";
-//获取GET请求
-        function httpGet($url){
+        import('wxBizDataCrypt', EXTEND_PATH);
+        function httpGet($url) {
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_TIMEOUT, 500);
@@ -30,20 +22,29 @@ class Login extends Controller
             curl_close($curl);
             return $res;
         }
-//发送
-        $str = httpGet($api);
-        echo $str;
-        $arr = json_decode($str, true);
-//        echo $arr;
-        $openid = $arr['openid'];
-        $re = Db::table('dy_user')->where('openid',$openid)->select();
-        if($re){
-            
+//        $nickname      = $_POST['nickName'];
+//        $headimgurl    = $_POST['headimgurl'];
+        $code          = $_POST['code'];
+        $iv            = $_POST['iv'];
+        $encryptedData = $_POST['encryptedData'];
+        $appid      = $_POST['appid'];//小程序唯一标识   (在微信小程序管理后台获取)
+        $appsecret  = $_POST['appSecret'];//小程序的 app secret (在微信小程序管理后台获取)
+        $grant_type = "authorization_code"; //授权（必填）
+
+        $params = "appid=".$appid."&secret=".$appsecret."&js_code=".$code."&grant_type=".$grant_type;
+        $url = "https://api.weixin.qq.com/sns/jscode2session?".$params;
+
+        $res = json_decode(httpGet($url),true);
+        //json_decode不加参数true，转成的就不是array,而是对象。 下面的的取值会报错  Fatal error: Cannot use object of type stdClass as array in
+        $sessionKey = $res['session_key'];//取出json里对应的值
+
+        $pc = new \WXBizDataCrypt($appid, $sessionKey);
+        $errCode = $pc->decryptData($encryptedData, $iv, $data);
+
+        if ($errCode == 0) {
+            print($data . "\n");
         } else {
-            $insert = Db::table('dy_user')
-                ->insert([
-                    'openid' => $openid,
-                ]);
+            print($errCode . "\n");
         }
 
     }

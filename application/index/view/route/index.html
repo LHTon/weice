@@ -71,12 +71,16 @@
 </head>
 <body>
 <h2>文件上传示例</h2>
-<FORM method="post" enctype="multipart/form-data" class="form" action="{:url('up')}">
-<input type="file" name="image[]" /> <br>
-    <input type="file" name="image[]" /> <br>
-<input type="file" name="image[]" /> <br>
-<INPUT type="submit" class="btn" value=" 提交 ">
-</FORM>
+<!--<FORM method="post" enctype="multipart/form-data" class="form" action="{:url('fileup')}">-->
+<!--<input type="file" name="image" /> <br>-->
+    <!--&lt;!&ndash;<input type="file" name="image[]" /> <br>&ndash;&gt;-->
+<!--&lt;!&ndash;<input type="file" name="image[]" /> <br>&ndash;&gt;-->
+<!--<INPUT type="submit" class="btn" value=" 提交 ">-->
+<!--</FORM>-->
+<form action="{:url('fileup')}" method="post" enctype="multipart/form-data" class="form">
+    <input type="file" name="file" >
+    <input type="submit" value="上传">
+</form>
 <div class="copyright">
 <a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a>
 <span>V5</span>

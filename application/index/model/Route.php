@@ -11,5 +11,11 @@ use think\Model;
 
 class Route extends Model
 {
+    public function add($data) {
+        $data['type'] = 1;
+        $result = $this -> save($data);
+        return $result;
+    }
+
 
 }

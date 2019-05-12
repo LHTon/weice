@@ -46,16 +46,6 @@ class Albumlst extends Controller
         echo $cs;
     }
 
-
-
-
-
-
-
-
-
-
-
     //处理图集设置为热点图集
     public function hot()
     {
@@ -68,6 +58,18 @@ class Albumlst extends Controller
             return 1;
         } else {
             return 0;
+        }
+    }
+
+    //删除图集
+    public function delete()
+    {
+        $data = input('post.');
+        $result = model('Route')->where('route_dy_id',$data['route_dy_id'])->delete();
+        if($result) {
+            return 1;
+        } else {
+           return 0;
         }
     }
 }
