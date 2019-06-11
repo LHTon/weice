@@ -13,6 +13,6 @@
 
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
-define('SITE_URL', 'http://110.64.211.2/weice');
+define('SITE_URL', 'http://110.64.211.77/weice');
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';

@@ -29,56 +29,65 @@ class Route extends \think\Controller
     //上传视频和图片的功能
     public function up(Request $request)
     {
+//        halt(123);
         header('Access-Control-Allow-Origin: *');
 
-        $data = input('post.');
+//        $data = input('post.');
+//        halt($data);
 
-        $file = request()->file('video');
+//        $file = request()->file('video');
         $files = request()->file('image');
-        if ($file) {
-            $filePath = "V";
-            $filePaths = ROOT_PATH . 'public' . DS . 'uploads' . DS . $filePath;
-            if (!file_exists($filePaths)) {
-                mkdir($filePaths, 0777, true);
-            }
-            $info = $file->validate(['size'=>104857600,'ext'=>'svg,mp4'])->move($filePaths);
-            if ($info) {
-                $viopath = 'uploads/' . $filePath . '/' . $getSaveName = str_replace("\\", "/", $info->getSaveName());
-                $re = 'http://110.64.211.77/weice/public/' . $viopath;
-                $routeid = time().rand(1,10000);
-                $describes = [
-                    'idx_dynamic' => $routeid,
-                    'openid'     => $data['openid'],
-                    'describes'  => $data['describes'],
-                ];
-                $res = model('Dynamic') -> add($describes);
-                if($res) {
-                    echo '添加描述成功';
-                } else {
-                    echo '添加描述失败';
-                }
-                $da = [
-                    'route_dy_id' => $routeid,
-                    'route'       => $re,
-                ];
-                $se = model('Route')->add($da);
-                if($se) {
-                    return 1;
-                } else {
-                    return 0;
-                }
-
-            } else {
-                // 上传失败获取错误信息
-                return $file->getError();
-            }
-        }
+        halt($files);
+//        print_r($files);exit;
+//        print_r($files);exit;
+//        if ($file) {
+//            $filePath = "V";
+//            $filePaths = ROOT_PATH . 'public' . DS . 'uploads' . DS . $filePath;
+//            if (!file_exists($filePaths)) {
+//                mkdir($filePaths, 0777, true);
+//            }
+//            $info = $file->validate(['size'=>104857600,'ext'=>'svg,mp4'])->move($filePaths);
+//            if ($info) {
+//                $viopath = 'uploads/' . $filePath . '/' . $getSaveName = str_replace("\\", "/", $info->getSaveName());
+//                $re = 'http://110.64.211.77/weice/public/' . $viopath;
+//                $routeid = time().rand(1,10000);
+//                $describes = [
+//                    'idx_dynamic' => $routeid,
+//                    'openid'     => $data['openid'],
+//                    'describes'  => $data['describes'],
+//                ];
+//                $res = model('Dynamic') -> add($describes);
+//                if($res) {
+//                    echo '添加描述成功';
+//                } else {
+//                    echo '添加描述失败';
+//                }
+//                $da = [
+//                    'route_dy_id' => $routeid,
+//                    'route'       => $re,
+//                ];
+//                $se = model('Route')->add($da);
+//                if($se) {
+//                    return 1;
+//                } else {
+//                    return 0;
+//                }
+//
+//            } else {
+//                // 上传失败获取错误信息
+//                return $file->getError();
+//            }
+//        }
 
         if($files)
         {
-            $toutle = count($files);
+//            halt(15468);
+
+//
             $filePath = "T";
             foreach ($files as $file) {
+                $toutle = count($file);
+                halt($toutle);
                 if ($file) {
                     $filePaths = ROOT_PATH . 'public' . DS . 'uploads' . DS . $filePath;
                     if (!file_exists($filePaths)) {
