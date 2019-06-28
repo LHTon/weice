@@ -8,15 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!--Basic Styles-->
-    <link href="../static/admin/style/bootstrap.css" rel="stylesheet">
-    <link href="../static/admin/style/font-awesome.css" rel="stylesheet">
-    <link href="../static/admin/style/weather-icons.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/font-awesome.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/weather-icons.css" rel="stylesheet">
 
     <!--Beyond styles-->
-    <link id="beyond-link" href="../static/admin/style/beyond.css" rel="stylesheet" type="text/css">
-    <link href="../static/admin/style/demo.css" rel="stylesheet">
-    <link href="../static/admin/style/typicons.css" rel="stylesheet">
-    <link href="../static/admin/style/animate.css" rel="stylesheet">
+    <link id="beyond-link" href="__PUBLIC__/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/style/demo.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/typicons.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/animate.css" rel="stylesheet">
 
 </head>
 <body>
@@ -28,7 +28,7 @@
             <div class="navbar-header pull-left">
                 <a href="#" class="navbar-brand">
                     <small>
-                        <img src="../static/admin/images/logo.png" alt="">
+                        <img src="__PUBLIC__/images/logo.png" alt="">
                     </small>
                 </a>
             </div>
@@ -45,7 +45,7 @@
                         <li>
                             <a class="login-area dropdown-toggle" data-toggle="dropdown">
                                 <div class="avatar" title="View your public profile">
-                                    <img src="../static/admin/images/adam-jansen.jpg">
+                                    <img src="__PUBLIC__/images/adam-jansen.jpg">
                                 </div>
                                 <section>
                                     <h2><span class="profile"><span>admin</span></span></h2>
@@ -183,7 +183,7 @@
             <!-- Page Body -->
             <div class="page-body">
 
-                <button type="button" tooltip="添加好友" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = 'fradd.html'"> <i class="fa fa-plus"></i> Add
+                <button type="button" tooltip="添加好友" class="btn btn-sm btn-azure btn-addon" onClick="javascript:window.location.href = '../add/fradd'"> <i class="fa fa-plus"></i> Add
                 </button>
                 <div class="row">
                     <div class="col-lg-12 col-sm-12 col-xs-12">
@@ -194,6 +194,7 @@
                                         <thead class="">
                                         <tr>
                                             <th class="text-center">ID</th>
+                                            <th class="text-center">用户ID</th>
                                             <th class="text-center">好友id</th>
                                             <th class="text-center">好友名</th>
                                             <th class="text-center">好友头像</th>
@@ -201,25 +202,28 @@
                                         </tr>
                                         </thead>
                                         <tbody>
+                                        <?php foreach($fr as $k => $v): ?>
                                         <tr>
-                                            <td align="center">6</td>
-                                            <td align="center">test</td>
-                                            <td align="center">test</td>
-                                            <td align="center">test</td>
+                                            <td align="center"><?php echo $v['id']?></td>
+                                            <td align="center"><?php echo $v['openid']?></td>
+                                            <td align="center"><?php echo $v['fr_openid']?></td>
+                                            <td align="center"><?php echo $v['nickname']?></td>
+                                            <td align="center"><img src="<?php echo $v['headimgurl']?>" alt=""></td>
                                             <td align="center">
-                                                <a href="/admin/user/edit/id/6.html" class="btn btn-primary btn-sm shiny">
+                                                <a href="<?php echo url('/admin/edit/fredit/' . $v['id']);?>" class="btn btn-primary btn-sm shiny">
                                                     <i class="fa fa-edit"></i> 编辑
                                                 </a>
-                                                <a href="#" onClick="warning('确实要删除吗', '/admin/user/del/id/6.html')" class="btn btn-danger btn-sm shiny">
+                                                <a href="<?php echo url('/admin/del/frdel/' . $v['id']);?>"  class="btn btn-danger btn-sm shiny">
                                                     <i class="fa fa-trash-o"></i> 删除
                                                 </a>
                                             </td>
                                         </tr>
-
+                                        <?php endforeach;?>
                                         </tbody>
                                     </table>
                                 </div>
                                 <div>
+                                    {$page}
                                 </div>
                             </div>
                         </div>
@@ -234,11 +238,11 @@
 </div>
 
 <!--Basic Scripts-->
-<script src="../static/admin/style/jquery_002.js"></script>
-<script src="../static/admin/style/bootstrap.js"></script>
-<script src="../static/admin/style/jquery.js"></script>
+<script src="__PUBLIC__/style/jquery_002.js"></script>
+<script src="__PUBLIC__/style/bootstrap.js"></script>
+<script src="__PUBLIC__/style/jquery.js"></script>
 <!--Beyond Scripts-->
-<script src="../static/admin/style/beyond.js"></script>
+<script src="__PUBLIC__/style/beyond.js"></script>
 
 
 

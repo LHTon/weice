@@ -8,15 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!--Basic Styles-->
-    <link href="../../static/admin/style/bootstrap.css" rel="stylesheet">
-    <link href="../../static/admin/style/font-awesome.css" rel="stylesheet">
-    <link href="../../static/admin/style/weather-icons.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/font-awesome.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/weather-icons.css" rel="stylesheet">
 
     <!--Beyond styles-->
-    <link id="beyond-link" href="../../static/admin/style/beyond.css" rel="stylesheet" type="text/css">
-    <link href="../../static/admin/style/demo.css" rel="stylesheet">
-    <link href="../../static/admin/style/typicons.css" rel="stylesheet">
-    <link href="../../static/admin/style/animate.css" rel="stylesheet">
+    <link id="beyond-link" href="__PUBLIC__/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/style/demo.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/typicons.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/animate.css" rel="stylesheet">
 
 </head>
 <body>
@@ -28,7 +28,7 @@
             <div class="navbar-header pull-left">
                 <a href="#" class="navbar-brand">
                     <small>
-                        <img src="../../static/admin/images/logo.png" alt="">
+                        <img src="__PUBLIC__/images/logo.png" alt="">
                     </small>
                 </a>
             </div>
@@ -45,7 +45,7 @@
                         <li>
                             <a class="login-area dropdown-toggle" data-toggle="dropdown">
                                 <div class="avatar" title="View your public profile">
-                                    <img src="../../static/admin/images/adam-jansen.jpg">
+                                    <img src="__PUBLIC__/images/adam-jansen.jpg">
                                 </div>
                                 <section>
                                     <h2><span class="profile"><span>admin</span></span></h2>
@@ -200,10 +200,48 @@
                                         </tr>
                                         </thead>
                                         <tbody>
+
+                                        <!--{volist name = 'arr' id = 'value'}-->
+                                        <!--<tr>-->
+                                            <!--<td align="center">{$value.openid}</td>-->
+                                            <!--<td align="center">{$value.thumb_route}</td>-->
+                                            <!--<td align="center">{$value.describes}</td>-->
+                                            <!--<td align="center">{$value.tabname}</td>-->
+                                            <!--<td align="center">-->
+                                                <!--<a href="<?php echo url('/admin/edit/tuedit/route_dy_id/');?> . {$value.route_dy_id}" class="btn btn-primary btn-sm shiny">-->
+                                                    <!--<i class="fa fa-edit"></i> 修改-->
+                                                <!--</a>-->
+                                                <!--<a href="#" onClick="warning('确实要删除吗', '/admin/user/del/id/6.html')" class="btn btn-danger btn-sm shiny">-->
+                                                    <!--<i class="fa fa-trash-o"></i> 删除-->
+                                                <!--</a>-->
+                                            <!--</td>-->
+                                        <!--</tr>-->
+                                        <!--{/volist}-->
+
+
+
+                                        <?php foreach($arr as $k => $v): ?>
+                                        <tr>
+                                            <td align="center"><?php echo $v['openid']?></td>
+                                            <!--<td align="center"><?php echo $v['route_dy_id']?></td>-->
+                                            <td align="center"><img src="<?php echo $v['thumb_route']?>" alt=""></td>
+                                            <td align="center"><?php echo $v['describes']?></td>
+                                            <td align="center"><?php echo $v['tabname']?></td>
+                                            <td align="center">
+                                                <a href="<?php echo url('/admin/edit/tuedit/' . $v['route_dy_id']);?>" class="btn btn-primary btn-sm shiny">
+                                                    <i class="fa fa-edit"></i> 修改
+                                                </a>
+                                                <a href="<?php echo url('/admin/del/tudel/' . $v['route_dy_id']);?>" class="btn btn-danger btn-sm shiny">
+                                                    <i class="fa fa-trash-o"></i> 删除
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <?php endforeach;?>
                                         </tbody>
                                     </table>
                                 </div>
                                 <div>
+                                    {$page}
                                 </div>
                             </div>
                         </div>
@@ -218,11 +256,11 @@
 </div>
 
 <!--Basic Scripts-->
-<script src="../../static/admin/style/jquery_002.js"></script>
-<script src="../../static/admin/style/bootstrap.js"></script>
-<script src="../../static/admin/style/jquery.js"></script>
+<script src="__PUBLIC__/style/jquery_002.js"></script>
+<script src="__PUBLIC__/style/bootstrap.js"></script>
+<script src="__PUBLIC__/style/jquery.js"></script>
 <!--Beyond Scripts-->
-<script src="../../static/admin/style/beyond.js"></script>
+<script src="__PUBLIC__/style/beyond.js"></script>
 
 
 
