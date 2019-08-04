@@ -1,0 +1,39 @@
+---------------------------------------------------------------
+[ 2019-08-02T23:10:58+08:00 ] 127.0.0.1 POST 127.0.0.1/weice4/public/index/route/up
+[运行时间：14.208581s] [吞吐率：0.07req/s] [内存消耗：2,350.21kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'route',
+    2 => 'up',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bf3f3b6b-2025-4b43-9377-b8f097e3f96b',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------070341345228132208261090',
+  'content-length' => '28685',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试1',
+  'tabname' => '标签1',
+)
+[ info ] [ RUN ] app\index\controller\Route->up[ C:\xampp\htdocs\weice4\application\index\controller\Route.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.860459s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.552715s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes`) VALUES (15647586463550 , '10' , '测试1') [ RunTime:0.992571s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.490914s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (15647586463550 , '10' , '标签1') [ RunTime:0.499881s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:3.651619s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15647586463550 , 'http://weicess.com/weice/public/uploads/T/20190802/ed4c15eb21c614a8560b9f817504a287.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190802/ed4c15eb21c614a8560b9f817504a287.jpg') [ RunTime:2.460185s ]

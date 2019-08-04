@@ -15,6 +15,7 @@ use app\index\model\Route as RouteModel;
 header('Access-Control-Allow-Origin: *');
 class Index extends Controller
 {
+
     //获取所有openid  自己以及关注好友
     public function openid() {
         $dy['openid'] = $_GET['openid'];

@@ -1,0 +1,555 @@
+---------------------------------------------------------------
+[ 2019-08-04T15:11:06+08:00 ] 0.0.0.0 GET localhost/weice/public/index.php/admin
+[运行时间：1.264371s] [吞吐率：0.79req/s] [内存消耗：1,319.95kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T15:11:08+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.603068s] [吞吐率：1.66req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T15:11:20+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/index.php/admin
+[运行时间：0.035161s] [吞吐率：28.44req/s] [内存消耗：1,319.98kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T15:11:21+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.044121s] [吞吐率：22.66req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T15:11:29+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/index.php/admin/index/tulist.html
+[运行时间：2.925260s] [吞吐率：0.34req/s] [内存消耗：2,303.90kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'tulist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/weice/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->tulist[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\tulist.html [ array (
+  0 => 'page',
+  1 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.582458s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.802788s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` ) `_group_count_` LIMIT 1 [ RunTime:0.373375s ]
+[ sql ] [ SQL ] SELECT d.openid, describes, tabname, r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` LIMIT 0,5 [ RunTime:0.376457s ]
+---------------------------------------------------------------
+[ 2019-08-04T15:11:29+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.027802s] [吞吐率：35.97req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T15:11:42+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/index.php/admin/index/uslist.html
+[运行时间：1.843394s] [吞吐率：0.54req/s] [内存消耗：2,145.94kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'uslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/weice/public/index.php/admin/index/tulist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->uslist[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\uslist.html [ array (
+  0 => 'page',
+  1 => 're',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.553128s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.372197s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_user` WHERE  `id` > 0 LIMIT 1 [ RunTime:0.369717s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `id` > 0 LIMIT 0,5 [ RunTime:0.368512s ]
+---------------------------------------------------------------
+[ 2019-08-04T15:11:42+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.025106s] [吞吐率：39.83req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T15:11:49+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/index.php/admin/index/falist.html
+[运行时间：1.859886s] [吞吐率：0.54req/s] [内存消耗：2,077.38kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'falist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/weice/public/index.php/admin/index/uslist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->falist[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\falist.html [ array (
+  0 => 'page',
+  1 => 'fa',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.550574s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.372694s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dy_fans` `f` INNER JOIN `dy_user` `u` ON `f`.`fan_id`=`u`.`openid` WHERE  (  f.fan_id = u.openid ) GROUP BY `f`.`idx_fan` ) `_group_count_` LIMIT 1 [ RunTime:0.367447s ]
+[ sql ] [ SQL ] SELECT `f`.`idx_fan`,`u`.`nickname`,`u`.`headimgurl`,`f`.`openid`,`f`.`fan_id` FROM `dy_fans` `f` INNER JOIN `dy_user` `u` ON `f`.`fan_id`=`u`.`openid` WHERE  (  f.fan_id = u.openid ) GROUP BY `f`.`idx_fan` LIMIT 0,5 [ RunTime:0.371912s ]
+---------------------------------------------------------------
+[ 2019-08-04T15:11:49+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.020466s] [吞吐率：48.86req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T15:16:08+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/index.php/admin/index/
+[运行时间：0.030956s] [吞吐率：32.30req/s] [内存消耗：1,320.09kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T15:16:08+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.021353s] [吞吐率：46.83req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T22:19:21+08:00 ] 0.0.0.0 GET localhost/weice/public/admin/index/tulist.html
+[运行时间：3.220535s] [吞吐率：0.31req/s] [内存消耗：2,145.22kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'tulist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=lh6jnobkrfeetur6mev6dg7ell',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->tulist[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\tulist.html [ array (
+  0 => 'page',
+  1 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.565129s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.380120s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` ) `_group_count_` LIMIT 1 [ RunTime:0.379281s ]
+[ sql ] [ SQL ] SELECT d.openid, describes, tabname, r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` LIMIT 0,5 [ RunTime:0.400670s ]
+---------------------------------------------------------------
+[ 2019-08-04T22:19:23+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.509667s] [吞吐率：1.96req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T22:19:36+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/admin/index/tulist.html
+[运行时间：1.709164s] [吞吐率：0.59req/s] [内存消耗：2,144.88kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'tulist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->tulist[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\tulist.html [ array (
+  0 => 'page',
+  1 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.550588s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.375273s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` ) `_group_count_` LIMIT 1 [ RunTime:0.368423s ]
+[ sql ] [ SQL ] SELECT d.openid, describes, tabname, r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` LIMIT 0,5 [ RunTime:0.375556s ]
+---------------------------------------------------------------
+[ 2019-08-04T22:19:37+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.019447s] [吞吐率：51.42req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T22:19:45+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/index
+[运行时间：0.252171s] [吞吐率：3.97req/s] [内存消耗：1,311.63kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -8,15 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!--Basic Styles-->
-    <link href="../../static/admin/style/bootstrap.css" rel="stylesheet">
-    <link href="../../static/admin/style/font-awesome.css" rel="stylesheet">
-    <link href="../../static/admin/style/weather-icons.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/font-awesome.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/weather-icons.css" rel="stylesheet">
 
     <!--Beyond styles-->
-    <link id="beyond-link" href="../../static/admin/style/beyond.css" rel="stylesheet" type="text/css">
-    <link href="../../static/admin/style/demo.css" rel="stylesheet">
-    <link href="../../static/admin/style/typicons.css" rel="stylesheet">
-    <link href="../../static/admin/style/animate.css" rel="stylesheet">
+    <link id="beyond-link" href="__PUBLIC__/style/beyond.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/style/demo.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/typicons.css" rel="stylesheet">
+    <link href="__PUBLIC__/style/animate.css" rel="stylesheet">
     
 <style class="firebugResetStyles" type="text/css" charset="utf-8">/* See license.txt for terms of usage */
 
@@ -294,7 +294,7 @@ style.firebugResetStyles {
             <div class="navbar-header pull-left">
                 <a href="#" class="navbar-brand">
                     <small>
-                            <img src="../../static/admin/images/logo.png" alt="">
+                            <img src="__PUBLIC__/images/logo.png" alt="">
                         </small>
                 </a>
             </div>
@@ -311,7 +311,7 @@ style.firebugResetStyles {
                         <li>
                             <a class="login-area dropdown-toggle" data-toggle="dropdown">
                                 <div class="avatar" title="View your public profile">
-                                    <img src="../../static/admin/images/adam-jansen.jpg">
+                                    <img src="__PUBLIC__/images/adam-jansen.jpg">
                                 </div>
                                 <section>
                                     <h2><span class="profile"><span>admin</span></span></h2>
@@ -458,81 +458,36 @@ style.firebugResetStyles {
                 <span class="widget-caption">修改图集信息</span>
             </div>
 
-
-
-
-
-
-
             <div class="widget-body">
                 <div id="horizontal-form">
-                    <form class="form-horizontal" role="form" action="" method="post">
-                        <!--<div class="form-group">-->
-                            <!--<label for="name" class="col-sm-2 control-label no-padding-right">规则类型</label>-->
-                            <!--<div class="col-sm-6">-->
-                                <!--<select name="type" style="width: 100%;">-->
-                                    <!--<option value="1" selected="selected">按节点</option>-->
-                                    <!--<option value="2">其他</option>-->
-                                <!--</select>-->
-                            <!--</div>-->
-                        <!--</div>-->
+                    {volist name = 'arr' id = 'value'}
+                    <form class="form-horizontal" role="form" action="{:url('admin/Edit/update')}" method="post">
                         <div class="form-group">
                             <label for="title" class="col-sm-2 control-label no-padding-right">图集图片</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="title" placeholder="" name="title" value="" required="" type="file">
+                                <img src='{$value.thumb_route}' >
                             </div>
                         </div>
-
-                        <!--<div class="form-group">-->
-                            <!--<label for="pid" class="col-sm-2 control-label no-padding-right">上级菜单</label>-->
-                            <!--<div class="col-sm-6">-->
-                                <!--<select name="pid" style="width: 100%;">-->
-                                    <!--<option selected="selected" value="0">一级菜单</option>-->
-                                                                        <!--<option value="1">控制面板</option>-->
-                                                                        <!--<option value="19">文档</option>-->
-                                                                        <!--<option value="20">——文章列表</option>-->
-                                                                        <!--<option value="2">系统</option>-->
-                                                                        <!--<option value="13">——用户管理</option>-->
-                                                                        <!--<option value="3">——角色管理</option>-->
-                                                                        <!--<option value="4">——权限列表</option>-->
-                                                                    <!--</select>-->
-                            <!--</div>-->
-                        <!--</div>-->
                         <div class="form-group">
                             <label for="name" class="col-sm-2 control-label no-padding-right">描述</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="name" placeholder="" name="name" type="text">
+                                <input class="form-control" id="name" placeholder="" name="describes" type="text" value="{$value.describes}">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="condition" class="col-sm-2 control-label no-padding-right">标签</label>
                             <div class="col-sm-6">
-                                <input class="form-control" id="condition" placeholder="" name="condition" type="text">
+                                <input class="form-control" id="condition" placeholder="" name="tabname" type="text" value="{$value.tabname}">
                             </div>
                         </div>
-                        <!--<div class="form-group">-->
-                            <!--<label for="sort" class="col-sm-2 control-label no-padding-right">排序</label>-->
-                            <!--<div class="col-sm-6">-->
-                                <!--<input class="form-control" id="sort" placeholder="" name="sort" value="2" type="text">-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="form-group">-->
-                            <!--<label for="is_show" class="col-sm-2 control-label no-padding-right">是否显示</label>-->
-
-                            <!--<div class="col-xs-4">-->
-                                <!--<label>-->
-                                    <!--<input class="checkbox-slider slider-icon yesno" name="is_show" checked="checked" type="checkbox">-->
-                                    <!--<span class="text"></span>-->
-                                <!--</label>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <input name="id" value="19" type="hidden">
+                        <input name="route_dy_id" value="{$value.route_dy_id}" type="hidden">
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <button type="submit" class="btn btn-default">保存信息</button>
                             </div>
                         </div>
                     </form>
+                    {/volist}
                 </div>
             </div>
 
@@ -650,11 +605,11 @@ style.firebugResetStyles {
 	</div>
 
 	    <!--Basic Scripts-->
-    <script src="../../static/admin/style/jquery_002.js"></script>
-    <script src="../../static/admin/style/bootstrap.js"></script>
-    <script src="../../static/admin/style/jquery.js"></script>
+    <script src="__PUBLIC__/style/jquery_002.js"></script>
+    <script src="__PUBLIC__/style/bootstrap.js"></script>
+    <script src="__PUBLIC__/style/jquery.js"></script>
     <!--Beyond Scripts-->
-    <script src="../../static/admin/style/beyond.js"></script>
+    <script src="__PUBLIC__/style/beyond.js"></script>
     
 
 

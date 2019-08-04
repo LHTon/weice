@@ -12,7 +12,7 @@ use think\Controller;
 class Test extends Controller
 {
     public function index() {
-        $i=1111;
+//        $i=1111;
         phpinfo();
 //        echo "Hello World!";
 //        echo "111";

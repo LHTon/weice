@@ -3,7 +3,9 @@ namespace app\admin\controller;
 
 use think\Controller;
 use think\Request;
+use think\Db;
 
+header('Access-Control-Allow-Origin: *');
 class Add extends Controller
 {
     public function index()
@@ -23,11 +25,15 @@ class Add extends Controller
 
     public function fradd()
     {
+        $oid = Db::query('select openid,id from dy_user');
+        $this->assign('oid',$oid);
         return $this->fetch('add/fradd');
     }
 
     public function faadd()
     {
+        $oid = Db::query('select openid,id from dy_user');
+        $this->assign('oid',$oid);
         return $this->fetch('add/faadd');
     }
 }
