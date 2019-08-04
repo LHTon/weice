@@ -295,6 +295,9 @@ class Route extends \think\Controller
 
         $filePath = "T";
         $files = request()->file('image');
+
+//        halt($files);
+
         $toutle = count($files);
         foreach ($files as $file) {
             if ($file) {
@@ -315,8 +318,12 @@ class Route extends \think\Controller
                     }
                     $thumb_path = $date_path . '/' . $info->getFilename();
                     $image->thumb(110, 110, Image::THUMB_CENTER)->save($thumb_path);
+
                     $re[] = 'http://weicess.com/weice/public/'.$imgpath;
                     $se[] = 'http://weicess.com/weice/public/'.$thumb_path;
+                    $re[] = 'http://110.64.211.77/weice/public/'.$imgpath;
+                    $se[] = 'http://110.64.211.77/weice/public/'.$thumb_path;
+
                 } else {
                     // 上传失败获取错误信息
                     return $file->getError();

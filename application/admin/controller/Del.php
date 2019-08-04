@@ -24,7 +24,11 @@ class Del extends Controller
     {
         $rt = Db::table('dy_user')->where('id',$id)->select();
         $re = Db::table('dy_user')->where('id',$id)->delete();
+
         $rs = Db::table('dy_friend')->where('openid',$rt['openid'])->delete();
+
+
+
         if(empty($re)) {
             $this->error('删除失败',url('admin/index/uslist'));
         } else {

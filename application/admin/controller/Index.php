@@ -33,8 +33,9 @@ class Index extends Controller
             ->where('d.idx_dynamic = t.idx_tabs')
             ->field('d.openid, describes, tabname, r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot')
             ->group('r.route_dy_id')
+
             ->paginate(5);
-//        halt($arr);
+
 
         foreach($result as $rt)
         {
