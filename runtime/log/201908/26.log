@@ -1,0 +1,2425 @@
+---------------------------------------------------------------
+[ 2019-08-26T11:14:34+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login/wxlogin?code=023G4P3g2EiFoH0fnY3g2UKI3g2G4P3N&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.687500s] [吞吐率：1.45req/s] [内存消耗：1,122.48kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'wxlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023G4P3g2EiFoH0fnY3g2UKI3g2G4P3N',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->wxlogin[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\Exception' not found[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:111]
+---------------------------------------------------------------
+[ 2019-08-26T11:52:49+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login/login?code=033n3ivn15Hlbp0MhEtn1zH7vn1n3ivh&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.093750s] [吞吐率：10.67req/s] [内存消耗：1,112.97kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '033n3ivn15Hlbp0MhEtn1zH7vn1n3ivh',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'Home\Common\Curl' not found[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:78]
+---------------------------------------------------------------
+[ 2019-08-26T11:57:24+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login/login?code=0435R05q1Gyyej0LDe7q12j55q15R05b&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.062500s] [吞吐率：16.00req/s] [内存消耗：1,113.08kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0435R05q1Gyyej0LDe7q12j55q15R05b',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\app\index\Common\Curl' not found[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:79]
+---------------------------------------------------------------
+[ 2019-08-26T12:18:30+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login/login?code=023uCWLg2FtQQH0J2XJg25fcMg2uCWLo&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：2.281250s] [吞吐率：0.44req/s] [内存消耗：1,117.17kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023uCWLg2FtQQH0J2XJg25fcMg2uCWLo',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[E:\web\hesj84h8\wwwroot\weice\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-08-26T12:25:19+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login/login?code=023Yejk52SzHxO04yel52aS3k52Yejke&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.078125s] [吞吐率：12.80req/s] [内存消耗：1,112.98kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023Yejk52SzHxO04yel52aS3k52Yejke',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\Curl' not found[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:79]
+---------------------------------------------------------------
+[ 2019-08-26T12:26:46+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login/login?code=043chBgN065B0a2DfOhN0r41hN0chBgN&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：1.859375s] [吞吐率：0.54req/s] [内存消耗：1,117.17kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043chBgN065B0a2DfOhN0r41hN0chBgN',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[E:\web\hesj84h8\wwwroot\weice\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-08-26T12:28:31+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login/?code=023fmJgJ1wG9w30pLmeJ1sKYgJ1fmJg6&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.421875s] [吞吐率：2.37req/s] [内存消耗：1,099.07kb] [文件加载：35]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023fmJgJ1wG9w30pLmeJ1sKYgJ1fmJg6',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-26T12:28:57+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login?code=033VSZRf0JBIvt1oZMRf0qoeSf0VSZRn&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：1.000000s] [吞吐率：1.00req/s] [内存消耗：1,099.07kb] [文件加载：35]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '033VSZRf0JBIvt1oZMRf0qoeSf0VSZRn',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-26T12:32:04+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login?code=043CZceJ1a0Cu30FBZfJ1Hu9eJ1CZceA&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.062500s] [吞吐率：16.00req/s] [内存消耗：1,116.93kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043CZceJ1a0Cu30FBZfJ1Hu9eJ1CZceA',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: data[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:38]
+---------------------------------------------------------------
+[ 2019-08-26T12:33:41+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login?code=023ImU7b2Na87M0szNab2QaX7b2ImU7K&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.796875s] [吞吐率：1.25req/s] [内存消耗：1,077.60kb] [文件加载：33]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023ImU7b2Na87M0szNab2QaX7b2ImU7K',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-26T12:35:28+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login?code=033y3Eho1d67Gp0RcEfo1jXGho1y3EhP&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.781250s] [吞吐率：1.28req/s] [内存消耗：1,077.80kb] [文件加载：33]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '033y3Eho1d67Gp0RcEfo1jXGho1y3EhP',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-26T12:39:56+08:00 ] 120.84.11.74 GET weicess.com/weice/public/index.php/index/login?code=033TaCAj08Vwro1iM5Bj0QpEAj0TaCA1&appid=wx30cbd5bf82ee6334&appSecret=4ecf0ed139067bea03c335fb3200edac
+[运行时间：1.140625s] [吞吐率：0.88req/s] [内存消耗：1,077.80kb] [文件加载：33]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '033TaCAj08Vwro1iM5Bj0QpEAj0TaCA1',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '4ecf0ed139067bea03c335fb3200edac',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-26T13:11:37+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/login
+[运行时间：2.015625s] [吞吐率：0.50req/s] [内存消耗：1,075.95kb] [文件加载：33]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '55',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043vjE6L1LpZN711MR5L1a9H6L1vjE6W',
+  'appid' => '',
+  'appSecret' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-26T13:11:45+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/headimgurl/index
+[运行时间：0.250000s] [吞吐率：4.00req/s] [内存消耗：1,651.80kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '203',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `nickname` = '通'  AND `openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `nickname`='通',`headimgurl`='https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132'  WHERE  `openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T13:15:54+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/login
+[运行时间：0.921875s] [吞吐率：1.08req/s] [内存消耗：1,656.08kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '55',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023tYtP20AhCZJ1YTrM20FXuP20tYtPH',
+  'appid' => '',
+  'appSecret' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_user` (`openid`) VALUES ('odCXI5XSFVlxO1AJSqtRfbVM8pYA') [ RunTime:0.031250s ]
+---------------------------------------------------------------
+[ 2019-08-26T13:16:00+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/headimgurl/index
+[运行时间：0.125000s] [吞吐率：8.00req/s] [内存消耗：1,651.80kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '203',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `nickname` = '通'  AND `openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `nickname`='通',`headimgurl`='https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132'  WHERE  `openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.031250s ]
+---------------------------------------------------------------
+[ 2019-08-26T13:20:43+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.140625s] [吞吐率：7.11req/s] [内存消耗：1,749.11kb] [文件加载：44]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ error ] [8]未定义变量: aa[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php:70]
+---------------------------------------------------------------
+[ 2019-08-26T13:25:17+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.156250s] [吞吐率：6.40req/s] [内存消耗：1,733.45kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T13:41:41+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.187500s] [吞吐率：5.33req/s] [内存消耗：1,751.55kb] [文件加载：44]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: aa[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php:70]
+---------------------------------------------------------------
+[ 2019-08-26T13:48:13+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.750000s] [吞吐率：1.33req/s] [内存消耗：1,236.07kb] [文件加载：39]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------351311629843384420867357',
+  'content-length' => '598896',
+  'postman-token' => 'db9c5f46-a39f-4612-b8e3-7c87ef31ea96',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'idx_tabs' => '8',
+  'describes' => '天猫原价139.9元，券后39.9元
+飞织透气鞋面，畅快呼吸不闷脚！进口发泡鞋底，减少脚步受力，更轻更舒适，和Adidas是一模一样的鞋底，这种质量只有高品质货才会有年轻就要时尚 个性，明星达人钟爱的款',
+  'albumid' => '8',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: tabname[E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php:102]
+---------------------------------------------------------------
+[ 2019-08-26T13:50:53+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：1.000000s] [吞吐率：1.00req/s] [内存消耗：2,000.44kb] [文件加载：45]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------604518100464218148277726',
+  'content-length' => '598896',
+  'postman-token' => '8efe0c53-21a9-441e-a102-5697c42ac1ba',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'idx_tabs' => '8',
+  'describes' => '天猫原价139.9元，券后39.9元
+飞织透气鞋面，畅快呼吸不闷脚！进口发泡鞋底，减少脚步受力，更轻更舒适，和Adidas是一模一样的鞋底，这种质量只有高品质货才会有年轻就要时尚 个性，明星达人钟爱的款',
+  'albumid' => '8',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid` , `idx_tabs`) VALUES (15667986534059 , 'odCXI5crQj3ie9EzDinn7ZJiCkjI' , '天猫原价139.9元，券后39.9元\n飞织透气鞋面，畅快呼吸不闷脚！进口发泡鞋底，减少脚步受力，更轻更舒适，和Adidas是一模一样的鞋底，这种质量只有高品质货才会有年轻就要时尚 个性，明星达人钟爱的款' , 8 , 8) [ RunTime:0.093750s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667986534059 , 'http://weicess.com/weice/public/uploads/T/20190826/7adb13135c53e66291f0d7e0272050d3.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/7adb13135c53e66291f0d7e0272050d3.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667986534059 , 'http://weicess.com/weice/public/uploads/T/20190826/e0073f0125919bf23037e556ab5e7be6.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/e0073f0125919bf23037e556ab5e7be6.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667986534059 , 'http://weicess.com/weice/public/uploads/T/20190826/e45fc51b446ff803c2f17cb6909ec628.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/e45fc51b446ff803c2f17cb6909ec628.jpg') [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667986534059 , 'http://weicess.com/weice/public/uploads/T/20190826/ba9048ed96c009fbe9f2c3fe1365c9a8.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/ba9048ed96c009fbe9f2c3fe1365c9a8.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667986534059 , 'http://weicess.com/weice/public/uploads/T/20190826/36ceea0f8ff0181ce205d87104e617ac.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/36ceea0f8ff0181ce205d87104e617ac.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667986534059 , 'http://weicess.com/weice/public/uploads/T/20190826/ebb993bf132514854147003dc2e36318.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/ebb993bf132514854147003dc2e36318.jpg') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T13:53:38+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.203125s] [吞吐率：4.92req/s] [内存消耗：1,738.24kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T13:57:11+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.578125s] [吞吐率：1.73req/s] [内存消耗：1,999.19kb] [文件加载：45]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------345325081939835359145105',
+  'content-length' => '76564',
+  'postman-token' => 'd8e576e2-2acc-4d59-b42e-a664ba0900af',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'idx_tabs' => '1',
+  'describes' => '夏季百搭防晒遮阳帽
+甄选优质纸草编制而成
+帽檐自然下垂遮阳又不挡视线
+精美别致透气防晒',
+  'albumid' => '1',
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid` , `idx_tabs`) VALUES (15667990317045 , '11' , '夏季百搭防晒遮阳帽\n甄选优质纸草编制而成\n帽檐自然下垂遮阳又不挡视线\n精美别致透气防晒' , 1 , 1) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667990317045 , 'http://weicess.com/weice/public/uploads/T/20190826/2bd865c5994a9aeb3ff5ed97f4cec58b.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/2bd865c5994a9aeb3ff5ed97f4cec58b.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667990317045 , 'http://weicess.com/weice/public/uploads/T/20190826/7367c81b722ea5aa998a929833c2e655.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/7367c81b722ea5aa998a929833c2e655.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667990317045 , 'http://weicess.com/weice/public/uploads/T/20190826/7b4dd17d2ffd7c469fbfb97f27de516a.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/7b4dd17d2ffd7c469fbfb97f27de516a.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667990317045 , 'http://weicess.com/weice/public/uploads/T/20190826/6488843d306f943d19271c96e0de0c20.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/6488843d306f943d19271c96e0de0c20.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667990317045 , 'http://weicess.com/weice/public/uploads/T/20190826/4a71acbf569c572db2f6ebb4fcfe7d7b.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/4a71acbf569c572db2f6ebb4fcfe7d7b.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667990317045 , 'http://weicess.com/weice/public/uploads/T/20190826/71c40fff0deb43ab6f9dcd8679456f1c.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/71c40fff0deb43ab6f9dcd8679456f1c.jpg') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T13:57:23+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.171875s] [吞吐率：5.82req/s] [内存消耗：1,737.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T13:59:10+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.140625s] [吞吐率：7.11req/s] [内存消耗：1,737.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:03:01+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.484375s] [吞吐率：2.06req/s] [内存消耗：1,996.75kb] [文件加载：45]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------469854541175229787582175',
+  'content-length' => '172438',
+  'postman-token' => 'd58c4555-48d3-4e2f-99a6-1b22caf758cf',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'idx_tabs' => '5',
+  'describes' => '儿童T恤衫秒杀
+纯棉棉质有大小码号多色可选
+券后只要，14.9元包邮，速度抢，手慢断码',
+  'albumid' => '4',
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031250s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid` , `idx_tabs`) VALUES (15667993817134 , '10' , '儿童T恤衫秒杀\n纯棉棉质有大小码号多色可选\n券后只要，14.9元包邮，速度抢，手慢断码' , 4 , 5) [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667993817134 , 'http://weicess.com/weice/public/uploads/T/20190826/6052a914eaa2ed480f643337b994c278.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/6052a914eaa2ed480f643337b994c278.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667993817134 , 'http://weicess.com/weice/public/uploads/T/20190826/aaf343ffef51cacdf60b75d0e0f85cc7.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/aaf343ffef51cacdf60b75d0e0f85cc7.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667993817134 , 'http://weicess.com/weice/public/uploads/T/20190826/2a4b0440dd8753ef2e4ac350298c2dea.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/2a4b0440dd8753ef2e4ac350298c2dea.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667993817134 , 'http://weicess.com/weice/public/uploads/T/20190826/a64abd3ce9f2450110bce94b047131e4.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/a64abd3ce9f2450110bce94b047131e4.jpg') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:04:44+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.390625s] [吞吐率：2.56req/s] [内存消耗：1,997.00kb] [文件加载：45]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------840477201909061740404587',
+  'content-length' => '172465',
+  'postman-token' => '3639c7ee-b7fb-4efa-9654-e2e6d953c4bb',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'idx_tabs' => '12',
+  'describes' => '儿童T恤衫秒杀
+纯棉棉质有大小码号多色可选
+券后只要，14.9元包邮，速度抢，手慢断码',
+  'albumid' => '9',
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031250s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid` , `idx_tabs`) VALUES (15667994849310 , 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' , '儿童T恤衫秒杀\n纯棉棉质有大小码号多色可选\n券后只要，14.9元包邮，速度抢，手慢断码' , 9 , 12) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667994849310 , 'http://weicess.com/weice/public/uploads/T/20190826/03b8dd292ca2a86d7b6421985c45a63d.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/03b8dd292ca2a86d7b6421985c45a63d.jpg') [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667994849310 , 'http://weicess.com/weice/public/uploads/T/20190826/47aa239e32bae8610d80e40c0be1e02e.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/47aa239e32bae8610d80e40c0be1e02e.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667994849310 , 'http://weicess.com/weice/public/uploads/T/20190826/aa495574551b345693562a215dc5f8bd.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/aa495574551b345693562a215dc5f8bd.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667994849310 , 'http://weicess.com/weice/public/uploads/T/20190826/229fb4ced501e739ca2954623a7345f3.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/229fb4ced501e739ca2954623a7345f3.jpg') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:05:22+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：1.031250s] [吞吐率：0.97req/s] [内存消耗：1,997.00kb] [文件加载：45]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------107238056978531325295522',
+  'content-length' => '373705',
+  'postman-token' => '9191822b-5ccd-4692-b820-52651755566c',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'idx_tabs' => '12',
+  'describes' => '儿童T恤衫秒杀
+纯棉棉质有大小码号多色可选
+券后只要，14.9元包邮，速度抢，手慢断码',
+  'albumid' => '9',
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid` , `idx_tabs`) VALUES (15667995228008 , 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' , '儿童T恤衫秒杀\n纯棉棉质有大小码号多色可选\n券后只要，14.9元包邮，速度抢，手慢断码' , 9 , 12) [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667995228008 , 'http://weicess.com/weice/public/uploads/T/20190826/a06a06bbea66c1a6b34d11b69d7b4ec7.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/a06a06bbea66c1a6b34d11b69d7b4ec7.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667995228008 , 'http://weicess.com/weice/public/uploads/T/20190826/0a8a7c54d1d025bb0bc768b7254e29b8.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/0a8a7c54d1d025bb0bc768b7254e29b8.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667995228008 , 'http://weicess.com/weice/public/uploads/T/20190826/554de24f077b064e2e3c273d4ef931a9.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/554de24f077b064e2e3c273d4ef931a9.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667995228008 , 'http://weicess.com/weice/public/uploads/T/20190826/873eaaea00fc3884dca747e9b3dbe84a.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/873eaaea00fc3884dca747e9b3dbe84a.jpg') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:06:47+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.437500s] [吞吐率：2.29req/s] [内存消耗：1,997.00kb] [文件加载：45]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------783857349697208047619919',
+  'content-length' => '282003',
+  'postman-token' => '9326a8aa-8e8f-4ed7-8a67-6a17806a3b21',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'idx_tabs' => '13',
+  'describes' => '今天群里金煌芒秒杀，8斤只要39.8元
+超市里面8-9块钱一斤，超级贵，内部价购买更优惠，喜欢芒果的不要错过',
+  'albumid' => '9',
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid` , `idx_tabs`) VALUES (15667996077765 , 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' , '今天群里金煌芒秒杀，8斤只要39.8元\n超市里面8-9块钱一斤，超级贵，内部价购买更优惠，喜欢芒果的不要错过' , 9 , 13) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667996077765 , 'http://weicess.com/weice/public/uploads/T/20190826/b1e90e9348fdd7aa76423d8159bb95ca.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/b1e90e9348fdd7aa76423d8159bb95ca.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667996077765 , 'http://weicess.com/weice/public/uploads/T/20190826/2dd61bf798a386812ffd7d83d2d09c61.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/2dd61bf798a386812ffd7d83d2d09c61.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667996077765 , 'http://weicess.com/weice/public/uploads/T/20190826/5c4cdc13cf620d2513d6c3ff45b699d3.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/5c4cdc13cf620d2513d6c3ff45b699d3.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15667996077765 , 'http://weicess.com/weice/public/uploads/T/20190826/8f631c39477f9fbf56018c50d27e5234.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/8f631c39477f9fbf56018c50d27e5234.jpg') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:07:05+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.125000s] [吞吐率：8.00req/s] [内存消耗：1,737.99kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:14:29+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.218750s] [吞吐率：4.57req/s] [内存消耗：1,737.99kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:14:39+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/index
+[运行时间：0.046875s] [吞吐率：21.33req/s] [内存消耗：1,297.25kb] [文件加载：41]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] select describes, tabname, r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            from dy_dynamic as d
+			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
+			left join dy_tabs as t on 	d.idx_dynamic = t.idx_tabs
+            where d.idx_dynamic = r.route_dy_id
+            and d.idx_dynamic = t.idx_tabs
+            and d.openid = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'
+			GROUP BY route_dy_id [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: arr[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php:45]
+---------------------------------------------------------------
+[ 2019-08-26T14:17:37+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/index
+[运行时间：0.093750s] [吞吐率：10.67req/s] [内存消耗：1,295.46kb] [文件加载：41]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------769599191592125524973145',
+  'content-length' => '189',
+  'postman-token' => '8457592e-9083-4aa6-8bfc-0382f178e471',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] select describes, tabname, r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            from dy_dynamic as d
+			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
+			left join dy_tabs as t on 	d.idx_dynamic = t.idx_tabs
+            where d.idx_dynamic = r.route_dy_id
+            and d.idx_dynamic = t.idx_tabs
+            and d.openid = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'
+			GROUP BY route_dy_id [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: arr[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php:45]
+---------------------------------------------------------------
+[ 2019-08-26T14:21:24+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/index
+[运行时间：0.062500s] [吞吐率：16.00req/s] [内存消耗：1,258.04kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------541792276420271028430053',
+  'content-length' => '189',
+  'postman-token' => '54f32ab8-e8a9-4c55-a1b5-285b1954b51a',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] select describes ,tabname ,r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            from dy_dynamic as d
+			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
+			left join dy_tabs as t on 	d.idx_tabs = t.idx_tabs
+            where d.idx_dynamic = r.route_dy_id
+            and d.idx_tabs = t.idx_tabs
+            and d.openid = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'
+			GROUP BY route_dy_id [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:21:41+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/index
+[运行时间：0.078125s] [吞吐率：12.80req/s] [内存消耗：1,259.83kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] select describes ,tabname ,r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            from dy_dynamic as d
+			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
+			left join dy_tabs as t on 	d.idx_tabs = t.idx_tabs
+            where d.idx_dynamic = r.route_dy_id
+            and d.idx_tabs = t.idx_tabs
+            and d.openid = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'
+			GROUP BY route_dy_id [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:21:54+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/picturedetails/index
+[运行时间：0.109375s] [吞吐率：9.14req/s] [内存消耗：1,682.73kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picturedetails',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '26',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'route_dy_id' => '15667996077765',
+)
+[ info ] [ RUN ] app\index\controller\Picturedetails->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Picturedetails.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15667996077765 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:22:18+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/hot
+[运行时间：0.093750s] [吞吐率：10.67req/s] [内存消耗：1,650.95kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'hot',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'is_hot' => '1',
+  'route_dy_id' => '15667996077765',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->hot[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `dy_route`  SET `is_hot`=1  WHERE  `route_dy_id` = 15667996077765 [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:22:28+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/picturedetails/index
+[运行时间：0.062500s] [吞吐率：16.00req/s] [内存消耗：1,682.73kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picturedetails',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '26',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'route_dy_id' => '15667994849310',
+)
+[ info ] [ RUN ] app\index\controller\Picturedetails->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Picturedetails.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15667994849310 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:22:33+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/hot
+[运行时间：0.093750s] [吞吐率：10.67req/s] [内存消耗：1,650.95kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'hot',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'is_hot' => '1',
+  'route_dy_id' => '15667994849310',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->hot[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `dy_route`  SET `is_hot`=1  WHERE  `route_dy_id` = 15667994849310 [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:22:38+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/picturedetails/index
+[运行时间：0.203125s] [吞吐率：4.92req/s] [内存消耗：1,682.73kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picturedetails',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '26',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'route_dy_id' => '15667995228008',
+)
+[ info ] [ RUN ] app\index\controller\Picturedetails->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Picturedetails.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15667995228008 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:22:41+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/hot
+[运行时间：0.171875s] [吞吐率：5.82req/s] [内存消耗：1,650.95kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'hot',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'is_hot' => '1',
+  'route_dy_id' => '15667995228008',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->hot[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `dy_route`  SET `is_hot`=1  WHERE  `route_dy_id` = 15667995228008 [ RunTime:0.031250s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:22:50+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.187500s] [吞吐率：5.33req/s] [内存消耗：1,737.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:39:44+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.187500s] [吞吐率：5.33req/s] [内存消耗：1,737.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:55:56+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：1.390625s] [吞吐率：0.72req/s] [内存消耗：1,996.03kb] [文件加载：45]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------338187980968034813851494',
+  'content-length' => '677963',
+  'postman-token' => '10b55a4b-8f0c-4d0a-8b8f-26a1bd401b1d',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'idx_tabs' => '9',
+  'describes' => '8 64g 美版 白色 三网通 98新 2230',
+  'albumid' => '8',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid` , `idx_tabs`) VALUES (15668025568788 , 'odCXI5crQj3ie9EzDinn7ZJiCkjI' , '8 64g 美版 白色 三网通 98新 2230' , 8 , 9) [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668025568788 , 'http://weicess.com/weice/public/uploads/T/20190826/eb310490c8b310dede77194b1dbd1c7d.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/eb310490c8b310dede77194b1dbd1c7d.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668025568788 , 'http://weicess.com/weice/public/uploads/T/20190826/a51ef9cf97a3c33179f8ffaada7e3c49.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/a51ef9cf97a3c33179f8ffaada7e3c49.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668025568788 , 'http://weicess.com/weice/public/uploads/T/20190826/88dc4698e0dfd66c8bceda0d700ad6a0.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/88dc4698e0dfd66c8bceda0d700ad6a0.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668025568788 , 'http://weicess.com/weice/public/uploads/T/20190826/a75c53785f8d8a041a8c2eae5700ed58.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/a75c53785f8d8a041a8c2eae5700ed58.jpg') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T14:57:42+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.859375s] [吞吐率：1.16req/s] [内存消耗：2,090.13kb] [文件加载：49]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------536179004246234424161207',
+  'content-length' => '295718',
+  'postman-token' => 'a601cb52-9e73-4868-8d06-b5eb928ce8ef',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'idx_tabs' => '9',
+  'describes' => '🔹700 独家​实拍🔹
+Travis Scott x Air Jordan 4 
+​重磅联​名 蓝麂皮 308497-406 
+
+​光原鞋​研发​费用就​花了​近10万
+全​网唯一​正确原​楦原纸板原​数​据
+唯一​正确鞋型 保​证原​汁原味
+百​分百原​厂进​口皮料 泛​白天​空蓝
+原​厂气垫 正​确​四代经典中​侧网​格 
+正确乳​白​水晶内嵌大​底 ​正确鞋​垫+中底
+官方​原盒​配置 官​方全套配​件齐全💯
+
+​尺码：40 40.5 41 42 42.5 43 44 44.5 45 45.5 46',
+  'albumid' => '8',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x94\xB970...' for column 'describes' at row 1[E:\web\hesj84h8\wwwroot\weice\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-08-26T14:59:27+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.875000s] [吞吐率：1.14req/s] [内存消耗：2,088.95kb] [文件加载：49]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------788915324309806987625984',
+  'content-length' => '295419',
+  'postman-token' => '3e2115c2-10b4-4e6d-bbcb-f368ad650e96',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'idx_tabs' => '9',
+  'describes' => '🔹700 独家​实拍🔹
+Travis Scott x Air Jordan 4 
+​重磅联​名 蓝麂皮 308497-406 
+
+​光原鞋​研发​费用就​花了​近10万
+全​网唯一​正确原​楦原纸板原​数​据
+唯一​正确鞋型 保​证原​汁原味',
+  'albumid' => '8',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x94\xB970...' for column 'describes' at row 1[E:\web\hesj84h8\wwwroot\weice\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-08-26T15:00:17+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.968750s] [吞吐率：1.03req/s] [内存消耗：2,000.44kb] [文件加载：45]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------959257933802589718867793',
+  'content-length' => '295411',
+  'postman-token' => '1d5b11aa-fcb5-4b14-963a-ce4d513054a1',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'idx_tabs' => '9',
+  'describes' => '700 独家​实拍
+Travis Scott x Air Jordan 4 
+​重磅联​名 蓝麂皮 308497-406 
+
+​光原鞋​研发​费用就​花了​近10万
+全​网唯一​正确原​楦原纸板原​数​据
+唯一​正确鞋型 保​证原​汁原味',
+  'albumid' => '8',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid` , `idx_tabs`) VALUES (15668028173192 , 'odCXI5crQj3ie9EzDinn7ZJiCkjI' , '700 独家​实拍\nTravis Scott x Air Jordan 4 \n​重磅联​名 蓝麂皮 308497-406 \n\n​光原鞋​研发​费用就​花了​近10万\n全​网唯一​正确原​楦原纸板原​数​据\n唯一​正确鞋型 保​证原​汁原味' , 8 , 9) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668028173192 , 'http://weicess.com/weice/public/uploads/T/20190826/a5b905c38f1f87a89e55ac0e1f297af2.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/a5b905c38f1f87a89e55ac0e1f297af2.jpg') [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668028173192 , 'http://weicess.com/weice/public/uploads/T/20190826/c573851fe32457bfcc25dc5a92d96666.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/c573851fe32457bfcc25dc5a92d96666.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668028173192 , 'http://weicess.com/weice/public/uploads/T/20190826/7c0b0489d279d182fa61f9727058488a.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/7c0b0489d279d182fa61f9727058488a.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668028173192 , 'http://weicess.com/weice/public/uploads/T/20190826/7e6377fc50541d7f562da0c090c9a16e.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/7e6377fc50541d7f562da0c090c9a16e.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668028173192 , 'http://weicess.com/weice/public/uploads/T/20190826/2a02bbd7dadbec54de9564660ac2dddb.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/2a02bbd7dadbec54de9564660ac2dddb.jpg') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15668028173192 , 'http://weicess.com/weice/public/uploads/T/20190826/21c32045afc2b332d5897f516d478c9e.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190826/21c32045afc2b332d5897f516d478c9e.jpg') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T15:00:38+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/index
+[运行时间：0.046875s] [吞吐率：21.33req/s] [内存消耗：1,259.83kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] select describes ,tabname ,r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            from dy_dynamic as d
+			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
+			left join dy_tabs as t on 	d.idx_tabs = t.idx_tabs
+            where d.idx_dynamic = r.route_dy_id
+            and d.idx_tabs = t.idx_tabs
+            and d.openid = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'
+			GROUP BY route_dy_id [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T15:00:43+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/picturedetails/index
+[运行时间：0.140625s] [吞吐率：7.11req/s] [内存消耗：1,682.73kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picturedetails',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '26',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'route_dy_id' => '15667996077765',
+)
+[ info ] [ RUN ] app\index\controller\Picturedetails->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Picturedetails.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15667996077765 [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-26T15:00:47+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/hot
+[运行时间：0.171875s] [吞吐率：5.82req/s] [内存消耗：1,650.95kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'hot',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'is_hot' => '0',
+  'route_dy_id' => '15667996077765',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->hot[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] UPDATE `dy_route`  SET `is_hot`=0  WHERE  `route_dy_id` = 15667996077765 [ RunTime:0.031250s ]
+---------------------------------------------------------------
+[ 2019-08-26T15:00:53+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/picturedetails/index
+[运行时间：0.109375s] [吞吐率：9.14req/s] [内存消耗：1,682.73kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picturedetails',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '26',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'route_dy_id' => '15667996077765',
+)
+[ info ] [ RUN ] app\index\controller\Picturedetails->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Picturedetails.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15667996077765 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T15:00:56+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/hot
+[运行时间：0.109375s] [吞吐率：9.14req/s] [内存消耗：1,650.95kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'hot',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'is_hot' => '1',
+  'route_dy_id' => '15667996077765',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->hot[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `dy_route`  SET `is_hot`=1  WHERE  `route_dy_id` = 15667996077765 [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-26T15:01:06+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/index/show
+[运行时间：0.109375s] [吞吐率：9.14req/s] [内存消耗：1,738.45kb] [文件加载：40]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `f`.`fr_openid` FROM `dy_user` `u` INNER JOIN `dy_friend` `f` ON `u`.`openid`=`f`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-26T15:02:00+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/index
+[运行时间：0.093750s] [吞吐率：10.67req/s] [内存消耗：1,259.83kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] select describes ,tabname ,r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            from dy_dynamic as d
+			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
+			left join dy_tabs as t on 	d.idx_tabs = t.idx_tabs
+            where d.idx_dynamic = r.route_dy_id
+            and d.idx_tabs = t.idx_tabs
+            and d.openid = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'
+			GROUP BY route_dy_id [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T15:10:16+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/index
+[运行时间：0.109375s] [吞吐率：9.14req/s] [内存消耗：1,259.83kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] select describes ,tabname ,r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            from dy_dynamic as d
+			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
+			left join dy_tabs as t on 	d.idx_tabs = t.idx_tabs
+            where d.idx_dynamic = r.route_dy_id
+            and d.idx_tabs = t.idx_tabs
+            and d.openid = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'
+			GROUP BY route_dy_id [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T15:21:01+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/index
+[运行时间：0.109375s] [吞吐率：9.14req/s] [内存消耗：1,259.83kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] select describes ,tabname ,r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            from dy_dynamic as d
+			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
+			left join dy_tabs as t on 	d.idx_tabs = t.idx_tabs
+            where d.idx_dynamic = r.route_dy_id
+            and d.idx_tabs = t.idx_tabs
+            and d.openid = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'
+			GROUP BY route_dy_id [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-26T17:43:54+08:00 ] 120.84.11.74 POST weicess.com/weice/public/index.php/index/albumlst/index
+[运行时间：0.093750s] [吞吐率：10.67req/s] [内存消耗：1,259.83kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'albumlst',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '35',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'origin' => 'http://127.0.0.1:52613',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Albumlst->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Albumlst.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] select describes ,tabname ,r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            from dy_dynamic as d
+			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
+			left join dy_tabs as t on 	d.idx_tabs = t.idx_tabs
+            where d.idx_dynamic = r.route_dy_id
+            and d.idx_tabs = t.idx_tabs
+            and d.openid = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'
+			GROUP BY route_dy_id [ RunTime:0.000000s ]

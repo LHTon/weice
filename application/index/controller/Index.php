@@ -18,7 +18,7 @@ class Index extends Controller
 
     //获取所有openid  自己以及关注好友
     public function openid() {
-        $dy['openid'] = $_GET['openid'];
+        $dy['openid'] = $_POST['openid'];
         $dyid[] = $dy['openid'];
         $sql = Db::table('dy_user')
             ->alias('u')
@@ -47,7 +47,7 @@ class Index extends Controller
     {
         //获取用户openid
         $dy = $this->openid();
-//        $dy['openid'] = $_GET['openid'];
+//        $dy['openid'] = $_POST['openid'];
         for($i =0;$i<count($dy); $i++) {
             $sql = Db::table('dy_user')
                 ->alias('u')
@@ -80,7 +80,7 @@ class Index extends Controller
     {
         //获取用户openid
         $dy = $this->openid();
-//        $dy['openid'] = $_GET['openid'];
+//        $dy['openid'] = $_POST['openid'];
         for($i =0;$i<count($dy); $i++) {
             $sql = Db::table('dy_user')
                 ->alias('u')

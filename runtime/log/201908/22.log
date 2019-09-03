@@ -1,0 +1,143 @@
+---------------------------------------------------------------
+[ 2019-08-22T00:09:06+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login?code=023pSyvL1xect71dyhyL1FzPvL1pSyvL&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：2.406250s] [吞吐率：0.42req/s] [内存消耗：1,073.70kb] [文件加载：33]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023pSyvL1xect71dyhyL1FzPvL1pSyvL',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T00:12:03+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login?code=0331lAs32yvzeP01EQt32B6Ts321lAsz&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.312500s] [吞吐率：3.20req/s] [内存消耗：1,142.48kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0331lAs32yvzeP01EQt32B6Ts321lAsz',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:27]
+---------------------------------------------------------------
+[ 2019-08-22T00:22:25+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login?code=023IiTpE1jHar80FZTrE1tgFpE1IiTpN&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.390625s] [吞吐率：2.56req/s] [内存消耗：1,138.26kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023IiTpE1jHar80FZTrE1tgFpE1IiTpN',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP?[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:23]
+---------------------------------------------------------------
+[ 2019-08-22T00:22:48+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login?code=023Pzm8v0KpHIh1uym7v0YQ98v0Pzm8L&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.218750s] [吞吐率：4.57req/s] [内存消耗：1,138.26kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023Pzm8v0KpHIh1uym7v0YQ98v0Pzm8L',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP?[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:23]

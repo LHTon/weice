@@ -1,0 +1,361 @@
+---------------------------------------------------------------
+[ 2019-08-13T23:33:39+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/index
+[运行时间：12.101922s] [吞吐率：0.08req/s] [内存消耗：2,012.70kb] [文件加载：45]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '77816a5d-aee5-47da-ba33-3d2143caa266',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------216212877189805942972301',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->index[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.655514s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:8.186412s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'create_time' in field list is ambiguous[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-08-13T23:34:46+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/index
+[运行时间：2.636325s] [吞吐率：0.38req/s] [内存消耗：1,980.76kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ef746243-7155-4d62-8b56-314f61bc2bb5',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------714627907740339857175026',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->index[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.169932s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.399391s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11' [ RunTime:0.948325s ]
+---------------------------------------------------------------
+[ 2019-08-13T23:36:46+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/index
+[运行时间：19.551799s] [吞吐率：0.05req/s] [内存消耗：1,981.95kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f6a12e61-fc85-405f-be42-2d2a1627931e',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------469704963242436237397050',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->index[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:4.102073s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:14.593363s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11'  AND (  type = 0 ) [ RunTime:0.719521s ]
+---------------------------------------------------------------
+[ 2019-08-13T23:43:41+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/index
+[运行时间：2.859652s] [吞吐率：0.35req/s] [内存消耗：1,984.57kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'deda7756-a33c-4be8-b097-38896c16ebe1',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------371539930533477833980371',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->index[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.848317s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.612071s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11'  AND (  type = 0 ) ORDER BY `r`.`create_time` DESC [ RunTime:1.329230s ]
+---------------------------------------------------------------
+[ 2019-08-13T23:44:44+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/video
+[运行时间：0.058191s] [吞吐率：17.18req/s] [内存消耗：1,919.17kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5b0c6cf6-cfc9-42ee-bb8f-7a536ba6d2c7',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------702650213810636152544112',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->video[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->alais[C:\xampp\htdocs\weice\thinkphp\library\think\db\Query.php:103]
+---------------------------------------------------------------
+[ 2019-08-13T23:45:12+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/video
+[运行时间：10.828580s] [吞吐率：0.09req/s] [内存消耗：2,016.85kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1487d525-ea7b-47f3-95d9-6fe26465d374',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------182840427647129540674299',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->video[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:10.178198s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.394121s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.create_desc' in 'order clause'[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-08-13T23:45:39+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/video
+[运行时间：1.494236s] [吞吐率：0.67req/s] [内存消耗：1,982.25kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e684cbfa-64e1-433c-a809-19123f177efc',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------828614386705149571296872',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->video[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.604157s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.430450s ]
+[ sql ] [ SQL ] SELECT `route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11'  AND (  type = 1 ) ORDER BY `r`.`create_time` DESC [ RunTime:0.410200s ]
+---------------------------------------------------------------
+[ 2019-08-13T23:48:35+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/video
+[运行时间：21.984781s] [吞吐率：0.05req/s] [内存消耗：1,982.25kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f9db9b9e-507a-4455-a84e-d9351438d164',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------206121668329206178315372',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->video[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.861345s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:7.000150s ]
+[ sql ] [ SQL ] SELECT `route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11'  AND (  type = 1 ) ORDER BY `r`.`create_time` DESC [ RunTime:14.090370s ]
+---------------------------------------------------------------
+[ 2019-08-13T23:49:00+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/video
+[运行时间：2.348249s] [吞吐率：0.43req/s] [内存消耗：1,982.45kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '94e0a6bc-6f20-4189-9114-d2922730cec4',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------948906686840376953701840',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->video[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.850454s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.974181s ]
+[ sql ] [ SQL ] SELECT `route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11'  AND (  d.type = 0 ) ORDER BY `r`.`create_time` DESC [ RunTime:0.480752s ]
+---------------------------------------------------------------
+[ 2019-08-13T23:49:27+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/index
+[运行时间：5.236168s] [吞吐率：0.19req/s] [内存消耗：1,984.52kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b9f68abb-4231-4158-9200-411863949e5a',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------396405047714638226238671',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->index[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:4.377086s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.395652s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11'  AND (  type = 1 ) ORDER BY `r`.`create_time` DESC [ RunTime:0.415107s ]
+---------------------------------------------------------------
+[ 2019-08-13T23:50:41+08:00 ] 0.0.0.0 POST localhost/weice/public/home/pic/video
+[运行时间：2.973075s] [吞吐率：0.34req/s] [内存消耗：1,983.77kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '43479375-33ea-45a9-a266-a79d52755b2a',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------373805156325837035066509',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Pic->video[ C:\xampp\htdocs\weice\application\home\controller\Pic.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.886244s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:1.430904s ]
+[ sql ] [ SQL ] SELECT `route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11'  AND (  d.type = 1 ) ORDER BY `r`.`create_time` DESC [ RunTime:0.613612s ]

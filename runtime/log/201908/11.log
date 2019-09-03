@@ -1,0 +1,942 @@
+---------------------------------------------------------------
+[ 2019-08-11T00:25:32+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：4.887767s] [吞吐率：0.20req/s] [内存消耗：1,981.98kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f4a1b3f1-c22c-4ef5-938b-c2c74838d890',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------710866145191108845836279',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.148911s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:2.037031s ]
+[ sql ] [ SQL ] SELECT `name`,`a`.`create_time`,`thumb_route` FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' ORDER BY `d`.`create_time` DESC [ RunTime:0.835191s ]
+---------------------------------------------------------------
+[ 2019-08-11T00:29:34+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：2.442292s] [吞吐率：0.41req/s] [内存消耗：1,983.77kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '84156a6c-def2-4a19-9afe-0ac780ba7fcc',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------755441711885379170637432',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.902603s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:1.056901s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' ORDER BY `d`.`create_time` DESC [ RunTime:0.382813s ]
+---------------------------------------------------------------
+[ 2019-08-11T00:30:21+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：1.752002s] [吞吐率：0.57req/s] [内存消耗：1,983.77kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e8288874-92e4-4f62-a115-65e794989968',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------741629070273693395715559',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.910532s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.383744s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' ORDER BY `d`.`create_time` DESC [ RunTime:0.406552s ]
+---------------------------------------------------------------
+[ 2019-08-11T00:45:00+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/index
+[运行时间：1.449895s] [吞吐率：0.69req/s] [内存消耗：1,946.12kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '760dbeab-5ff9-471d-9e7e-d27337ad8c9f',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------412429963765935649299374',
+  'content-length' => '272',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '夜景',
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.594351s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.398344s ]
+[ sql ] [ SQL ] INSERT INTO `dy_album` (`name` , `openid`) VALUES ('夜景' , 11) [ RunTime:0.414418s ]
+---------------------------------------------------------------
+[ 2019-08-11T00:45:33+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：1.514584s] [吞吐率：0.66req/s] [内存消耗：1,983.98kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '30c18078-8e3b-4758-913c-1cd53cb0f4c2',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------238349691955586890204999',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.683333s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.393593s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' ORDER BY `d`.`create_time` DESC [ RunTime:0.388668s ]
+---------------------------------------------------------------
+[ 2019-08-11T00:47:31+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：13.919431s] [吞吐率：0.07req/s] [内存消耗：2,438.70kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd0678ca7-cf99-40ca-9e7a-dece1af53dd7',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------713487736776813952330751',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试4',
+  'tabname' => '标签4',
+  'albumid' => '3',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.886042s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:5.462873s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (1565455638268 , '11' , '标签4') [ RunTime:0.511577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.391755s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid`) VALUES (1565455638268 , '11' , '测试4' , 3) [ RunTime:0.400929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:2.282086s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (1565455638268 , 'http://weicess.com/weice/public/uploads/T/20190811/70195c38e0da70152ad7261d78b9e2bf.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190811/70195c38e0da70152ad7261d78b9e2bf.jpg') [ RunTime:0.839583s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (1565455638268 , 'http://weicess.com/weice/public/uploads/T/20190811/e08a688f823feaf68a8c932b772423b5.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190811/e08a688f823feaf68a8c932b772423b5.jpg') [ RunTime:0.395785s ]
+---------------------------------------------------------------
+[ 2019-08-11T01:08:16+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：1.596335s] [吞吐率：0.63req/s] [内存消耗：1,984.06kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ce2f2364-0145-4c5c-86ea-6afd4b2c5945',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------963926578422804485776831',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.764690s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.398359s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11'  AND `d`.`albumid` = 'a.id' ORDER BY `d`.`create_time` DESC [ RunTime:0.395533s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:06:39+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：2.732392s] [吞吐率：0.37req/s] [内存消耗：1,984.06kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '97be937a-14fa-4b45-af33-789447f9d931',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------200536160546238110929792',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.619341s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.394014s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11'  AND `a`.`id` = 'd.albumid' ORDER BY `d`.`create_time` DESC [ RunTime:0.402624s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:07:00+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：3.003011s] [吞吐率：0.33req/s] [内存消耗：1,983.98kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4ee4e74f-f481-4110-9977-ec2cb0f22cc1',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------018071638939242465873059',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.700932s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:1.155169s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' ORDER BY `d`.`create_time` DESC [ RunTime:1.108224s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:38:41+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：4.099671s] [吞吐率：0.24req/s] [内存消耗：1,983.41kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5cbbbf17-f3dc-4e3b-a080-e3cb11f3ec11',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------038332484011455657545617',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.155398s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.509672s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' [ RunTime:0.397079s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:39:39+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：6.228306s] [吞吐率：0.16req/s] [内存消耗：1,983.41kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3b9384c7-5a25-4f82-ae46-bf9c7a244575',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------676609584156081048289956',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.854715s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:1.188665s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' [ RunTime:1.129603s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:39:46+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：2.669457s] [吞吐率：0.37req/s] [内存消耗：1,983.41kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c073d1c8-373f-439c-ae15-089684aef4db',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------145890086903232397809564',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.608768s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.612122s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '10' [ RunTime:0.412255s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:41:26+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：1.930963s] [吞吐率：0.52req/s] [内存消耗：1,913.03kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b40a5263-f594-409b-9344-8542008fa49f',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------836589875163253765852131',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.577765s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.391859s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_album` [ RunTime:0.925481s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:42:19+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：3.317308s] [吞吐率：0.30req/s] [内存消耗：1,914.69kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '26130983-dd0e-475f-a6d4-fd2076910b2e',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------223021078217847111749596',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.722547s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:1.162311s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_album` WHERE  `openid` = 11 [ RunTime:0.400762s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:42:52+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：1.756683s] [吞吐率：0.57req/s] [内存消耗：1,983.09kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ffd14d16-33b1-4c45-9a32-ef0e1342cbcf',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------330845791547724054761721',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.871419s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.411404s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_album` WHERE  `openid` = 11 [ RunTime:0.421796s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:49:49+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：2.376690s] [吞吐率：0.42req/s] [内存消耗：1,983.98kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '58564c68-7c44-4c2f-a372-0772241aefe1',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------700048746771025729102434',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.892713s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:1.045524s ]
+[ sql ] [ SQL ] SELECT name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' ORDER BY `d`.`create_time` DESC [ RunTime:0.391860s ]
+---------------------------------------------------------------
+[ 2019-08-11T21:51:44+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：2.376633s] [吞吐率：0.42req/s] [内存消耗：1,984.99kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7e8b7fd7-6dd9-4f13-a10a-99d3b545ab17',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------449908484560359983713289',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.883051s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:1.065908s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:0.389158s ]
+---------------------------------------------------------------
+[ 2019-08-11T22:06:57+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：4.166809s] [吞吐率：0.24req/s] [内存消耗：1,984.99kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '922a8fb6-6b6b-4758-8a47-804937e3f254',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------843400489121910940396941',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.668422s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.814961s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11' GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:0.978074s ]
+---------------------------------------------------------------
+[ 2019-08-11T22:14:02+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：21.796355s] [吞吐率：0.05req/s] [内存消耗：1,917.92kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '522cf826-6220-4b55-a5b3-e0db483a4596',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------665740249918570550341652',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-08-11T22:14:19+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：2.442425s] [吞吐率：0.41req/s] [内存消耗：1,985.37kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '44f687ac-6718-4015-b1e8-338937457750',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------899653008311130741255715',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.407177s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.472450s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11'  AND (  a.id = d.albumid ) GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:0.480511s ]
+---------------------------------------------------------------
+[ 2019-08-11T23:01:51+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/index
+[运行时间：2.613747s] [吞吐率：0.38req/s] [内存消耗：1,946.41kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bc857a4a-b589-4845-bc43-12e3da0305e2',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------090071587154496629123639',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '学习时光',
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.714753s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.406706s ]
+[ sql ] [ SQL ] INSERT INTO `dy_album` (`name` , `openid`) VALUES ('学习时光' , 10) [ RunTime:0.459705s ]
+---------------------------------------------------------------
+[ 2019-08-11T23:03:56+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：17.942487s] [吞吐率：0.06req/s] [内存消耗：2,438.70kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1ec9a75a-7461-4878-bde8-cffb99293b44',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------920392788839145455326797',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试5',
+  'tabname' => '标签5',
+  'albumid' => '4',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:10.241816s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:1.226297s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (15655358187113 , '10' , '标签5') [ RunTime:2.274918s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.477304s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid`) VALUES (15655358187113 , '10' , '测试5' , 4) [ RunTime:0.410141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.402185s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15655358187113 , 'http://weicess.com/weice/public/uploads/T/20190811/6c95e7fa70216ef485f7d46a80f433db.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190811/6c95e7fa70216ef485f7d46a80f433db.jpg') [ RunTime:0.384626s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15655358187113 , 'http://weicess.com/weice/public/uploads/T/20190811/d303052407d77eda1527d6a76cca6a50.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190811/d303052407d77eda1527d6a76cca6a50.jpg') [ RunTime:0.393136s ]
+---------------------------------------------------------------
+[ 2019-08-11T23:04:22+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：2.915258s] [吞吐率：0.34req/s] [内存消耗：1,985.08kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '924eaba4-4e8d-4b23-9c7d-d4fc06f0ce89',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------462173236102366919739221',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.205979s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.438329s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '10'  AND (  a.id = d.albumid ) GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:1.230339s ]
+---------------------------------------------------------------
+[ 2019-08-11T23:11:45+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：10.864750s] [吞吐率：0.09req/s] [内存消耗：1,985.38kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e8282afc-d98b-47eb-a0b9-7e5c10e3eae1',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------540590982374862603344911',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:9.852484s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.587524s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '10'  AND (  a.id = d.albumid ) GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:0.387692s ]
+---------------------------------------------------------------
+[ 2019-08-11T23:19:00+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：5.396276s] [吞吐率：0.19req/s] [内存消耗：1,985.38kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c9412923-bbcb-4878-b5aa-e1669183ee82',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------880842947940696208250210',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:4.540874s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.404851s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '10'  AND (  a.id = d.albumid ) GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:0.405619s ]
+---------------------------------------------------------------
+[ 2019-08-11T23:22:55+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：2.457661s] [吞吐率：0.41req/s] [内存消耗：2,008.34kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '73052dd7-8e7f-482e-8959-0d851a0d875b',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------827120157843389957212751',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.982878s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.407008s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11'  AND (  a.id = d.albumid ) GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:1.033114s ]
+[ error ] [0]variable type error： array[C:\xampp\htdocs\weice\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-08-11T23:24:26+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：1.814508s] [吞吐率：0.55req/s] [内存消耗：1,983.97kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '937baf65-1a87-47b3-b8bb-71e282d4da37',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------370069785405708680874545',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.860821s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.506925s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11'  AND (  a.id = d.albumid ) GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:0.397843s ]
+---------------------------------------------------------------
+[ 2019-08-11T23:36:18+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/lst
+[运行时间：17.828297s] [吞吐率：0.06req/s] [内存消耗：1,984.05kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f42190d7-9922-42b0-b342-905104edae98',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------894043584197585747035011',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.901329s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:15.378042s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time as time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11'  AND (  a.id = d.albumid ) GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:0.389549s ]

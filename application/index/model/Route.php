@@ -17,13 +17,5 @@ class Route extends Model
         return $result;
     }
 
-    /*
-     * @author 彼特潘
-     */
-    public function dynamic()
-    {
-        return $this->belongsTo('Dynamic');
-    }
-
 
 }

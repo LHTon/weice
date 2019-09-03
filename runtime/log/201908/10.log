@@ -1,0 +1,626 @@
+---------------------------------------------------------------
+[ 2019-08-10T00:15:02+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.637114s] [吞吐率：1.57req/s] [内存消耗：1,318.27kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4b728209-c40b-48a0-b59f-2b86ad838d5f',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------211974589066132484536158',
+  'content-length' => '28685',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试1',
+  'tabname' => '标签1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-10T00:24:53+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.087570s] [吞吐率：11.42req/s] [内存消耗：1,363.96kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7717447e-27b6-4b38-a329-af78a3280ad1',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------280380892503546587899097',
+  'content-length' => '28792',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试1',
+  'tabname' => '标签1',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-10T00:26:01+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.628496s] [吞吐率：1.59req/s] [内存消耗：1,435.83kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c96dfb00-a56e-4a07-901b-7f58dc756169',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------596630067624071498025297',
+  'content-length' => '28792',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试2',
+  'tabname' => '标签2',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\home\controller\Image' not found[C:\xampp\htdocs\weice\application\home\controller\Upload.php:87]
+---------------------------------------------------------------
+[ 2019-08-10T00:26:25+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.115223s] [吞吐率：8.68req/s] [内存消耗：1,432.39kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '363f2204-02cd-4aac-a41d-7ae2d2573206',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------968249335923399943280826',
+  'content-length' => '28792',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试2',
+  'tabname' => '标签2',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\model\Tabs[C:\xampp\htdocs\weice\thinkphp\library\think\Loader.php:457]
+---------------------------------------------------------------
+[ 2019-08-10T00:27:55+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：1.864934s] [吞吐率：0.54req/s] [内存消耗：2,438.77kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c2b4f252-4a25-490f-a273-e3bd16ddda07',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------873224883400282587126970',
+  'content-length' => '28792',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试2',
+  'tabname' => '标签2',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.740730s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.448712s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (15653680733918 , '10' , '标签2') [ RunTime:0.405391s ]
+[ error ] [0]类不存在:app\common\model\Dynamic[C:\xampp\htdocs\weice\thinkphp\library\think\Loader.php:457]
+---------------------------------------------------------------
+[ 2019-08-10T00:28:51+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：3.453649s] [吞吐率：0.29req/s] [内存消耗：2,455.39kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6bd9187d-e695-4b10-8b3c-136bc20f763c',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------383247254961450245966101',
+  'content-length' => '28792',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试2',
+  'tabname' => '标签2',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.153340s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.414295s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (15653681282714 , '10' , '标签2') [ RunTime:0.424738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.924867s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid`) VALUES (15653681282714 , '10' , '测试2' , 1) [ RunTime:0.443956s ]
+[ error ] [0]致命错误: Class 'app\home\controller\RouteModel' not found[C:\xampp\htdocs\weice\application\home\controller\Upload.php:129]
+---------------------------------------------------------------
+[ 2019-08-10T00:29:52+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：3.306585s] [吞吐率：0.30req/s] [内存消耗：2,455.39kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0b400130-bfba-4fdf-9a62-880119983e5d',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------912277996249473471619457',
+  'content-length' => '28792',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试2',
+  'tabname' => '标签2',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.765582s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.389053s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (15653681899894 , '10' , '标签2') [ RunTime:0.417237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.855627s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid`) VALUES (15653681899894 , '10' , '测试2' , 1) [ RunTime:0.820513s ]
+[ error ] [0]致命错误: Class 'app\home\controller\RouteModel' not found[C:\xampp\htdocs\weice\application\home\controller\Upload.php:129]
+---------------------------------------------------------------
+[ 2019-08-10T00:30:53+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：4.069902s] [吞吐率：0.25req/s] [内存消耗：2,437.48kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '66170788-7da1-495e-ad94-f338beb54b74',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------876890857490852518642139',
+  'content-length' => '28792',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'describes' => '测试2',
+  'tabname' => '标签2',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.670804s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.407923s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (1565368249538 , '10' , '标签2') [ RunTime:0.402884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.402024s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid`) VALUES (1565368249538 , '10' , '测试2' , 1) [ RunTime:0.904340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.394750s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (1565368249538 , 'http://weicess.com/weice/public/uploads/T/20190810/40c48e540c62f428a2a485af5138c89e.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190810/40c48e540c62f428a2a485af5138c89e.jpg') [ RunTime:0.399529s ]
+---------------------------------------------------------------
+[ 2019-08-10T00:32:05+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：4.171977s] [吞吐率：0.24req/s] [内存消耗：2,437.70kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cfe2713c-1663-4769-8b13-baf25d9698ae',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------313231273944367473097933',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.646124s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.412094s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (15653683208764 , '11' , '标签3') [ RunTime:0.416688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.408069s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid`) VALUES (15653683208764 , '11' , '测试3' , 1) [ RunTime:0.408697s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.401922s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15653683208764 , 'http://weicess.com/weice/public/uploads/T/20190810/61b693f2d18071cb42065574018eeb40.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190810/61b693f2d18071cb42065574018eeb40.jpg') [ RunTime:0.392442s ]
+---------------------------------------------------------------
+[ 2019-08-10T00:33:16+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.021546s] [吞吐率：46.41req/s] [内存消耗：1,363.48kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5a546adf-f19a-45fa-9138-7716fd57d20b',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------813265852574495639251578',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-10T23:23:55+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：1.453783s] [吞吐率：0.69req/s] [内存消耗：1,433.85kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a83d47ef-c986-4001-b2e3-b9529740d0e6',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------701207605446446888371861',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-10T23:24:08+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.215418s] [吞吐率：4.64req/s] [内存消耗：1,365.04kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0bfc3e5f-abe1-4957-8121-f05dd4a2b890',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------467192885481295743025294',
+  'content-length' => '45227',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function move() on string[C:\xampp\htdocs\weice\application\home\controller\Upload.php:78]
+---------------------------------------------------------------
+[ 2019-08-10T23:25:34+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.053041s] [吞吐率：18.85req/s] [内存消耗：1,433.89kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '15aa0bdd-43dd-4d2d-83b2-2ce506777de1',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------109252268924414898395166',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-10T23:29:00+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.024228s] [吞吐率：41.27req/s] [内存消耗：1,365.07kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b8f6d78b-d94d-4014-87ed-900a19e090ec',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------943316586827862383197361',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function app\home\controller\hslt()[C:\xampp\htdocs\weice\application\home\controller\Upload.php:71]
+---------------------------------------------------------------
+[ 2019-08-10T23:29:14+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.025593s] [吞吐率：39.07req/s] [内存消耗：1,363.48kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '38ffa7b3-3c64-499d-88b3-f47de4defa7e',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------128726488100561060714500',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-10T23:29:25+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.018402s] [吞吐率：54.34req/s] [内存消耗：1,363.48kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a2b89fb2-e31b-46e0-ba97-c9b8bcb70f72',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------589722957110624304449935',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-10T23:29:55+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：0.410398s] [吞吐率：2.44req/s] [内存消耗：2,317.10kb] [文件加载：45]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f6542352-29df-4ab6-acf1-fa39443e9f6c',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------513855018603514313305383',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] �׽��ֲ�������һ���޷����ӵ�������
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-08-10T23:30:28+08:00 ] 0.0.0.0 POST localhost/weice/public/home/upload/index
+[运行时间：11.894734s] [吞吐率：0.08req/s] [内存消耗：2,438.70kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2b3901d5-eb43-49ca-9e03-1785c80883ec',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------853790190714699957750467',
+  'content-length' => '45231',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试3',
+  'tabname' => '标签3',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:5.849143s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.936103s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (15654510166869 , '11' , '标签3') [ RunTime:0.406201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:1.001912s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid`) VALUES (15654510166869 , '11' , '测试3' , 1) [ RunTime:0.413217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.939021s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15654510166869 , 'http://weicess.com/weice/public/uploads/T/20190810/4f4955d71a1937c970f2d5efbb60f6d2.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190810/4f4955d71a1937c970f2d5efbb60f6d2.jpg') [ RunTime:0.915825s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15654510166869 , 'http://weicess.com/weice/public/uploads/T/20190810/b68909b22eb22d88222611d784714f08.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190810/b68909b22eb22d88222611d784714f08.jpg') [ RunTime:0.396959s ]

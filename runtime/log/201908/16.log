@@ -1,0 +1,937 @@
+---------------------------------------------------------------
+[ 2019-08-16T18:35:13+08:00 ] 0.0.0.0 GET localhost/weice/public/home/album
+[运行时间：2.182056s] [吞吐率：0.46req/s] [内存消耗：1,929.41kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: name[C:\xampp\htdocs\weice\application\home\controller\Album.php:22]
+---------------------------------------------------------------
+[ 2019-08-16T18:35:14+08:00 ] 0.0.0.0 GET localhost/weice/public/home/album
+[运行时间：0.038730s] [吞吐率：25.82req/s] [内存消耗：1,930.39kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-be65582e=d68a3fc5-5103-4d71-9949-2ffdba456feb',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: name[C:\xampp\htdocs\weice\application\home\controller\Album.php:22]
+---------------------------------------------------------------
+[ 2019-08-16T19:06:44+08:00 ] 0.0.0.0 GET localhost/weice/public/admin
+[运行时间：0.785328s] [吞吐率：1.27req/s] [内存消耗：1,321.69kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-be65582e=d68a3fc5-5103-4d71-9949-2ffdba456feb',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T19:06:46+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.168865s] [吞吐率：5.92req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T19:07:01+08:00 ] 0.0.0.0 GET localhost/weice/public/admin/index/tulist.html
+[运行时间：2.596559s] [吞吐率：0.39req/s] [内存消耗：2,332.68kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'tulist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/weice/public/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-be65582e=d68a3fc5-5103-4d71-9949-2ffdba456feb',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->tulist[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\tulist.html [ array (
+  0 => 'page',
+  1 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.703845s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.437869s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` ) `_group_count_` LIMIT 1 [ RunTime:0.391948s ]
+[ sql ] [ SQL ] SELECT d.openid, describes, tabname, r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` LIMIT 0,5 [ RunTime:0.406953s ]
+---------------------------------------------------------------
+[ 2019-08-16T19:07:02+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.038286s] [吞吐率：26.12req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T19:07:14+08:00 ] 0.0.0.0 GET localhost/weice/public/admin/index/uslist.html
+[运行时间：2.048052s] [吞吐率：0.49req/s] [内存消耗：2,147.68kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'uslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'referer' => 'http://localhost/weice/public/admin/index/tulist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-be65582e=d68a3fc5-5103-4d71-9949-2ffdba456feb',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->uslist[ C:\xampp\htdocs\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\weice\public/../application/admin\view\index\uslist.html [ array (
+  0 => 'page',
+  1 => 're',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.685612s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.410878s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_user` WHERE  `id` > 0 LIMIT 1 [ RunTime:0.394588s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `id` > 0 LIMIT 0,5 [ RunTime:0.392620s ]
+---------------------------------------------------------------
+[ 2019-08-16T19:07:15+08:00 ] 127.0.0.1 GET 127.0.0.1/weice/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[运行时间：0.037776s] [吞吐率：26.47req/s] [内存消耗：972.34kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'sec-fetch-mode' => 'cors',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'cross-site',
+  'referer' => 'http://127.0.0.1/weice/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+  0 => 'fontawesome-webfont.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T20:35:00+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/home/album/
+[运行时间：0.312500s] [吞吐率：3.20req/s] [内存消耗：1,648.66kb] [文件加载：43]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: name[E:\web\hesj84h8\wwwroot\weice\application\home\controller\Album.php:22]
+---------------------------------------------------------------
+[ 2019-08-16T20:35:11+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/home/album/lst
+[运行时间：0.140625s] [吞吐率：7.11req/s] [内存消耗：1,650.42kb] [文件加载：43]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: openid[E:\web\hesj84h8\wwwroot\weice\application\home\controller\Album.php:44]
+---------------------------------------------------------------
+[ 2019-08-16T20:35:27+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/admin/index.php
+[运行时间：0.062500s] [吞吐率：16.00req/s] [内存消耗：838.81kb] [文件加载：31]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T20:35:43+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/admin/index
+[运行时间：0.125000s] [吞吐率：8.00req/s] [内存消耗：1,260.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\web\hesj84h8\wwwroot\weice\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\web\hesj84h8\wwwroot\weice\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T20:35:50+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/admin/index/tulist.html
+[运行时间：0.187500s] [吞吐率：5.33req/s] [内存消耗：2,003.73kb] [文件加载：50]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'tulist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'referer' => 'http://weicess.com/weice/public/index.php/admin/index',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->tulist[ E:\web\hesj84h8\wwwroot\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\web\hesj84h8\wwwroot\weice\public/../application/admin\view\index\tulist.html [ array (
+  0 => 'page',
+  1 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` ) `_group_count_` LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT d.openid, describes, tabname, r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot FROM `dy_dynamic` `d` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` INNER JOIN `dy_tabs` `t` ON `d`.`idx_dynamic`=`t`.`idx_tabs` WHERE  (  d.idx_dynamic = r.route_dy_id )  AND (  d.idx_dynamic = t.idx_tabs ) GROUP BY `r`.`route_dy_id` LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-16T20:35:59+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/admin/index/volist.html
+[运行时间：0.109375s] [吞吐率：9.14req/s] [内存消耗：1,223.63kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'volist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'referer' => 'http://weicess.com/weice/public/index.php/admin/index/tulist.html',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->volist[ E:\web\hesj84h8\wwwroot\weice\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\web\hesj84h8\wwwroot\weice\public/../application/admin\view\index\volist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T20:36:03+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/admin/index/uslist.html
+[运行时间：0.125000s] [吞吐率：8.00req/s] [内存消耗：1,972.52kb] [文件加载：50]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'uslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'referer' => 'http://weicess.com/weice/public/index.php/admin/index/volist.html',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->uslist[ E:\web\hesj84h8\wwwroot\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\web\hesj84h8\wwwroot\weice\public/../application/admin\view\index\uslist.html [ array (
+  0 => 'page',
+  1 => 're',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_user` WHERE  `id` > 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `id` > 0 LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-16T20:36:06+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/admin/index/falist.html
+[运行时间：0.218750s] [吞吐率：4.57req/s] [内存消耗：1,911.37kb] [文件加载：48]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'falist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'referer' => 'http://weicess.com/weice/public/index.php/admin/index/uslist.html',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->falist[ E:\web\hesj84h8\wwwroot\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\web\hesj84h8\wwwroot\weice\public/../application/admin\view\index\falist.html [ array (
+  0 => 'page',
+  1 => 'fa',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `dy_fans` `f` INNER JOIN `dy_user` `u` ON `f`.`fan_id`=`u`.`openid` WHERE  (  f.fan_id = u.openid ) GROUP BY `f`.`idx_fan` ) `_group_count_` LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `f`.`idx_fan`,`u`.`nickname`,`u`.`headimgurl`,`f`.`openid`,`f`.`fan_id` FROM `dy_fans` `f` INNER JOIN `dy_user` `u` ON `f`.`fan_id`=`u`.`openid` WHERE  (  f.fan_id = u.openid ) GROUP BY `f`.`idx_fan` LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-16T20:36:10+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/admin/index/uslist.html
+[运行时间：0.156250s] [吞吐率：6.40req/s] [内存消耗：1,836.02kb] [文件加载：48]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'uslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'referer' => 'http://weicess.com/weice/public/index.php/admin/index/falist.html',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->uslist[ E:\web\hesj84h8\wwwroot\weice\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\web\hesj84h8\wwwroot\weice\public/../application/admin\view\index\uslist.html [ array (
+  0 => 'page',
+  1 => 're',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_user` WHERE  `id` > 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `id` > 0 LIMIT 0,5 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-16T20:45:07+08:00 ] 120.84.9.104 POST weicess.com/weice/public/index.php/home/album/lst
+[运行时间：0.203125s] [吞吐率：4.92req/s] [内存消耗：1,688.89kb] [文件加载：41]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------293622796900837711753583',
+  'content-length' => '163',
+  'postman-token' => 'a40963a6-a12c-47a3-878a-51d2dfd205fa',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->lst[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT a.id, name, a.create_time as time, thumb_route, count(thumb_route) as toutle FROM `dy_album` `a` INNER JOIN `dy_dynamic` `d` ON `a`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `d`.`openid` = '11'  AND (  a.id = d.albumid ) GROUP BY `a`.`id` ORDER BY `d`.`create_time` DESC [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-16T20:52:52+08:00 ] 120.84.9.104 POST weicess.com/weice/public/index.php/home/pic/video
+[运行时间：0.093750s] [吞吐率：10.67req/s] [内存消耗：1,100.45kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pic',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------661904380073189719028506',
+  'content-length' => '163',
+  'postman-token' => 'e193d46f-ab6b-417d-92b1-299f8ac2d1be',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T20:53:29+08:00 ] 120.84.9.104 POST weicess.com/weice/public/index.php/home/album/video
+[运行时间：0.125000s] [吞吐率：8.00req/s] [内存消耗：1,686.88kb] [文件加载：41]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------090707668362241491311319',
+  'content-length' => '163',
+  'postman-token' => '8772f7a4-d61f-4099-baf1-6f65da94d602',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->video[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11'  AND (  d.type = 1 ) ORDER BY `r`.`create_time` DESC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-08-16T21:00:52+08:00 ] 120.84.9.104 POST weicess.com/weice/public/index.php/home/album/pic
+[运行时间：0.140625s] [吞吐率：7.11req/s] [内存消耗：1,688.02kb] [文件加载：41]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'pic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------595487819046357222960219',
+  'content-length' => '163',
+  'postman-token' => '4be1fb9c-52f4-4879-8807-ec65863dd405',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\Album->pic[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route`,`r`.`create_time` FROM `dy_route` `r` INNER JOIN `dy_dynamic` `d` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `openid` = '11'  AND (  d.type = 0 ) ORDER BY `r`.`create_time` DESC [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-16T22:43:48+08:00 ] 120.84.9.104 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.421875s] [吞吐率：2.37req/s] [内存消耗：2,065.52kb] [文件加载：46]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------398116132562545392645514',
+  'content-length' => '28792',
+  'postman-token' => 'afb7cad8-0bd8-4954-8e72-5ec2a8187f32',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试5',
+  'tabname' => '测试5',
+  'albumid' => '4',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (15659666283624 , '11' , '测试5') [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid`) VALUES (15659666283624 , '11' , '测试5' , 4) [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15659666283624 , 'http://weicess.com/weice/public/uploads/T/20190816/c5fbf78e3c1257f07736d8d22f9bec69.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190816/c5fbf78e3c1257f07736d8d22f9bec69.jpg') [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-16T22:46:57+08:00 ] 120.84.9.104 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.218750s] [吞吐率：4.57req/s] [内存消耗：1,930.41kb] [文件加载：44]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------109403941421672159887041',
+  'content-length' => '399738',
+  'postman-token' => 'ce59bde4-bd45-409f-8a29-3dd97b5ab54d',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '视频1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes`) VALUES (15659668179359 , '11' , '视频1') [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route`) VALUES (15659668179359 , 'http://weicess.com/weice/public/uploads/V/20190816/571ef76c84de99102f76bb5680239fab.mp4') [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-16T22:49:24+08:00 ] 120.84.9.104 GET weicess.com/weice/public/index.php/uploads/V/20190816/571ef76c84de99102f76bb5680239fab.mp4
+[运行时间：0.062500s] [吞吐率：16.00req/s] [内存消耗：837.20kb] [文件加载：29]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'V',
+    2 => '20190816',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'host' => 'weicess.com',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  0 => '571ef76c84de99102f76bb5680239fab.mp4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T22:49:26+08:00 ] 111.23.12.178 GET weicess.com/weice/public/index.php/uploads/V/20190816/571ef76c84de99102f76bb5680239fab.mp4
+[运行时间：0.062500s] [吞吐率：16.00req/s] [内存消耗：835.71kb] [文件加载：29]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'V',
+    2 => '20190816',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '0',
+  'neteast-type' => '1024HASH',
+  'x-power-cache' => 'NP/1.0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'range' => 'bytes=0-1023',
+  'host' => 'weicess.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  0 => '571ef76c84de99102f76bb5680239fab.mp4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-16T22:55:13+08:00 ] 120.84.9.104 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.171875s] [吞吐率：5.82req/s] [内存消耗：1,930.41kb] [文件加载：44]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------144143702346559880017809',
+  'content-length' => '399738',
+  'postman-token' => '712b54cc-36c4-4f7b-98da-b997f023f927',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '视频2',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes`) VALUES (15659673136197 , '11' , '视频2') [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route`) VALUES (15659673136197 , 'http://weicess.com/weice/public/uploads/V/20190816/34bf30939cb0106204ffac40b12315a7.mp4') [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2019-08-16T23:02:44+08:00 ] 120.84.9.104 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.250000s] [吞吐率：4.00req/s] [内存消耗：1,930.44kb] [文件加载：44]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------098689299932622561410954',
+  'content-length' => '399738',
+  'postman-token' => 'd73cbdca-edf9-4dbd-810e-914db9acf679',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '视频1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `type`) VALUES (15659677648602 , '11' , '视频1' , 1) [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route`) VALUES (15659677648602 , 'http://weicess.com/weice/public/uploads/V/20190816/813fb3eb2fec82ec00631f0d1c6f26db.mp4') [ RunTime:0.062500s ]
+---------------------------------------------------------------
+[ 2019-08-16T23:07:20+08:00 ] 120.84.9.104 POST weicess.com/weice/public/index.php/home/upload/index
+[运行时间：0.343750s] [吞吐率：2.91req/s] [内存消耗：2,065.46kb] [文件加载：46]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------923414100813622085421269',
+  'content-length' => '28792',
+  'postman-token' => '6dcaa40e-3081-44b6-80b4-a2f93f63868f',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '测试6',
+  'tabname' => '测试5',
+  'albumid' => '4',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ E:\web\hesj84h8\wwwroot\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`idx_tabs` , `openid` , `tabname`) VALUES (15659680399413 , '11' , '测试5') [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid`) VALUES (15659680399413 , '11' , '测试6' , 4) [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15659680399413 , 'http://weicess.com/weice/public/uploads/T/20190816/2eb5ff831165963bb7f3aea902be8162.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190816/2eb5ff831165963bb7f3aea902be8162.jpg') [ RunTime:0.000000s ]

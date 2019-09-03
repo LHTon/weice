@@ -1,0 +1,360 @@
+---------------------------------------------------------------
+[ 2019-08-09T21:01:44+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/index
+[运行时间：1.750830s] [吞吐率：0.57req/s] [内存消耗：972.86kb] [文件加载：31]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e82849e6-a2f0-492c-8206-6cb796da098e',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------602585023313660874267513',
+  'content-length' => '165',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '下班',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-09T21:03:05+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/index
+[运行时间：0.312893s] [吞吐率：3.20req/s] [内存消耗：1,274.53kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '32ee27dd-b6ad-4b22-96c4-fb3335e23964',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------501198207637858014609450',
+  'content-length' => '165',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '下班',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]Class app\home\controller\Request does not exist[C:\xampp\htdocs\weice\thinkphp\library\think\App.php:403]
+---------------------------------------------------------------
+[ 2019-08-09T21:04:08+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/index
+[运行时间：0.034483s] [吞吐率：29.00req/s] [内存消耗：1,274.53kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '07bfd0b7-7d15-4d69-a242-41e17dddaf5d',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------545415358467609253113572',
+  'content-length' => '165',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '下班',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]Class app\home\controller\Request does not exist[C:\xampp\htdocs\weice\thinkphp\library\think\App.php:403]
+---------------------------------------------------------------
+[ 2019-08-09T21:04:56+08:00 ] 0.0.0.0 GET localhost/weice/public/home/index/
+[运行时间：0.142375s] [吞吐率：7.02req/s] [内存消耗：974.28kb] [文件加载：30]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-be65582e=d68a3fc5-5103-4d71-9949-2ffdba456feb; PHPSESSID=fv4h5aaicdjd26c05k1k0aj3lp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-09T21:05:12+08:00 ] 0.0.0.0 GET localhost/weice/public/home/ablum
+[运行时间：0.032032s] [吞吐率：31.22req/s] [内存消耗：974.28kb] [文件加载：30]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'ablum',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-be65582e=d68a3fc5-5103-4d71-9949-2ffdba456feb; PHPSESSID=fv4h5aaicdjd26c05k1k0aj3lp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-09T21:05:37+08:00 ] 0.0.0.0 GET localhost/weice/public/home/album
+[运行时间：0.032450s] [吞吐率：30.82req/s] [内存消耗：1,275.86kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-be65582e=d68a3fc5-5103-4d71-9949-2ffdba456feb; PHPSESSID=fv4h5aaicdjd26c05k1k0aj3lp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]Class app\home\controller\Request does not exist[C:\xampp\htdocs\weice\thinkphp\library\think\App.php:403]
+---------------------------------------------------------------
+[ 2019-08-09T21:06:11+08:00 ] 0.0.0.0 GET localhost/weice/public/home/album
+[运行时间：0.105548s] [吞吐率：9.47req/s] [内存消耗：1,280.15kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-be65582e=d68a3fc5-5103-4d71-9949-2ffdba456feb; PHPSESSID=fv4h5aaicdjd26c05k1k0aj3lp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-09T21:08:58+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/index
+[运行时间：0.021056s] [吞吐率：47.49req/s] [内存消耗：1,278.49kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6c72ae4c-e8f3-49e4-aeec-f6f69ca12d33',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------107949437494002235865128',
+  'content-length' => '165',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '下班',
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-09T21:16:27+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/index
+[运行时间：1.375954s] [吞吐率：0.73req/s] [内存消耗：1,280.84kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '31c64dde-3fda-476b-9f40-353409661b2d',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------936470518594338147173071',
+  'content-length' => '165',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '校园',
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\home\controller\Db' not found[C:\xampp\htdocs\weice\application\home\controller\Album.php:14]
+---------------------------------------------------------------
+[ 2019-08-09T21:16:48+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/index
+[运行时间：2.366398s] [吞吐率：0.42req/s] [内存消耗：1,942.50kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8786be7f-3fbe-4a22-a425-66c660aded2e',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------116204014597889456296177',
+  'content-length' => '165',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '校园',
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.082559s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:0.419098s ]
+[ sql ] [ SQL ] INSERT INTO `dy_album` (`name`) VALUES ('校园') [ RunTime:0.408560s ]
+---------------------------------------------------------------
+[ 2019-08-09T22:48:39+08:00 ] 0.0.0.0 GET localhost/weice/public/home/album
+[运行时间：0.732964s] [吞吐率：1.36req/s] [内存消耗：1,014.54kb] [文件加载：30]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-be65582e=d68a3fc5-5103-4d71-9949-2ffdba456feb',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[C:\xampp\htdocs\weice\application\home\controller\Album.php:2]
+---------------------------------------------------------------
+[ 2019-08-09T23:00:58+08:00 ] 0.0.0.0 POST localhost/weice/public/home/album/index
+[运行时间：9.267336s] [吞吐率：0.11req/s] [内存消耗：1,942.45kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ca9dbd67-6c4a-412c-9f68-fed74d025b9d',
+  'user-agent' => 'PostmanRuntime/6.1.6',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------816900908551718102719448',
+  'content-length' => '165',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '生活',
+)
+[ info ] [ RUN ] app\home\controller\Album->index[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.622668s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_album` [ RunTime:4.900109s ]
+[ sql ] [ SQL ] INSERT INTO `dy_album` (`name`) VALUES ('生活') [ RunTime:0.399834s ]
