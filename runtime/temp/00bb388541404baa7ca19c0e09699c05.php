@@ -1,8 +1,4 @@
-
 <?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:72:"C:\xampp\htdocs\weice\public/../application/admin\view\index\tulist.html";i:1563867499;}*/ ?>
-
-
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:72:"C:\xampp\htdocs\weice\public/../application/admin\view\index\tulist.html";i:1561016433;}*/ ?>
 
 <!DOCTYPE html>
 <html><head>

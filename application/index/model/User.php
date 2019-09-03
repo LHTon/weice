@@ -11,12 +11,5 @@ use think\Model;
 
 class User extends Model
 {
-    function dynamic()
-    {
-        return $this->hasMany('Dynamic','openid','openid');
-    }
-    function friend()
-    {
-        return $this->hasMany('Friend','openid','id');
-    }
+
 }

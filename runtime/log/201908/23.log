@@ -1,0 +1,249 @@
+---------------------------------------------------------------
+[ 2019-08-23T12:24:53+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login?code=033vUN782MzwyK0Rzd482wXL782vUN7K&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.531250s] [吞吐率：1.88req/s] [内存消耗：1,109.91kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '033vUN782MzwyK0Rzd482wXL782vUN7K',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP?[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:23]
+---------------------------------------------------------------
+[ 2019-08-23T12:31:19+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login?code=043he0Ev0eCZ2i1mYoCv0pyQDv0he0EB&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：2.453125s] [吞吐率：0.41req/s] [内存消耗：1,073.64kb] [文件加载：33]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043he0Ev0eCZ2i1mYoCv0pyQDv0he0EB',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-23T12:32:27+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login?code=023Gyqkt1etvYe0jDGht1Nr4kt1Gyqkk&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.640625s] [吞吐率：1.56req/s] [内存消耗：1,097.66kb] [文件加载：35]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023Gyqkt1etvYe0jDGht1Nr4kt1Gyqkk',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-23T13:13:31+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login?code=043dRlua1IVXRN1dWyua12Ysua1dRlug&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：2.000000s] [吞吐率：0.50req/s] [内存消耗：1,110.52kb] [文件加载：35]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '043dRlua1IVXRN1dWyua12Ysua1dRlug',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-23T13:14:14+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login/wxlogin?code=033rR5jx0AceIa1RGckx0dKSix0rR5jj&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.140625s] [吞吐率：7.11req/s] [内存消耗：1,126.05kb] [文件加载：37]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'wxlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '033rR5jx0AceIa1RGckx0dKSix0rR5jj',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->wxlogin[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant CURLOPT_COOKIESESSION  - assumed 'CURLOPT_COOKIESESSION '[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:72]
+---------------------------------------------------------------
+[ 2019-08-23T13:15:40+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login/wxlogin?code=033vnBRe1Ksh7z0jwcRe1OdYRe1vnBR5&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.421875s] [吞吐率：2.37req/s] [内存消耗：1,124.24kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'wxlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '033vnBRe1Ksh7z0jwcRe1OdYRe1vnBR5',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->wxlogin[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\Exception' not found[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:111]
+---------------------------------------------------------------
+[ 2019-08-23T13:17:37+08:00 ] 120.84.9.197 GET weicess.com/weice/public/index.php/index/login/wxlogin?code=0239LDQu0jAQZh1xDQQu0j6uQu09LDQ9&appid=wx30cbd5bf82ee6334&appSecret=1a3ef733c21a5c63c2755a03b9c0da31
+[运行时间：0.343750s] [吞吐率：2.91req/s] [内存消耗：1,122.48kb] [文件加载：36]
+[ info ] [ LANG ] E:\web\hesj84h8\wwwroot\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'wxlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'host' => 'weicess.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0239LDQu0jAQZh1xDQQu0j6uQu09LDQ9',
+  'appid' => 'wx30cbd5bf82ee6334',
+  'appSecret' => '1a3ef733c21a5c63c2755a03b9c0da31',
+)
+[ info ] [ RUN ] app\index\controller\Login->wxlogin[ E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\Exception' not found[E:\web\hesj84h8\wwwroot\weice\application\index\controller\Login.php:111]

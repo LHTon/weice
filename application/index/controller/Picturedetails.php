@@ -11,7 +11,7 @@ class Picturedetails extends Controller
     //图集的详情页面
     public function index()
     {
-        $routeid = $_GET['route_dy_id'];
+        $routeid = $_POST['route_dy_id'];
         $re = Db::table('dy_route')
             ->where('route_dy_id',$routeid)
             ->field('route,thumb_route')

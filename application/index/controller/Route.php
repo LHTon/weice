@@ -321,8 +321,8 @@ class Route extends \think\Controller
 
                     $re[] = 'http://weicess.com/weice/public/'.$imgpath;
                     $se[] = 'http://weicess.com/weice/public/'.$thumb_path;
-                    $re[] = 'http://110.64.211.77/weice/public/'.$imgpath;
-                    $se[] = 'http://110.64.211.77/weice/public/'.$thumb_path;
+//                    $re[] = 'http://110.64.211.77/weice/public/'.$imgpath;
+//                    $se[] = 'http://110.64.211.77/weice/public/'.$thumb_path;
 
                 } else {
                     // 上传失败获取错误信息

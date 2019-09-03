@@ -16,17 +16,18 @@ class Albumlst extends Controller
     //查询所有图集的列表
     public function index()
     {
-       $openid = $_GET['openid'];
+       $openid = $_POST['openid'];
         $result = Db::query(
-            "select describes, tabname, r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
+            "select describes ,tabname ,r.route_dy_id, thumb_route, r.create_time, count(thumb_route) as toutel, is_hot
             from dy_dynamic as d
 			inner join dy_route as r on d.idx_dynamic = r.route_dy_id
-			left join dy_tabs as t on 	d.idx_dynamic = t.idx_tabs
+			left join dy_tabs as t on 	d.idx_tabs = t.idx_tabs
             where d.idx_dynamic = r.route_dy_id
-            and d.idx_dynamic = t.idx_tabs
+            and d.idx_tabs = t.idx_tabs
             and d.openid = '$openid'
 			GROUP BY route_dy_id"
         );
+//        halt($result);
 
         foreach($result as $rt)
         {
@@ -41,7 +42,6 @@ class Albumlst extends Controller
 
             ];
         }
-//        print_r($arr);
         $cs = json_encode($arr);
         echo $cs;
     }
@@ -49,8 +49,8 @@ class Albumlst extends Controller
     //处理图集设置为热点图集
     public function hot()
     {
-        $is_hot = $_GET['is_hot'];
-        $routeid = $_GET['route_dy_id'];
+        $is_hot = $_POST['is_hot'];
+        $routeid = $_POST['route_dy_id'];
         $re = Db::name('route')
             ->where('route_dy_id', $routeid)
             ->update(['is_hot' => $is_hot]);
