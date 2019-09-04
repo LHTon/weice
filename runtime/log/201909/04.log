@@ -2972,3 +2972,49 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.350000s ]
 [ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2072451919@qq.com' [ RunTime:0.350000s ]
 [ error ] [8]未定义数组索引: openid[C:\xampp\htdocs\weice\application\index\controller\Register.php:26]
+---------------------------------------------------------------
+[ 2019-09-04T18:37:42+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：1.288000s] [吞吐率：0.78req/s] [内存消耗：2,416.56kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '63',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2072451919@qq.com',
+  'password' => '1q2w3e4r5t',
+  'qqcode' => '1q2w3e4r5t',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2072451919@qq.com' [ RunTime:0.343000s ]
+[ error ] [8]未定义数组索引: openid[C:\xampp\htdocs\weice\application\index\controller\Register.php:26]
