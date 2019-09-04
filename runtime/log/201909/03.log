@@ -1,0 +1,840 @@
+---------------------------------------------------------------
+[ 2019-09-03T19:25:12+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.603000s] [吞吐率：0.62req/s] [内存消耗：2,362.77kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '30d20ef9-890a-460c-8759-8073922f8274',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------093239838416421338393027',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.655000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.428000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.415000s ]
+---------------------------------------------------------------
+[ 2019-09-03T19:50:39+08:00 ] 0.0.0.0 POST localhost/weice/public/index.php/home/album/tabs
+[运行时间：1.030000s] [吞吐率：0.97req/s] [内存消耗：2,411.32kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'tabs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f7b1d6ae-e9be-4db3-8361-92ffbe2b2b4e',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------170741259844360604210707',
+  'content-length' => '275',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'tabname' => '地方',
+)
+[ info ] [ RUN ] app\home\controller\Album->tabs[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.525000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.357000s ]
+[ error ] [0]缺少更新条件[C:\xampp\htdocs\weice\thinkphp\library\think\db\Query.php:2413]
+---------------------------------------------------------------
+[ 2019-09-03T19:51:00+08:00 ] 0.0.0.0 POST localhost/weice/public/index.php/home/album/tabs
+[运行时间：1.316000s] [吞吐率：0.76req/s] [内存消耗：2,335.46kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'album',
+    2 => 'tabs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f8c3c6f-c7aa-4a64-81ac-d74e78a8ff4d',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------309392254072786487055608',
+  'content-length' => '275',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'tabname' => '地方',
+)
+[ info ] [ RUN ] app\home\controller\Album->tabs[ C:\xampp\htdocs\weice\application\home\controller\Album.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.525000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_tabs` (`openid` , `tabname`) VALUES ('11' , '地方') [ RunTime:0.375000s ]
+---------------------------------------------------------------
+[ 2019-09-03T19:55:27+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.294000s] [吞吐率：0.77req/s] [内存消耗：2,359.38kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3d44163f-6bd3-40c3-8f53-cecdfbac82ba',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------535741078802101935483353',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.520000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-03T20:12:00+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/home/email/index
+[运行时间：0.046000s] [吞吐率：21.74req/s] [内存消耗：1,523.63kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '693c92c4-5a7a-410d-ae35-7ee03a9695f4',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:eamil[C:\xampp\htdocs\weice\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2019-09-03T20:18:00+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/home/email/index
+[运行时间：1.742000s] [吞吐率：0.57req/s] [内存消耗：2,230.21kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '871f17a3-9870-4b7b-84e2-970d074f6b41',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------320975411744539906529979',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\home\controller\Email->index[ C:\xampp\htdocs\weice\application\home\controller\Email.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T20:22:00+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/home/email/index
+[运行时间：0.786000s] [吞吐率：1.27req/s] [内存消耗：2,230.21kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bf6049a1-28af-47fd-9f6f-2490a53f62ab',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------819667192285497890302738',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\home\controller\Email->index[ C:\xampp\htdocs\weice\application\home\controller\Email.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T20:22:43+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/home/email/index
+[运行时间：0.678000s] [吞吐率：1.47req/s] [内存消耗：2,230.17kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b4791b9e-66c4-4b77-96ea-639abe4bf94b',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------600102577723603718500555',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\home\controller\Email->index[ C:\xampp\htdocs\weice\application\home\controller\Email.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T20:23:40+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/home/email/index
+[运行时间：1.064000s] [吞吐率：0.94req/s] [内存消耗：2,230.21kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9b1d00cf-3d62-4fee-a78e-01f17aec01c8',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------576580492411632874907721',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\home\controller\Email->index[ C:\xampp\htdocs\weice\application\home\controller\Email.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T21:00:59+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/home/email/index
+[运行时间：1.846000s] [吞吐率：0.54req/s] [内存消耗：2,230.92kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cf3add89-e52d-42a2-9ae3-c41967e43e88',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------239638674695202625653237',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\home\controller\Email->index[ C:\xampp\htdocs\weice\application\home\controller\Email.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T21:13:39+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/home/email/index
+[运行时间：0.046000s] [吞吐率：21.74req/s] [内存消耗：1,156.88kb] [文件加载：30]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0f84a769-f3ac-4b77-8604-f163fe689ba8',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------526032143611872450267565',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T21:13:49+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.041000s] [吞吐率：24.39req/s] [内存消耗：1,218.91kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '61fe5709-ab4e-4a3b-84a8-9e261ced5581',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------064999199645748979518966',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T21:14:18+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.042000s] [吞吐率：23.81req/s] [内存消耗：1,218.91kb] [文件加载：33]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fe421e7f-2aff-413a-8a5b-3b090e0be1d2',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------491218774564925370083367',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T21:14:39+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.708000s] [吞吐率：1.41req/s] [内存消耗：2,236.60kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '70a430c7-892b-4033-90d0-12c05d343010',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------838443292660056209312113',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T21:15:39+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/refister/index
+[运行时间：0.040000s] [吞吐率：25.00req/s] [内存消耗：1,156.81kb] [文件加载：30]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'refister',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8d124383-6268-4df0-9454-f9976c529573',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------079417090290185964424851',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T21:15:47+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：0.056000s] [吞吐率：17.86req/s] [内存消耗：1,528.20kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'de1c821f-904c-4192-9beb-38870399afa7',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------296420313958071782956035',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: _SESSION[C:\xampp\htdocs\weice\application\index\controller\Register.php:12]
+---------------------------------------------------------------
+[ 2019-09-03T21:22:29+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.066000s] [吞吐率：15.15req/s] [内存消耗：2,282.03kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8e1be271-4f37-4164-81d4-01c00225c964',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------109781606504462272199571',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: qqcode[C:\xampp\htdocs\weice\application\index\controller\Email.php:26]
+---------------------------------------------------------------
+[ 2019-09-03T22:46:33+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.054000s] [吞吐率：18.52req/s] [内存消耗：2,282.12kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c16c8f30-5bc4-4c46-b288-1f59058ca996',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------715047042009330126952741',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: qqcode[C:\xampp\htdocs\weice\application\index\controller\Email.php:27]
+---------------------------------------------------------------
+[ 2019-09-03T22:47:16+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.053000s] [吞吐率：18.87req/s] [内存消耗：2,282.19kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '65e9f9ba-72c7-4a1a-afc4-e9d8e5f25c23',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------602069794074676617454993',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: qqcode[C:\xampp\htdocs\weice\application\index\controller\Email.php:27]
+---------------------------------------------------------------
+[ 2019-09-03T22:53:48+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.075000s] [吞吐率：13.33req/s] [内存消耗：2,281.22kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1c359325-5ca4-4235-84ff-d09a2f467d4d',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------733001693537341857856401',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'think\session' not found[C:\xampp\htdocs\weice\application\index\controller\Email.php:27]
+---------------------------------------------------------------
+[ 2019-09-03T22:58:33+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.061000s] [吞吐率：16.39req/s] [内存消耗：2,269.79kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ecf5a6c7-8c5e-4085-a9c5-46c4fdf48914',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------107995641865603333060316',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T23:05:53+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.057000s] [吞吐率：17.54req/s] [内存消耗：2,282.04kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '16de6bc9-fea3-4148-8232-6aa9057df490',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------448919366638233478940819',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: email[C:\xampp\htdocs\weice\application\index\controller\Email.php:46]
+---------------------------------------------------------------
+[ 2019-09-03T23:06:07+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.759000s] [吞吐率：1.32req/s] [内存消耗：2,237.42kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd14189ad-0500-4b2d-bb39-a0f8f6b19929',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------754909114339321671147343',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T23:07:21+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：0.047000s] [吞吐率：21.28req/s] [内存消耗：1,528.46kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ba7aa39a-752b-435e-866d-8d9cce2f7e47',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------703755849998037929263753',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\Session' not found[C:\xampp\htdocs\weice\application\index\controller\Register.php:13]
+---------------------------------------------------------------
+[ 2019-09-03T23:07:53+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：0.036000s] [吞吐率：27.78req/s] [内存消耗：1,517.95kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a06ea132-5d70-4f2a-82d0-5eeebe046616',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------225762685444092574694990',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-03T23:08:23+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.664000s] [吞吐率：1.51req/s] [内存消耗：2,237.42kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '183ec3cc-a8f8-4af5-8e62-e3f50fb7435b',
+  'host' => '127.0.0.1',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------767299742041762407782454',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
