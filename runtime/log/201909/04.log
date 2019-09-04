@@ -1,0 +1,3020 @@
+---------------------------------------------------------------
+[ 2019-09-04T08:33:08+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：1.304000s] [吞吐率：0.77req/s] [内存消耗：2,237.42kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bb056844-cb31-4882-9e1d-9beb50860203',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------601086045341791678345198',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T08:33:32+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：0.036000s] [吞吐率：27.78req/s] [内存消耗：1,517.95kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '69420640-66f2-4701-8f81-cc4cf76c6522',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------826714096551490384464052',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T08:33:50+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.867000s] [吞吐率：1.15req/s] [内存消耗：2,237.42kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '51728b5d-f918-47ed-9cd2-ed326657dea8',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------309278472140854252577475',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T08:33:55+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：0.035000s] [吞吐率：28.57req/s] [内存消耗：1,517.95kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3f0ed7e3-24af-4603-b3d5-09a9b4e9b419',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------832483933419206329537531',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T08:50:09+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：1.681000s] [吞吐率：0.59req/s] [内存消耗：2,237.42kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f13748a4-b3b9-4c78-a10b-daa7d692e0e6',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------330116923038575673185042',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T08:51:46+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.384000s] [吞吐率：0.72req/s] [内存消耗：2,362.51kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2065907e-0aed-4496-975a-da4dab497752',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------920662250183170464281923',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.548000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.354000s ]
+---------------------------------------------------------------
+[ 2019-09-04T08:53:06+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.285000s] [吞吐率：0.78req/s] [内存消耗：2,364.22kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7947dcbf-e32b-49a8-994e-73ac761de5a9',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------287745188660927647294431',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.509000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.348000s ]
+---------------------------------------------------------------
+[ 2019-09-04T08:53:51+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.331000s] [吞吐率：0.75req/s] [内存消耗：2,362.48kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0ae14c02-6e2a-469b-890c-13c7b879a62f',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------734960766749225312420911',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.527000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.364000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '10' [ RunTime:0.358000s ]
+---------------------------------------------------------------
+[ 2019-09-04T08:54:55+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：6.257000s] [吞吐率：0.16req/s] [内存消耗：2,364.19kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '08c032a4-577c-40a2-8e06-95537ecb2049',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------834691520570832926065328',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.521000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:1.885000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '10' [ RunTime:3.776000s ]
+---------------------------------------------------------------
+[ 2019-09-04T08:55:29+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.499000s] [吞吐率：0.67req/s] [内存消耗：2,362.48kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f05a8746-c8de-4cbd-ab6e-6fff005d72b9',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------250797718532342317317794',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.622000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.431000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '10' [ RunTime:0.371000s ]
+---------------------------------------------------------------
+[ 2019-09-04T08:56:13+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.379000s] [吞吐率：0.73req/s] [内存消耗：2,364.19kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '18031641-4a4a-4254-a2ee-66a2b5238034',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------579591499203205801334784',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.550000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.392000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '10' [ RunTime:0.361000s ]
+---------------------------------------------------------------
+[ 2019-09-04T08:57:16+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.317000s] [吞吐率：0.76req/s] [内存消耗：2,364.19kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '15c46bd1-5f98-4c67-a64e-e28c155c9a55',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------629841573796988893608170',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.535000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '10' [ RunTime:0.359000s ]
+---------------------------------------------------------------
+[ 2019-09-04T08:57:30+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.352000s] [吞吐率：0.74req/s] [内存消耗：2,407.91kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '651acbb4-9e0d-4565-85d9-e6e9bd31087f',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------925323394081651532776820',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.535000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.368000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '10' [ RunTime:0.350000s ]
+[ error ] [8]未定义数组索引: email[C:\xampp\htdocs\weice\application\index\controller\Register.php:24]
+---------------------------------------------------------------
+[ 2019-09-04T09:03:20+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.290000s] [吞吐率：0.78req/s] [内存消耗：2,335.51kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '17deac94-a271-43c1-8e0c-adaf41ba0aa7',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------922704127333916500189105',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.517000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `openid` = '10' [ RunTime:0.349000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:03:55+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.302000s] [吞吐率：0.77req/s] [内存消耗：2,335.57kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '14fecf31-bb8f-46e8-b1fb-39d7972b8df4',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------405952537985478049284375',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.530000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.347000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:04:54+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.721000s] [吞吐率：0.58req/s] [内存消耗：2,331.84kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '517a19c5-dcb1-4dda-9199-6d39828750ca',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------852852045143980600520969',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.557000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `openid` = '10' [ RunTime:0.352000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `email`='2449382217@qq.com',`password`='123456'  WHERE  `openid` = '10' [ RunTime:0.364000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:10:24+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.317000s] [吞吐率：0.76req/s] [内存消耗：2,362.58kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ec5068c7-9609-42dc-97c8-6d2c9ce80a48',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------396290440850597346208995',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.523000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.364000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '10' [ RunTime:0.351000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:10:52+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.641000s] [吞吐率：0.61req/s] [内存消耗：2,331.79kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '59205726-82e4-4055-94f4-89f1fe4f956b',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------334987913695777379267387',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.507000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.342000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `email`='2449382217@qq.com',`password`='123456'  WHERE  `openid` = '11' [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:19:06+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.319000s] [吞吐率：0.76req/s] [内存消耗：2,369.77kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ce3b24ef-7ec3-41cd-94e5-e91514a0388a',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------408092168611746031876567',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.533000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` [ RunTime:0.357000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:21:44+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.310000s] [吞吐率：0.76req/s] [内存消耗：2,338.60kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b9f42750-37eb-4e96-9705-67459c7ef071',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------342291944271632456357795',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:22:47+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.296000s] [吞吐率：0.77req/s] [内存消耗：2,338.59kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f5ead336-1ec7-492c-a8f5-00b0904590ed',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------461462500635809236833783',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.524000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2449382217@qq.com' [ RunTime:0.351000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:23:12+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.316000s] [吞吐率：0.76req/s] [内存消耗：2,338.62kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '590818cd-bdc8-4fb1-9855-83a3234f4a72',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------105836111278642306489016',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.373000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2449382217@qq.com' [ RunTime:0.353000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:28:37+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.487000s] [吞吐率：0.67req/s] [内存消耗：2,371.72kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7d053fe9-efef-45f2-82b0-8e5c4ee83dc1',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------008583282553807959638806',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.605000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.427000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2449382217@qq.com' [ RunTime:0.373000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:31:11+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.696000s] [吞吐率：0.59req/s] [内存消耗：2,366.63kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b2c5cb89-e2f9-4256-ac8b-abed906075d8',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------988288297205703956015724',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.536000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.354000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:31:24+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.373000s] [吞吐率：0.73req/s] [内存消耗：2,370.72kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9f0afc9c-f895-449c-b442-72d8bfc1ce2f',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------643253864481192043028216',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.534000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.379000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.375000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:34:16+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.667000s] [吞吐率：0.60req/s] [内存消耗：2,366.77kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ae9e8e50-a75e-4650-bb16-24d5adc0aa31',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------276748218035251183814416',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.514000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2449382217@qq.com' [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.356000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:34:25+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.860000s] [吞吐率：0.54req/s] [内存消耗：2,366.61kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '64f3edf2-0853-4b8d-be8c-2099db39cbe4',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------291672020528897336460936',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.617000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.378000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.390000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.389000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:35:55+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.676000s] [吞吐率：0.60req/s] [内存消耗：2,366.64kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '02c070c8-42d6-45af-a683-031ede5be770',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------302198651915757410078201',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.533000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.352000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:36:56+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.920000s] [吞吐率：0.52req/s] [内存消耗：2,368.36kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '422d2a60-47f8-4bf4-b826-2e71354bd472',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------262247560292121832278477',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.615000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.398000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.404000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.414000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:37:24+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.354000s] [吞吐率：0.74req/s] [内存消耗：2,370.75kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '499b6b3e-f3d1-4b63-b950-cb6dc6961aac',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------628676812361766336838311',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.542000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.374000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.361000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:43:29+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.468000s] [吞吐率：0.68req/s] [内存消耗：2,371.33kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '554d956a-4dcc-44d6-8c02-c5f79512fbcc',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------266484687495025307213213',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.600000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.427000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2449382217@qq.com' [ RunTime:0.367000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:43:46+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.685000s] [吞吐率：0.59req/s] [内存消耗：2,366.79kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4e443f7e-8f52-4f1c-83e7-5f11e48a030b',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------385386357500024073803939',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '508',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '2449382217@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.531000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2449382217@qq.com' [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.353000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:44:25+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.962000s] [吞吐率：0.51req/s] [内存消耗：2,366.71kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7c77119f-dc8c-487f-9e95-2ddfa5f39ec5',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------023536207131055915134307',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.608000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.424000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.430000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.413000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:45:49+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.779000s] [吞吐率：0.56req/s] [内存消耗：2,366.71kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '59e6c30f-4613-4d76-93d9-2033c917011d',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------044309231480601937626077',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.589000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.401000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.348000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:46:13+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.674000s] [吞吐率：0.60req/s] [内存消耗：2,366.71kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b12a1be3-6c6e-4f2b-a369-2f8f1aa36af4',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------467141441393944451525771',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.534000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.354000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:46:57+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.343000s] [吞吐率：0.74req/s] [内存消耗：2,371.14kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2f690488-d62b-4fc8-bc50-fddfbb8fb8f6',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------187892339390050936837587',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.531000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.368000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.359000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:48:51+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.448000s] [吞吐率：0.69req/s] [内存消耗：2,369.43kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '639fb97b-86a6-4325-abbb-99083aa33f5e',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------833918611976419524793993',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.550000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.415000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.414000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:49:11+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.601000s] [吞吐率：0.62req/s] [内存消耗：2,368.68kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a5e9b0a9-012a-499d-bd6c-394c62e9829b',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------097559910892068534053157',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.509000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.342000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:50:03+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.628000s] [吞吐率：0.61req/s] [内存消耗：2,334.59kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cc5a7c4e-f019-4403-bd58-89578680ead0',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------574280892079658830333596',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.511000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.351000s ]
+---------------------------------------------------------------
+[ 2019-09-04T09:50:22+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.650000s] [吞吐率：0.61req/s] [内存消耗：2,334.59kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c5056849-44ef-49c5-bbd3-705d29c4f5c8',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------471797991181031445412746',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.514000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.352000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:24:23+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.765000s] [吞吐率：0.57req/s] [内存消耗：2,335.13kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd276b7aa-ea94-4bed-b305-331e205bc6af',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------385614557102998374640780',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.540000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.407000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.369000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.373000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:24:46+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.665000s] [吞吐率：0.60req/s] [内存消耗：2,334.87kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3070216a-daf7-4f67-927a-def7db985cad',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------021545869689613276554730',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.532000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.349000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:25:40+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：2.700000s] [吞吐率：0.37req/s] [内存消耗：2,334.62kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '151fe07c-c20d-46ae-82f4-3ef6b00934d4',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------720862971404442411407365',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.029000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.773000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.477000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:25:57+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.637000s] [吞吐率：0.61req/s] [内存消耗：2,368.70kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c5d7c1db-c3f1-457b-80af-06536e17c7c4',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------738081939099888591256106',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.510000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.342000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:26:31+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：2.069000s] [吞吐率：0.48req/s] [内存消耗：2,334.62kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1db90427-5bf2-4c71-b58b-ae706e4d18ad',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------813271888416864495133629',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.532000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.752000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.363000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:27:37+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.651000s] [吞吐率：0.61req/s] [内存消耗：2,366.99kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a1e5052c-ada1-4810-acf4-ab506268bad2',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------795139283458172960663373',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.522000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.366000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:29:44+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.650000s] [吞吐率：0.61req/s] [内存消耗：2,368.36kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ced2246-29ef-42d6-aae6-1d0f9d946a73',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------026420747814031024842155',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.512000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.357000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:30:04+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：2.056000s] [吞吐率：0.49req/s] [内存消耗：2,335.88kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7fed188b-b780-4097-88d2-7e114565a4e3',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------095979832047304125871790',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.515000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.371000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `email`='244938221@qq.com',`password`='123456'  WHERE  `openid` = '11' [ RunTime:0.386000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:46:49+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：1.697000s] [吞吐率：0.59req/s] [内存消耗：2,366.80kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '26f6019b-349e-49d2-81da-938d0cc9652d',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------224002279681419343065402',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.533000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.367000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.369000s ]
+---------------------------------------------------------------
+[ 2019-09-04T10:47:01+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/register/index
+[运行时间：4.026000s] [吞吐率：0.25req/s] [内存消耗：2,366.66kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cd7bcb1e-9799-478a-8bb2-76888736bdb5',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------285641267752887050864395',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '506',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '24493822@qq.com',
+  'password' => '123456',
+  'qqcode' => '104355',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.987000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:1.682000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '24493822@qq.com' [ RunTime:0.923000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.355000s ]
+---------------------------------------------------------------
+[ 2019-09-04T11:12:29+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index/email/index
+[运行时间：0.706000s] [吞吐率：1.42req/s] [内存消耗：2,237.39kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7b2a9c72-665a-4a61-9b23-d41e804601a1',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------419730796425579592909214',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T11:57:51+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/email/index
+[运行时间：0.638000s] [吞吐率：1.57req/s] [内存消耗：2,236.84kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '43e2a2a1-36a3-4155-bd64-d41f632bc947',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------499560199083840294871896',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T11:59:19+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：2.138000s] [吞吐率：0.47req/s] [内存消耗：2,335.88kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '89dfd2fd-d867-4e87-825f-a3bf13baf8fc',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------157462769699353056450439',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mv2ke6i4b4qvphgg7ennsfmnk',
+  'content-length' => '506',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '48723',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.540000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.366000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.369000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.361000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `email`='244938221@qq.com',`password`='123456'  WHERE  `openid` = '11' [ RunTime:0.397000s ]
+---------------------------------------------------------------
+[ 2019-09-04T12:00:32+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：0.043000s] [吞吐率：23.26req/s] [内存消耗：1,520.69kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c30c9bbf-1ea1-492e-94ad-f2ad3038d244',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------882947866738429184668772',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mv2ke6i4b4qvphgg7ennsfmnk',
+  'content-length' => '506',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '48723',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T12:01:53+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：0.038000s] [吞吐率：26.32req/s] [内存消耗：1,520.69kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7815aa00-03b7-4770-92c7-38c08b39094f',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------480989865703526889524872',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mv2ke6i4b4qvphgg7ennsfmnk',
+  'content-length' => '506',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '48723',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T12:02:32+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：0.038000s] [吞吐率：26.32req/s] [内存消耗：1,520.76kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8da7db65-3519-439f-a147-708900ee7bb9',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------767835632938787268692638',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mv2ke6i4b4qvphgg7ennsfmnk',
+  'content-length' => '506',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '48723',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T12:02:52+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：1.657000s] [吞吐率：0.60req/s] [内存消耗：2,366.88kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '51b6c1be-d0cb-4bf6-b4da-a3028ba4e56b',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------981568702536202898221609',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mv2ke6i4b4qvphgg7ennsfmnk',
+  'content-length' => '506',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '48723',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.529000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.347000s ]
+---------------------------------------------------------------
+[ 2019-09-04T12:03:12+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：2.465000s] [吞吐率：0.41req/s] [内存消耗：2,368.36kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f36df3ce-b132-4855-9fee-4c29de47aade',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------181572410970270680215162',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mv2ke6i4b4qvphgg7ennsfmnk',
+  'content-length' => '506',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '48723',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.636000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.434000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.390000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.921000s ]
+---------------------------------------------------------------
+[ 2019-09-04T12:03:41+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：1.611000s] [吞吐率：0.62req/s] [内存消耗：2,366.72kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '521e30b7-ef64-4aac-850b-fbdb4fd5bd3f',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------501417848228397700426239',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mv2ke6i4b4qvphgg7ennsfmnk',
+  'content-length' => '506',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '48723',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.506000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.335000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.344000s ]
+---------------------------------------------------------------
+[ 2019-09-04T12:04:29+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：1.662000s] [吞吐率：0.60req/s] [内存消耗：2,366.65kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c30676c3-6abd-4f32-9cd7-1c2e03db994c',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------715047297980519951986763',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mv2ke6i4b4qvphgg7ennsfmnk',
+  'content-length' => '506',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '48723',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.521000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.346000s ]
+---------------------------------------------------------------
+[ 2019-09-04T12:04:35+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：2.002000s] [吞吐率：0.50req/s] [内存消耗：2,335.88kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd47afedd-76ea-4160-927e-0921bf3edfc3',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------243170707563257505222864',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=8mv2ke6i4b4qvphgg7ennsfmnk',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'email' => '244938221@qq.com',
+  'password' => '123456',
+  'qqcode' => '487231',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '244938221@qq.com' [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT `email` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.350000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `email`='244938221@qq.com',`password`='123456'  WHERE  `openid` = '11' [ RunTime:0.353000s ]
+---------------------------------------------------------------
+[ 2019-09-04T18:13:26+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/email/index
+[运行时间：0.951000s] [吞吐率：1.05req/s] [内存消耗：2,238.03kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2072451919@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T18:14:29+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/email/index
+[运行时间：0.980000s] [吞吐率：1.02req/s] [内存消耗：2,238.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T18:15:22+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/email/index
+[运行时间：1.139000s] [吞吐率：0.88req/s] [内存消耗：2,238.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2072451919@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T18:16:46+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/email/index
+[运行时间：0.841000s] [吞吐率：1.19req/s] [内存消耗：2,238.37kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => 'c2b139460q@gmail.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T18:19:34+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/email/index
+[运行时间：0.809000s] [吞吐率：1.24req/s] [内存消耗：2,238.37kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => 'c2b139460q@gmail.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T18:21:08+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/email/index
+[运行时间：0.721000s] [吞吐率：1.39req/s] [内存消耗：2,238.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2072451919@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T18:25:27+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/email/index
+[运行时间：0.664000s] [吞吐率：1.51req/s] [内存消耗：2,238.34kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2072451919@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-04T18:35:56+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：1.340000s] [吞吐率：0.75req/s] [内存消耗：2,417.00kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '71',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2072451919@qq.com',
+  'password' => '1q2w3e4r5t',
+  'qqcode' => '410408',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2072451919@qq.com' [ RunTime:0.350000s ]
+[ error ] [8]未定义数组索引: openid[C:\xampp\htdocs\weice\application\index\controller\Register.php:26]
+---------------------------------------------------------------
+[ 2019-09-04T18:37:42+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index/register/index
+[运行时间：1.288000s] [吞吐率：0.78req/s] [内存消耗：2,416.56kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '63',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:18549',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1902010 MicroMessenger/6.7.3 Language/zh_CN webview/ token/61bc7f6c7eacfaae363736e40bd449bf',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2072451919@qq.com',
+  'password' => '1q2w3e4r5t',
+  'qqcode' => '1q2w3e4r5t',
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ C:\xampp\htdocs\weice\application\index\controller\Register.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_user` WHERE  `email` = '2072451919@qq.com' [ RunTime:0.343000s ]
+[ error ] [8]未定义数组索引: openid[C:\xampp\htdocs\weice\application\index\controller\Register.php:26]

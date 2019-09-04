@@ -89,4 +89,24 @@ class Album extends Controller
         $v = json_encode($result);
         return $v;
     }
+
+    /**
+     * 新建标签
+     */
+    public function tabs()
+    {
+        $data = input('post.');
+        $result = Db::name('tabs')
+            ->insert(
+                [
+                    'openid' => $data['openid'],
+                    'tabname' => $data['tabname']
+                ]
+            );
+        if ($result) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
 }
