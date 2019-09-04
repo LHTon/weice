@@ -23,6 +23,11 @@ class Friends extends Controller
         $openid = action('index/Message/openid');
         $Friend = new Friend();
         $fr_openid = $Friend->where('openid' , $openid['openid'])->column('fr_openid');
+
+        //判断好友人数是否为空，为空时返回0
+        if (count($fr_openid) == 0) {
+            return 0;
+        }
         $pic_name = $this->pic_name($fr_openid);
         $pic_name  = json_encode($pic_name);
         return $pic_name;
@@ -39,9 +44,9 @@ class Friends extends Controller
      */
     public function friend()
     {
-        $friend_openid = $_GET['openid'];
-        $nickname = $_GET['nickname'];
-        $headimgurl = $_GET['headimgurl'];
+        $friend_openid = $_POST['openid'];
+        $nickname = $_POST['nickname'];
+        $headimgurl = $_POST['headimgurl'];
         $param = request()->get();
 
         $attention = $this->attention($friend_openid);
