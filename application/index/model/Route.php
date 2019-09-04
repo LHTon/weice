@@ -17,5 +17,10 @@ class Route extends Model
         return $result;
     }
 
+    public function dynamic()
+    {
+        return $this->belongsTo('Dynamic');
+    }
+
 
 }

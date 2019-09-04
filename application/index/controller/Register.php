@@ -11,6 +11,7 @@ class Register extends Controller
     public function index()
     {
         $re = Session::get('qqcode');
+        halt($re);
         $data = input('post.');
 //        halt($data);
 
