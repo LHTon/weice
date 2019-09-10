@@ -1,0 +1,3174 @@
+---------------------------------------------------------------
+[ 2019-09-10T09:00:08+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：0.474000s] [吞吐率：2.11req/s] [内存消耗：2,419.32kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6c52909e-5283-4c58-ba4c-0fa1ec1383ca',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------668600505236889307042792',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: fr_openid[C:\xampp\htdocs\weice\application\index\controller\Friends.php:191]
+---------------------------------------------------------------
+[ 2019-09-10T09:00:39+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：1.665000s] [吞吐率：0.60req/s] [内存消耗：2,535.69kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '025ced3c-6715-4c6b-a31c-eea07e133a0c',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------014491126272240175439453',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.519000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.365000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.343000s ]
+[ error ] [0]没有条件不会执行删除操作[C:\xampp\htdocs\weice\thinkphp\library\think\db\Query.php:2890]
+---------------------------------------------------------------
+[ 2019-09-10T09:01:36+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：2.780000s] [吞吐率：0.36req/s] [内存消耗：2,573.49kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ce5ce516-a7e6-4bf2-bc0e-38f646875bdf',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------826802965369448747762776',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.512000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.344000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.406000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.358000s ]
+[ error ] [2]Illegal offset type[C:\xampp\htdocs\weice\application\index\controller\Friends.php:211]
+---------------------------------------------------------------
+[ 2019-09-10T09:54:04+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.975000s] [吞吐率：0.34req/s] [内存消耗：2,458.38kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9e37dde7-1246-4559-9039-13ea45eafb85',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------652503434714884084840108',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.525000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.367000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.353000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.369000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.375000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.364000s ]
+---------------------------------------------------------------
+[ 2019-09-10T09:54:22+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：2.413000s] [吞吐率：0.41req/s] [内存消耗：2,387.09kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a5e6ab9b-8a4c-478f-b2d3-7cf1891b3862',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------793676937330824442072329',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.503000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.397000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.343000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.372000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.366000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.401000s ]
+---------------------------------------------------------------
+[ 2019-09-10T09:55:32+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.360000s] [吞吐率：0.30req/s] [内存消耗：2,458.38kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1dcdd361-0691-44ed-9865-5bb9c18244f3',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------603330009856487612577378',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.607000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.428000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.439000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.416000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.399000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.425000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.409000s ]
+---------------------------------------------------------------
+[ 2019-09-10T09:55:57+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：2.387000s] [吞吐率：0.42req/s] [内存消耗：2,386.76kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '51acfdb6-519a-4c22-bd96-8e16fb2db6ad',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------360585285583568984762566',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.530000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.368000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.352000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.383000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.366000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:06:13+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/frriend
+[运行时间：0.464000s] [吞吐率：2.16req/s] [内存消耗：1,377.11kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'frriend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0f47e589-a3d4-4400-a241-81ab5f458438',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------488052105382101340173894',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-10T10:06:22+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.116000s] [吞吐率：0.32req/s] [内存消耗：2,458.54kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a454ee14-9e83-4bf9-b836-f57c85e64e6f',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------551676171645277001294251',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.538000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.362000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.353000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.485000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.415000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:06:39+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：2.343000s] [吞吐率：0.43req/s] [内存消耗：2,386.92kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------105620590317898125255553',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '77264759-bb7c-41f6-b3a0-5a256346084f',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.530000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.341000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.380000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.352000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:07:49+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.950000s] [吞吐率：0.34req/s] [内存消耗：2,457.54kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c58b040-991a-4304-a155-2daa687dfdd5',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------744771264223067774292144',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.526000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.377000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.363000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.373000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.356000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.371000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:08:01+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.354000s] [吞吐率：0.30req/s] [内存消耗：2,458.79kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------981712381440586056220254',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '49602d62-54c8-4f67-b7c0-37e4a1bc976b',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.544000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.368000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.381000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.356000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.366000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.389000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:08:29+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.947000s] [吞吐率：0.34req/s] [内存消耗：2,457.54kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c721fab4-939b-4c20-8f47-207f8a30c330',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------067381407860944883853293',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.349000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.392000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.344000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.356000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.365000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:10:08+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：4.807000s] [吞吐率：0.21req/s] [内存消耗：2,458.79kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------206618254571237474537206',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '377ebfec-1a1d-4119-8195-add1324361f9',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.086000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.419000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.433000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.436000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.898000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.449000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.400000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.436000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:10:22+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.907000s] [吞吐率：0.34req/s] [内存消耗：2,457.54kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'aa9a7205-3a6c-442e-b91f-ed0c493b70e0',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------875665013125967372404965',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.526000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.347000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.382000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.361000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:17:05+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.490000s] [吞吐率：0.29req/s] [内存消耗：2,458.79kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------555669264685476487857941',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f1deb04-1fe0-4794-ae30-a1e58b0f70d9',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.546000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.372000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.369000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.382000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.462000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.368000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.362000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:17:10+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.002000s] [吞吐率：0.33req/s] [内存消耗：2,457.54kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '31ef8006-6f81-488a-815c-471c761ec7b1',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------943730015456684455504915',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.519000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.364000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.438000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 0) [ RunTime:0.383000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:17:45+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：1.484000s] [吞吐率：0.67req/s] [内存消耗：2,485.87kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2dc0b7bd-8619-446a-ad27-bfdf5f0f55c2',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------425370355205037796173442',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.543000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.355000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:17:50+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.307000s] [吞吐率：0.30req/s] [内存消耗：2,458.79kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------166540574968160136817823',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '995cf234-26e9-4495-8668-fa7c1989d5b3',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.521000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.344000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.389000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.347000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.418000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.345000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.354000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:17:56+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.907000s] [吞吐率：0.34req/s] [内存消耗：2,457.54kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4cb1bb5b-4072-440e-b8f2-7b783a457fac',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------950131731797745655497700',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.532000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.348000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.364000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.381000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:19:46+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.267000s] [吞吐率：0.31req/s] [内存消耗：2,459.91kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------188417741858285938640169',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd90ff2e1-1eae-45ce-984f-e7ab6d30622c',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.516000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.342000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.391000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.341000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.345000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:19:52+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.237000s] [吞吐率：0.31req/s] [内存消耗：2,572.00kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '09980774-642f-4f07-9409-66570e22e969',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------921999143026232130319685',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.547000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.365000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.372000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.380000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.365000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.412000s ]
+[ error ] [0]缺少更新条件[C:\xampp\htdocs\weice\thinkphp\library\think\db\Query.php:2413]
+---------------------------------------------------------------
+[ 2019-09-10T10:20:38+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：1.484000s] [吞吐率：0.67req/s] [内存消耗：2,487.03kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2ba20274-5e73-43b2-b600-c2f07d99b4fc',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------244560331653011969533628',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.531000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.355000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:20:50+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.473000s] [吞吐率：0.29req/s] [内存消耗：2,459.95kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------422074407979359679916272',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1fe34dbd-bf90-4a8b-968d-7cdceac81ef1',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.530000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.361000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.460000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.368000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.445000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.362000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:21:12+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.129000s] [吞吐率：0.32req/s] [内存消耗：2,572.04kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6e096f0b-3f1d-43dd-a599-553d22fdb361',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------095343196118309170211631',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.531000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.357000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.376000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.365000s ]
+[ error ] [0]缺少更新条件[C:\xampp\htdocs\weice\thinkphp\library\think\db\Query.php:2413]
+---------------------------------------------------------------
+[ 2019-09-10T10:23:02+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.896000s] [吞吐率：0.26req/s] [内存消耗：2,458.94kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------106935669353106359150959',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b009dd26-6cf5-4990-8e4a-051cf304c942',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.622000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.422000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.383000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.533000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.395000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.461000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.418000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.397000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:23:08+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.846000s] [吞吐率：0.35req/s] [内存消耗：2,602.23kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f88c50eb-aeb3-41cf-872d-96463b1f8a6f',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------583048721116384545279034',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.526000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.380000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.349000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.421000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.371000s ]
+[ error ] [0]数据表字段不存在:[0][C:\xampp\htdocs\weice\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-09-10T10:25:48+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.261000s] [吞吐率：0.31req/s] [内存消耗：2,460.24kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------050684205777831766491269',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5479d2c3-5164-4d63-9a88-c6cb65237d35',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.528000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.366000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.345000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.364000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.343000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.345000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:25:54+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.990000s] [吞吐率：0.25req/s] [内存消耗：2,459.59kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e24f8a21-6bc8-431e-adab-827679f78ed8',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------575905384600406682491887',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.616000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.427000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.409000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.983000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.431000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.417000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.454000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:32:36+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：1.509000s] [吞吐率：0.66req/s] [内存消耗：2,487.38kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e5c1ea22-a3ae-427b-b30a-03b5a1ba488e',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------310756621373546172142885',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.532000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.348000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:32:47+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.292000s] [吞吐率：0.30req/s] [内存消耗：2,460.30kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------946761541791926122585407',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2f44e924-f81c-468f-a709-f84ac480cc92',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.530000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.349000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.372000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.379000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:32:52+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.934000s] [吞吐率：0.34req/s] [内存消耗：2,461.25kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f71998c4-47e2-4a27-98b0-91d7583b117c',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------380264806943316443722350',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.523000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.343000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.410000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.356000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.364000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:34:19+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.336000s] [吞吐率：0.30req/s] [内存消耗：2,460.42kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------721794241953996927825895',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '328b20bd-2130-43f8-8cd4-e30c92ba3975',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.540000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.376000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.360000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.373000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.364000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.362000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.362000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:34:25+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.988000s] [吞吐率：0.33req/s] [内存消耗：2,460.78kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a859c886-b4f4-4697-8437-39cc687035e9',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------417853406239664697368466',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.526000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.374000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.351000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.362000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.432000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:39:04+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.258000s] [吞吐率：0.31req/s] [内存消耗：2,460.42kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------181382712386025670756635',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '38f4aa3b-8982-417a-9bdd-a9bfcfe95137',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.521000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.345000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.362000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.346000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.349000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:39:20+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.910000s] [吞吐率：0.34req/s] [内存消耗：2,460.78kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ad58d46b-b18f-470a-ac01-f0789bfbdcf0',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------483869449967009708035130',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.523000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.355000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.368000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:39:51+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：1.700000s] [吞吐率：0.59req/s] [内存消耗：2,487.38kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c97f55be-68eb-43d1-a7fc-0c213b2db7fb',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------795270278495981945041484',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.638000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.402000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.427000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:39:58+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.229000s] [吞吐率：0.31req/s] [内存消耗：2,460.30kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------180123135537494558730448',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5c053d05-79d6-488b-80f8-8c55cbec8db7',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.521000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.350000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.366000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:40:00+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.082000s] [吞吐率：0.32req/s] [内存消耗：2,461.25kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9022c14e-8633-4e05-a889-c2112c5c0c90',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------044399751703235859381725',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.531000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.354000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.461000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.382000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:40:55+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.312000s] [吞吐率：0.30req/s] [内存消耗：2,460.30kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------362503039369929813620214',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e20e8101-00c1-4b2f-b53a-f1979ab75492',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.529000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.352000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.383000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.384000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:45:05+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：1.522000s] [吞吐率：0.66req/s] [内存消耗：2,486.88kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------590464298377744001374466',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2fe2dbd8-7dfb-43f6-832c-e79c08008fa2',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.536000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.362000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:45:08+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.343000s] [吞吐率：0.30req/s] [内存消耗：2,596.16kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f63a5a3-8c5d-424e-ac04-7d24ea3545db',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------558098460067354021454427',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.502000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.334000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.335000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.374000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=0  WHERE  `idx_fan` = 22 [ RunTime:0.347000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:45:17+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.725000s] [吞吐率：0.27req/s] [内存消耗：2,460.30kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------304112305996817808775040',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2f775898-a517-4f74-ba89-905eecc942fd',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.597000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.401000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.394000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.443000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.413000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.430000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.402000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.406000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:45:31+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.868000s] [吞吐率：0.26req/s] [内存消耗：2,596.16kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1d3a914b-fc42-407e-a0d3-13077fb5a42c',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------909296304322043440372918',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.601000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.415000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.416000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.433000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.422000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.402000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.448000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=0  WHERE  `idx_fan` = 23 [ RunTime:0.458000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:46:16+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：9.311000s] [吞吐率：0.11req/s] [内存消耗：2,460.30kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------341537349998134423507785',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c6c1a47-115c-4c28-b3d8-37017593afbe',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:6.537000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.355000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.365000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.387000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.355000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:46:44+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.357000s] [吞吐率：0.30req/s] [内存消耗：2,461.25kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9305ee45-3673-4697-a4ec-c3bbd8d4e285',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------935975855006255401739384',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.602000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.438000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.373000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.443000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.426000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.419000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.420000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:47:52+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.325000s] [吞吐率：0.30req/s] [内存消耗：2,460.76kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------092084909018059775512826',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '76c5cb0b-565c-4a18-a1a1-01b3ba113c15',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.522000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.367000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.363000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.387000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.361000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.349000s ]
+---------------------------------------------------------------
+[ 2019-09-10T10:48:00+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.925000s] [吞吐率：0.34req/s] [内存消耗：2,461.71kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f768f319-8051-4b03-aed7-9014ca0d30f9',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------730481477192310378593225',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.517000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.347000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.371000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.380000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:01:23+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：4.915000s] [吞吐率：0.20req/s] [内存消耗：2,460.76kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------845665675176356604831871',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4ef4f84c-cd4b-472c-8c48-07b17b97d102',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.934000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.344000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.374000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.409000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:1.517000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.366000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:01:28+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.905000s] [吞吐率：0.34req/s] [内存消耗：2,461.71kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e04bc471-72da-49b5-a259-705760659817',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------211636062505212546480891',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.516000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.342000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.373000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.344000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.347000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.364000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:01:49+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：1.461000s] [吞吐率：0.68req/s] [内存消耗：2,487.84kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cc356b6a-f390-47d1-9975-6bace82f64c8',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------219710883004045046949366',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.525000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.348000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:01:59+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.256000s] [吞吐率：0.31req/s] [内存消耗：2,460.76kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------031635152540878086836062',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '25542189-81d4-4f77-9291-5bada6714f0c',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.348000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.377000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.377000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.346000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:02:04+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.950000s] [吞吐率：0.34req/s] [内存消耗：2,461.71kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '17e7129a-e00e-40e5-b78a-5f458fff5fb6',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------002379294842306146839435',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.527000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.361000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.399000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.361000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:05:31+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.302000s] [吞吐率：0.30req/s] [内存消耗：2,460.76kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------107915224287194427168759',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a38ba890-c344-475e-81bd-48ba6ceccdc0',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.523000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.349000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.364000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.372000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.348000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:05:36+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.350000s] [吞吐率：0.30req/s] [内存消耗：2,461.73kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b1c9d768-c768-4924-bb6f-74008efe7be1',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------134653252944285675679984',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.528000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.345000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.390000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.403000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=1  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.375000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:09:09+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：5.353000s] [吞吐率：0.19req/s] [内存消耗：2,460.76kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------730384323025153805569533',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3cc617f4-caf6-4957-8264-ae01b9f63dea',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.514000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.348000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.855000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.365000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:1.937000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.369000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:09:45+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.187000s] [吞吐率：0.31req/s] [内存消耗：2,461.73kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '52bdb83b-2713-49c9-84d7-d94fbb429d09',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------529219274278623317107203',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.504000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.337000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.370000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.341000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.345000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.352000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=1  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.344000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:14:59+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.349000s] [吞吐率：0.30req/s] [内存消耗：2,460.24kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------537883218461253293002364',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1fee06c6-1121-4aa6-a410-6af1b48e03dd',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.530000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.351000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.392000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.362000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.369000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.375000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:15:02+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：1.542000s] [吞吐率：0.65req/s] [内存消耗：2,486.83kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------301451609964732866307859',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8f150a04-2af3-4dab-be14-0b8ef4e25629',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.532000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.422000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.355000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:15:09+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：4.223000s] [吞吐率：0.24req/s] [内存消耗：2,459.60kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '86f5ea14-bf74-42d8-8f46-5aa648dffbc6',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------341919916080566743571714',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.617000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.386000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.406000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.911000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.429000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.382000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.432000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=1  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.427000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:15:14+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：1.476000s] [吞吐率：0.68req/s] [内存消耗：2,487.32kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'caa54a2e-60a2-4ddd-895e-d2fac9a27872',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------936814948609575149824855',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.532000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.351000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:16:11+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.717000s] [吞吐率：0.27req/s] [内存消耗：2,460.24kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------198572462667184412869417',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a8c595fb-d9c5-4016-85d6-fa4f6d589ba8',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.588000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.431000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.391000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.440000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.408000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.397000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.432000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.392000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:16:21+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.293000s] [吞吐率：0.30req/s] [内存消耗：2,459.60kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b3a16e95-9b5e-4b47-a490-bcaacab0ef4d',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------647403673340569947250856',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.528000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.362000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.374000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.369000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=1  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.352000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:18:26+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.322000s] [吞吐率：0.30req/s] [内存消耗：2,460.41kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------379179927158478870948533',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '849e29b9-18fe-4110-99e6-304f0c6388a1',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.521000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.358000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.371000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.371000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.368000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.354000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:18:32+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.852000s] [吞吐率：0.26req/s] [内存消耗：2,459.77kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f6fd6dd5-c0b5-4ff1-8d62-8c771c7bd135',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------478269713476687864473526',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.595000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.437000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.416000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.468000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.406000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.424000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.446000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=1  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.423000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:19:24+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：4.120000s] [吞吐率：0.24req/s] [内存消耗：2,460.41kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------953726007899049582350884',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f5ce3f64-bd69-4973-a8e5-dd60775ed277',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.525000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.390000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.347000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:1.195000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.373000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.347000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.348000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:19:28+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.218000s] [吞吐率：0.45req/s] [内存消耗：2,509.84kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c1d89659-1448-49ac-a88a-95ce95d68f51',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------399499659770872908677037',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.522000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.346000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.399000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:24:32+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：1.504000s] [吞吐率：0.66req/s] [内存消耗：2,487.49kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3506cec4-2e48-4558-9e9f-b48cafb1b157',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------667445393299180125594679',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.533000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:24:43+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：4.104000s] [吞吐率：0.24req/s] [内存消耗：2,460.41kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------789213651202210914196822',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2a8ef085-c9b0-4848-9bee-4168ec781228',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.555000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.456000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.353000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:1.057000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.362000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.356000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:24:55+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.262000s] [吞吐率：0.44req/s] [内存消耗：2,509.84kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8c6ae362-0d69-4d65-8f53-a5b1b695996a',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------630541465923681578051602',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.528000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.352000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.422000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` [ RunTime:0.358000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:25:25+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.280000s] [吞吐率：0.30req/s] [内存消耗：2,460.41kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------897743668854773660166200',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1d371ebe-3956-4d68-8703-22d441746007',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.529000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.350000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.388000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:25:30+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.702000s] [吞吐率：0.37req/s] [内存消耗：2,490.09kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ff8efa28-e69c-4af0-9d48-db574c8723db',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------773162790036481588922151',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.523000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.368000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.364000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = '10'  AND `fr_openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.850000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:25:41+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.271000s] [吞吐率：0.31req/s] [内存消耗：2,460.24kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------715738606883201495597588',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c7ed00a4-083f-422c-b9c5-8355104b01c8',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.535000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.347000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.387000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.361000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:25:46+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：2.937000s] [吞吐率：0.34req/s] [内存消耗：2,458.98kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '86361f51-edcf-456a-90bd-dee0914fb05b',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------344687942794230155098091',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.536000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.351000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.371000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = '10'  AND `fr_openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 0) [ RunTime:0.380000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:27:55+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.242000s] [吞吐率：0.31req/s] [内存消耗：2,459.59kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f4768444-7877-44a4-ad7c-49b9fce4ad2f',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------097636186543539498710380',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.341000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = '10'  AND `fr_openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.337000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('10' , 'odCXI5crQj3ie9EzDinn7ZJiCkjI') [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.349000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('10' , 'odCXI5crQj3ie9EzDinn7ZJiCkjI' , 1) [ RunTime:0.387000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=1  WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.347000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:28:16+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.300000s] [吞吐率：0.30req/s] [内存消耗：2,460.24kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------716916772875119354188707',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5f58b248-d765-40c5-bf76-688c44177c90',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.536000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.347000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.369000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.373000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.377000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:32:21+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/fans
+[运行时间：2.538000s] [吞吐率：0.39req/s] [内存消耗：2,490.63kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'fans',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------131275678820625373457619',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0145dacd-9faf-4d5b-b4f5-364d4e992509',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->fans[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.515000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `fan_id` FROM `dy_fans` WHERE  `openid` = '10' [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `openid`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT `fan_id`,`status` FROM `dy_fans` WHERE  `openid` = '10' [ RunTime:0.342000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:33:04+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.402000s] [吞吐率：0.29req/s] [内存消耗：2,459.59kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ab0d1a44-f4da-415c-9d3e-d613f4a4f925',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------680185689138049881142610',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '641',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.535000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.354000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.381000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = '10'  AND `fr_openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.397000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=1  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.419000s ]
+---------------------------------------------------------------
+[ 2019-09-10T11:33:10+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/fans
+[运行时间：2.948000s] [吞吐率：0.34req/s] [内存消耗：2,491.16kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'fans',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------046996412129461337823634',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1d246f8f-9087-45fb-94fe-795af34e2e16',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->fans[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.532000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `fan_id` FROM `dy_fans` WHERE  `openid` = '10' [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.371000s ]
+[ sql ] [ SQL ] SELECT `openid`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT `openid`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.366000s ]
+[ sql ] [ SQL ] SELECT `fan_id`,`status` FROM `dy_fans` WHERE  `openid` = '10' [ RunTime:0.369000s ]
+---------------------------------------------------------------
+[ 2019-09-10T12:37:02+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/index
+[运行时间：2.194000s] [吞吐率：0.46req/s] [内存消耗：2,490.66kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------649666992817861291607081',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a1de6527-0449-43a8-a245-e7db4981e925',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->index[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.519000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = '10' [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `openid`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.345000s ]
