@@ -83,11 +83,11 @@ class Message extends Controller
         return $count;
     }
     public function index(){
-        //获取上新图集
+        //获取一个月内上新图集
         $img_time = $this->img_time();
         //获取关注度
         $attention = $this->attention();
-        //获取所有图集
+        //获取所有图片
         $image = $this->image();
         //获取粉丝
         $fans = $this->fans();

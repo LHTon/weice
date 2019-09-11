@@ -3172,3 +3172,457 @@
 [ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = '10' [ RunTime:0.355000s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.353000s ]
 [ sql ] [ SQL ] SELECT `openid`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.345000s ]
+---------------------------------------------------------------
+[ 2019-09-10T15:56:50+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[运行时间：3.407000s] [吞吐率：0.29req/s] [内存消耗：2,460.24kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------739249175866010766442467',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fe0b5ba2-7c41-4f19-91d8-898cd786cfba',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.587000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.368000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_friend`    WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] DELETE FROM `dy_fans`    WHERE  `openid` = '10'  AND `fan_id` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.388000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_fans` [ RunTime:0.346000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `openid`='odCXI5crQj3ie9EzDinn7ZJiCkjI',`fan_id`='10',`status`=0  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.376000s ]
+---------------------------------------------------------------
+[ 2019-09-10T15:56:56+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.381000s] [吞吐率：0.30req/s] [内存消耗：2,459.59kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '910f5276-b4b7-4923-9fe2-a68f7d7ccca0',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------432810387563218476792470',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '649',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => 'lliiooiill',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/bULf2u1P7aKgagtlLaoWSlwEPOn1sgjFcbdr2KbrGgrVOnpKGvyWiaPM2MMsKesTNoNkKd0fOqn3BWMlzcezO5A/132',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.525000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = '10' [ RunTime:0.361000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10') [ RunTime:0.401000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = '10'  AND `fr_openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , '10' , 1) [ RunTime:0.390000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=1  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = '10' [ RunTime:0.395000s ]
+---------------------------------------------------------------
+[ 2019-09-10T15:57:49+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[运行时间：3.264000s] [吞吐率：0.31req/s] [内存消耗：2,460.15kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7dabdc9d-7e0a-4e92-9fa2-3d6f884acc7b',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------526387725078138725638817',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '667',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => '通',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.516000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fr_openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.346000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_friend` (`openid` , `fr_openid`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , 'odCXI5XSFVlxO1AJSqtRfbVM8pYA') [ RunTime:0.364000s ]
+[ sql ] [ SQL ] SELECT * FROM `dy_friend` WHERE  `openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA'  AND `fr_openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_fans` (`fan_id` , `openid` , `status`) VALUES ('odCXI5crQj3ie9EzDinn7ZJiCkjI' , 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' , 1) [ RunTime:0.379000s ]
+[ sql ] [ SQL ] UPDATE `dy_fans`  SET `status`=1  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `fan_id` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.365000s ]
+---------------------------------------------------------------
+[ 2019-09-10T18:09:35+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/fans
+[运行时间：2.558000s] [吞吐率：0.39req/s] [内存消耗：2,490.63kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'fans',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------998451007347882087963305',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e356cd15-eb04-4221-94c3-47ab50ca8529',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->fans[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.525000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT `fan_id` FROM `dy_fans` WHERE  `openid` = '10' [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.365000s ]
+[ sql ] [ SQL ] SELECT `openid`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT `fan_id`,`status` FROM `dy_fans` WHERE  `openid` = '10' [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-10T19:55:22+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/messige/index
+[运行时间：0.554000s] [吞吐率：1.81req/s] [内存消耗：1,028.55kb] [文件加载：29]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'messige',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fd9a8c31-9d4a-4fb8-b371-9945de6d2899',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------806173359426692768563811',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-10T19:55:49+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/message/index
+[运行时间：10.081000s] [吞吐率：0.10req/s] [内存消耗：2,561.18kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8d789fea-6f90-4094-b0ba-6fdabf1104c2',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------922627657827572779904180',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.535000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.367000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 LIMIT 1 [ RunTime:0.858000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 LIMIT 1 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 LIMIT 1 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 LIMIT 1 [ RunTime:0.858000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 LIMIT 1 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 LIMIT 1 [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT `user_profile` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 LIMIT 1 [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 LIMIT 1 [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15667986534059 LIMIT 1 [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15668025568788 LIMIT 1 [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15668028173192 LIMIT 1 [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 LIMIT 1 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 LIMIT 1 [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 LIMIT 1 [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 LIMIT 1 [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.374000s ]
+[ sql ] [ SQL ] SELECT `fan_id` FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `create_time` [ RunTime:0.352000s ]
+---------------------------------------------------------------
+[ 2019-09-10T20:37:31+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/fansTime
+[运行时间：1.482000s] [吞吐率：0.67req/s] [内存消耗：2,485.37kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'fansTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9e158fb6-4f57-44a5-8dda-d6c02729d612',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------969875292173026291346178',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Friends->fansTime[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.519000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-09 00:00:00' AND '2019-09-10 00:00:00' LIMIT 1 [ RunTime:0.341000s ]
+---------------------------------------------------------------
+[ 2019-09-10T20:38:13+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/fansTime
+[运行时间：1.473000s] [吞吐率：0.68req/s] [内存消耗：2,485.37kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'fansTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '989df1ff-d804-4961-a7c7-6dc1f383ef9a',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------351199863023956085022934',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Friends->fansTime[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.526000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-09 00:00:00' AND '2019-09-10 00:00:00' LIMIT 1 [ RunTime:0.358000s ]
+---------------------------------------------------------------
+[ 2019-09-10T20:39:30+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/fansTime
+[运行时间：1.799000s] [吞吐率：0.56req/s] [内存消耗：2,486.74kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'fansTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '29efd126-9fdd-4ea4-8c48-3dba5c15a489',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------349379449231815686214999',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Friends->fansTime[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.514000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.364000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-09 00:00:00' AND '2019-09-10 00:00:00' LIMIT 1 [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' LIMIT 1 [ RunTime:0.340000s ]
+---------------------------------------------------------------
+[ 2019-09-10T20:42:33+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/fansTime
+[运行时间：2.147000s] [吞吐率：0.47req/s] [内存消耗：2,486.29kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'fansTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e1bc46fe-642e-4eeb-8fd9-cb73edf4b5ca',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------690794262672520314346284',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Friends->fansTime[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.511000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-09 00:00:00' AND '2019-09-10 00:00:00' LIMIT 1 [ RunTime:0.343000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' LIMIT 1 [ RunTime:0.333000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.342000s ]
+---------------------------------------------------------------
+[ 2019-09-10T20:43:06+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/fansTime
+[运行时间：3.162000s] [吞吐率：0.32req/s] [内存消耗：2,486.29kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'fansTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2e7d3d61-ce66-4fb8-8768-ebf8f4f5e3d9',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------499084753656537376473460',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Friends->fansTime[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.653000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.450000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-09 00:00:00' AND '2019-09-10 00:00:00' LIMIT 1 [ RunTime:0.430000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' LIMIT 1 [ RunTime:0.954000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.438000s ]
+---------------------------------------------------------------
+[ 2019-09-10T20:43:31+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/fansTime
+[运行时间：2.165000s] [吞吐率：0.46req/s] [内存消耗：2,486.41kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'fansTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f86c8af4-3e77-42bd-b702-2b7df9099bba',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------976128632023100460044141',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Friends->fansTime[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.529000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-09 00:00:00' AND '2019-09-10 00:00:00' LIMIT 1 [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' LIMIT 1 [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.352000s ]

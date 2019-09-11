@@ -165,9 +165,9 @@ class Friends extends Controller
         //状态值1或0改为true跟false
         foreach ($sql as $key => $value) {
             if ($value == 1) {
-                $sql[$key] = "true";
+                $sql[$key] = true;
             } else {
-                $sql[$key] = "false";
+                $sql[$key] = false;
             }
         }
         //合并数组字段
@@ -230,6 +230,34 @@ class Friends extends Controller
         } else {
             return "你们不是好友关系";
         }
+    }
+
+    /*
+     * @param openid 用户ID
+     * @return lastadd 昨天新增
+     * @return monthadd 本月新增
+     * @return countfans 所有粉丝
+     */
+    public function fansTime()
+    {
+        $FansModel = new Fans();
+        //获取本人openid
+        $openid = action('index/Message/openid');
+        //查询昨天新增粉丝
+        $lastadd = $FansModel->where('openid',$openid['openid'])->whereTime('create_time','yesterday')->count();
+        //查询本月新增粉丝
+        $monthadd = $FansModel->where('openid',$openid['openid'])->whereTime('create_time','month')->count();
+        //查询所有粉丝
+        $countfans = $FansModel->where('openid',$openid['openid'])->count();
+
+        //总和
+        $data = [
+            'lastadd'       => $lastadd,
+            'monthadd'     => $monthadd,
+            'countfans'    => $countfans
+        ];
+        $data = json_encode($data);
+        return $data;
     }
 
 }
