@@ -1,0 +1,863 @@
+---------------------------------------------------------------
+[ 2019-09-11T14:44:24+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：10.609000s] [吞吐率：0.09req/s] [内存消耗：2,615.38kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4280b88f-9a88-48f2-8651-ae93ac79e02b',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------529811198049854482684073',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.655000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.884000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic`,`describes`,`create_time`,`idx_tabs` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.440000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.446000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.942000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.953000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.435000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.433000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.436000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.435000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.947000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.443000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.946000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.432000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.439000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.434000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.456000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:46:10+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：6.382000s] [吞吐率：0.16req/s] [内存消耗：2,546.05kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '91c26f83-9da2-4f62-adec-0baaf4da6e34',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------915009827461151336948228',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.524000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic`,`describes`,`create_time`,`idx_tabs` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.344000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.361000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.347000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:46:27+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：6.344000s] [吞吐率：0.16req/s] [内存消耗：2,615.71kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3a786b3b-3103-42aa-b341-9d2ba73509f2',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------743225476690849768320663',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.519000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic`,`describes`,`create_time`,`idx_tabs` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.343000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.344000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.343000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.343000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.347000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:47:43+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：2.214000s] [吞吐率：0.45req/s] [内存消耗：2,657.73kb] [文件加载：51]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '062aaac7-742f-48bd-b0d9-6cb54a28e01e',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------049846795231349482486311',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.710000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.345000s ]
+[ error ] [2]Illegal string offset 'idx_tabs'[C:\xampp\htdocs\weice\application\index\controller\Video.php:56]
+---------------------------------------------------------------
+[ 2019-09-11T14:48:50+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：6.946000s] [吞吐率：0.14req/s] [内存消耗：2,615.71kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd99c07c2-ab8e-4f1f-b2f0-94aa1610148b',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------825423552094264017279088',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.525000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic`,`describes`,`create_time`,`idx_tabs` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.366000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.367000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.847000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.350000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:53:04+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：3.847000s] [吞吐率：0.26req/s] [内存消耗：2,610.16kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e151418d-f644-4d26-8640-36a3d398a9ce',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------257787133510710999124623',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.502000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic`,`describes`,`create_time`,`idx_tabs` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.336000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.340000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.334000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.338000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.338000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.346000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:53:24+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：1.530000s] [吞吐率：0.65req/s] [内存消耗：2,607.87kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b4b7245f-3a55-4175-9f09-dde94d46dd64',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------336489584977467479307169',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.541000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.395000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic`,`describes`,`create_time`,`idx_tabs` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.355000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:53:52+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：3.990000s] [吞吐率：0.25req/s] [内存消耗：2,610.16kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dacad509-a121-4f64-ad14-d3b604b70cab',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------388308197685779385323385',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.549000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic`,`describes`,`create_time`,`idx_tabs` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_tabs` [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `tabname` FROM `dy_tabs` WHERE  `idx_tabs` = 9 LIMIT 1 [ RunTime:0.358000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:56:30+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：4.098000s] [吞吐率：0.24req/s] [内存消耗：2,657.84kb] [文件加载：51]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '50906789-b0fa-4d17-b07d-044c6cb30ebb',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------455433062410262163761244',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.510000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.344000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 0 [ RunTime:0.335000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1 [ RunTime:0.339000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 2 [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 3 [ RunTime:0.337000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 4 [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 5 [ RunTime:0.336000s ]
+[ error ] [8]未定义变量: arr[C:\xampp\htdocs\weice\application\index\controller\Video.php:88]
+---------------------------------------------------------------
+[ 2019-09-11T14:56:36+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：1.476000s] [吞吐率：0.68req/s] [内存消耗：2,602.26kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '57010283-8192-4695-8c69-ab8a8ea21af3',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------485055379816044247166258',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.524000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.349000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:57:10+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：1.497000s] [吞吐率：0.67req/s] [内存消耗：2,602.26kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '35d2b35c-af42-4104-9efc-0289bb2bf42a',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------176658369172990027448263',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.530000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.365000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.362000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:57:21+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：4.017000s] [吞吐率：0.25req/s] [内存消耗：2,606.59kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1d9739cc-6182-4a36-b9ce-b1dda476e3f2',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------027591343693661902703238',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.535000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.370000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 0 [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1 [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 2 [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 3 [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 4 [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 5 [ RunTime:0.349000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:58:52+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：5.405000s] [吞吐率：0.19req/s] [内存消耗：2,606.84kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5457ec33-976e-400a-bff6-1917cbce7d63',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------824369666816956648326496',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.261000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.443000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.421000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.432000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.420000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.438000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.427000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.427000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.425000s ]
+[ sql ] [ SQL ] SELECT `route_dy_id`,`route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.437000s ]
+---------------------------------------------------------------
+[ 2019-09-11T14:59:20+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：3.934000s] [吞吐率：0.25req/s] [内存消耗：2,606.60kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9d08b138-ce9f-4539-ad97-a4c5e84f8d5a',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------659567997686308175509235',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.522000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.359000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.366000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.344000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.351000s ]
+---------------------------------------------------------------
+[ 2019-09-11T15:00:14+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：3.862000s] [吞吐率：0.26req/s] [内存消耗：2,606.60kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '28557a9c-bfbc-43eb-98a0-e7f56318ad90',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------199445605199597234023955',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.515000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.341000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.340000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.338000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.343000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.356000s ]
+---------------------------------------------------------------
+[ 2019-09-11T16:06:57+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：3.993000s] [吞吐率：0.25req/s] [内存消耗：2,606.60kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6818f7b0-7595-4a70-9b25-4cab3e7d6e3c',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------898146179617779412329868',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.536000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.375000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.354000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.349000s ]
+---------------------------------------------------------------
+[ 2019-09-11T16:07:16+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：3.847000s] [吞吐率：0.26req/s] [内存消耗：2,606.60kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2542b7e0-881c-4e00-9d2b-19b189a182a9',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------824052623168682534675080',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.508000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.364000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.341000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.340000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.339000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.337000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.342000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.337000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.343000s ]
+---------------------------------------------------------------
+[ 2019-09-11T16:08:35+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：4.205000s] [吞吐率：0.24req/s] [内存消耗：2,606.60kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '21d238fb-ba9a-44db-8b7b-3efe0e1bd031',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------178504757905967344209458',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.671000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.434000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.356000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.373000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.343000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.352000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.363000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.362000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.353000s ]
+---------------------------------------------------------------
+[ 2019-09-11T16:09:02+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：3.959000s] [吞吐率：0.25req/s] [内存消耗：2,606.63kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8d0d3c00-1384-4609-a72e-bc7ee4922c86',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------367523268629909496702707',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.512000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.362000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.360000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.354000s ]
+---------------------------------------------------------------
+[ 2019-09-11T16:10:23+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：3.942000s] [吞吐率：0.25req/s] [内存消耗：2,539.80kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1fd5147f-d5b1-4d1c-8128-f6cfa07c9b98',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------866316346582679504698367',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.524000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.365000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.349000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.350000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.347000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.353000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.356000s ]
+---------------------------------------------------------------
+[ 2019-09-11T16:11:11+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[运行时间：4.366000s] [吞吐率：0.23req/s] [内存消耗：2,539.76kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '65a7e9c9-1615-4554-84a4-2e54054c03da',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------308711651835938513294566',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.508000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.346000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `type` = 1 [ RunTime:0.334000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.345000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006715744 [ RunTime:0.341000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 1568006774136 [ RunTime:0.336000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066137797 [ RunTime:0.861000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066531657 [ RunTime:0.337000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680066883438 [ RunTime:0.337000s ]
+[ sql ] [ SQL ] SELECT `route`,`thumb_route` FROM `dy_route` WHERE  `route_dy_id` = 15680067461843 [ RunTime:0.350000s ]
