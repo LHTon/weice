@@ -8,6 +8,7 @@
 
 namespace app\index\controller;
 
+use app\index\model\Friend;
 use think\Controller;
 use think\Db;
 use think\Request;
@@ -18,21 +19,12 @@ class Index extends Controller
 
     //获取所有openid  自己以及关注好友
     public function openid() {
-        $dy['openid'] = $_GET['openid'];
-        $dyid[] = $dy['openid'];
-        $sql = Db::table('dy_user')
-            ->alias('u')
-            ->join('dy_friend f', 'u.openid = f.openid')
-            ->where('u.openid',$dy['openid'])
-            ->field('f.fr_openid')
-//            ->group('f.fr_openid')
-            ->select();
-        foreach ($sql as $key => $value){
-            foreach ($value as $key1 => $value1){
-                $dyid[] = $value1;
-            }
-        }
-        return $dyid;
+        $openid = action('index/Message/openid');
+        $FriendModel = new Friend();
+        $sql = $FriendModel->where('openid',$openid['openid'])->column('fr_openid');
+        $sql[] = $openid['openid'];
+//        halt($sql);
+        return $sql;
     }
 
 
@@ -80,14 +72,13 @@ class Index extends Controller
     {
         //获取用户openid
         $dy = $this->openid();
-//        $dy['openid'] = $_GET['openid'];
         for($i =0;$i<count($dy); $i++) {
             $sql = Db::table('dy_user')
                 ->alias('u')
                 ->join('dy_dynamic d', 'u.openid = d.openid')
                 ->join('dy_route r', 'd.idx_dynamic = r.route_dy_id')
                 ->where('u.openid', $dy[$i])
-                ->field('r.route_dy_id, d.describes,r.create_time')
+                ->field('r.route_dy_id, d.describes,r.create_time,d.type')
                 ->order('r.create_time', 'desc')
                 ->group('r.route_dy_id')
                 ->select();
@@ -100,6 +91,16 @@ class Index extends Controller
                 $aa[] = $value1;
             }
         }
+
+        foreach ($aa as $key => $value) {
+            if ($value['type'] == '1') {
+                $aa[$key]['type'] = "video";
+            } else {
+                $aa[$key]['type'] = "picture";
+            }
+//            halt($aa);
+        }
+//        halt($aa);
         return $aa;
     }
 
@@ -284,7 +285,7 @@ class Index extends Controller
         //获取所有图集唯一的标识符
         $arr = $this->route_dy_id();
 //        print_r($arr);
-
+//        exit();
         $count = count($arr);
         //获取所有用户唯一的属性
         $describe = $this->describe();
@@ -356,11 +357,25 @@ class Index extends Controller
 
         //判断当前日期显示
         $describe = $this->timer($sorted);
-//        print_r($describe);
+        /*
+         * 降重复，v 去除视频项，去从视频与缩略图的数组
+         */
+        foreach ($describe as $key => $value) {
+            foreach ($value as $k => $v) {
+//                halt($value['thumb_route'][0]);
+                    if ($value['type'] == "video") {
+                        $describe[$key]['thumb_route'] = $value['thumb_route'][0];
+                        $describe[$key]['route'] = $value['route'][0];
+                    }
+            }
+        }
 
+//        print_r($describe);
+//        exit();
         //返回json对象
         $describe = json_encode($describe);
-        print_r($describe);
+//        print_r($describe);
+        return $describe;
 
     }
 
