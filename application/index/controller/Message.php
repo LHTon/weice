@@ -11,89 +11,71 @@ namespace app\index\controller;
 
 use app\index\model\Dynamic;
 use app\index\model\Fans;
-use app\index\model\User;
+use app\index\model\Friend;
 use think\Controller;
 
 class Message extends Controller
 {
     /*
-     * 获取openid
-     */
-    public function openid()
-    {
-        $dy['openid'] = $_POST['openid'];
-        return $dy;
-    }
-
-    /*
-     * $query 传入当前图集的资源ID，查询图集的所有图片总和！
-     */
-    public function count($query){
-        $RouteModel = new Dynamic();
-        $count = 0;
-        for ($i = 0; $i<count($query); $i++) {
-            $route = $RouteModel->route()->where('route_dy_id',$query[$i])->count('route_dy_id');
-            $count += $route;
-        }
-        return $count ;
-    }
-
-    /*
      * 上新（1个月为周期。1个月内没有上传新图片，则数据为归0；1个月上传新图片张数为上新的数据）
      */
-    public function img_time(){
-        $openid = $this->openid();
-        $UserModel = new User();
+    public function img_time($Query)
+    {
+        $DynamicModel = new Dynamic();
         //获取当月的图集 每月1号清0
-        $tuji = $UserModel->dynamic()->where('openid' , $openid['openid'])->whereTime('create_time','m')->column('idx_dynamic');
-        $count = $this->count($tuji);
-        return $count;
+        $tuji = $DynamicModel->where('openid', $Query)->whereTime('create_time','month')->count('idx_dynamic');
+        return $tuji;
     }
+
     /*
      * 获取关注度
      */
-    public function attention()
+    public function attention($Query)
     {
-        $openid = $this->openid();
-        $UserModel = new User();
-        $user_profile = $UserModel->where('openid' , $openid['openid'])->value('user_profile');
+        $FriendModel = new Friend();
+        $user_profile = $FriendModel->where('openid', $Query)->value('fr_openid');
         return $user_profile;
 
     }
+
     /*
      * 获取图集相册(张)
      */
-    public function image()
+    public function image($Query)
     {
-        $openid = $this->openid();
-        $UserModel = new User();
-        $tuji = $UserModel->dynamic()->where('openid',$openid['openid'])->column('idx_dynamic');
-        $count = $this->count($tuji);
+        $DynamicModel = new Dynamic();
+        //获取资源ID
+        $tuji = $DynamicModel->where('openid', $Query)->column('idx_dynamic');
+        //获取图片总和
+        $count = $DynamicModel->route()->whereIn('route_dy_id',$tuji)->count('route_dy_id');
         return $count;
     }
+
     /*
      * 粉丝数（被关注总和）
      */
-    public function fans()
+    public function fans($Query)
     {
-        $openid = $this->openid();
         $FansModel = new Fans();
-        $fans = $FansModel->where('openid',$openid['openid'])->order('create_time')->column('fan_id');
-        $count = count($fans);
-        return $count;
+        $fans = $FansModel->where('openid', $Query)->count('fan_id');
+        return $fans;
     }
-    public function index(){
-        //获取一个月内上新图集
-        $img_time = $this->img_time();
+
+    public function index()
+    {
+        $dy = $_POST['openid'];
+        //获取上新图集
+        $img_time = $this->img_time($dy);
         //获取关注度
-        $attention = $this->attention();
-        //获取所有图片
-        $image = $this->image();
+        $attention = $this->attention($dy);
+        //获取所有图集
+        $image = $this->image($dy);
         //获取粉丝
-        $fans = $this->fans();
-        $array = ['img_time'=>$img_time,'attention'=>$attention,'image'=>$image,'fans'=>$fans];
+        $fans = $this->fans($dy);
+
+        $array = ['img_time' => $img_time, 'attention' => $attention, 'image' => $image, 'fans' => $fans];
         $json = json_encode($array);
-        return$json;
+        return $json;
     }
 
 }
