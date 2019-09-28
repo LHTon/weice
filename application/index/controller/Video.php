@@ -53,7 +53,7 @@ class Video extends Controller
          * rreturn:返回flase是代表无视频：请添加视频
          */
         if (empty($dymanic) ) {
-            return "请添加视频";
+            return 0;
         }
 
         //获取视频资源ID

@@ -1,0 +1,169 @@
+---------------------------------------------------------------
+[ 2019-09-22T15:21:08+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[è¿è¡Œæ—¶é—´ï¼š1.839000s] [åžåçŽ‡ï¼š0.54req/s] [å†…å­˜æ¶ˆè€—ï¼š2,424.45kb] [æ–‡ä»¶åŠ è½½ï¼š43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------516897013574094393412114',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '761cc0da-bf90-463e-a726-f4514c8dbf1a',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-09-22T15:21:16+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[è¿è¡Œæ—¶é—´ï¼š1.449000s] [åžåçŽ‡ï¼š0.69req/s] [å†…å­˜æ¶ˆè€—ï¼š2,424.45kb] [æ–‡ä»¶åŠ è½½ï¼š43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------801964522460841363878308',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '434bde06-04c0-4f27-812d-98c9528b022a',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-09-22T15:21:35+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/friend
+[è¿è¡Œæ—¶é—´ï¼š1.469000s] [åžåçŽ‡ï¼š0.68req/s] [å†…å­˜æ¶ˆè€—ï¼š2,414.45kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'friend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f0009dc9-30f2-4bc8-9a78-5e133c55c958',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------888887536319275003877826',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '667',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'nickname' => 'é€š',
+  'headimgurl' => 'https://wx.qlogo.cn/mmopen/vi_32/KWfwatrwK3D1b1wsfdJ4aQrxwR12q3sgp2ywN2VJXDzrgm9MJ7wBJ7YRxOtlYmeepwQQDWw6h2fUt9uF79rBgQ/132',
+  'fr_openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\index\controller\Friends->friend[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-09-22T15:22:16+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/friends/unfollow
+[è¿è¡Œæ—¶é—´ï¼š1.437000s] [åžåçŽ‡ï¼š0.70req/s] [å†…å­˜æ¶ˆè€—ï¼š2,414.16kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'friends',
+    2 => 'unfollow',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------461123505932625282968922',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '75860ded-7928-49c8-bf3f-c08fe7f83ebb',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '299',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+  'fr_openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Friends->unfollow[ C:\xampp\htdocs\weice\application\index\controller\Friends.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-09-22T15:22:26+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/video/index
+[è¿è¡Œæ—¶é—´ï¼š1.502000s] [åžåçŽ‡ï¼š0.67req/s] [å†…å­˜æ¶ˆè€—ï¼š2,459.26kb] [æ–‡ä»¶åŠ è½½ï¼š48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '72dbf5fb-80d7-46e9-a4c9-885e63f1cd34',
+  'host' => '110.64.211.5',
+  'content-type' => 'multipart/form-data; boundary=--------------------------279761227835645406910276',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Video->index[ C:\xampp\htdocs\weice\application\index\controller\Video.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]

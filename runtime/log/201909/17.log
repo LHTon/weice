@@ -1,0 +1,1097 @@
+---------------------------------------------------------------
+[ 2019-09-17T10:33:30+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/message/index
+[运行时间：1.261000s] [吞吐率：0.79req/s] [内存消耗：2,533.69kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------985330075897051271421080',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e71081db-1b4e-4849-a338-fd4b4855cc35',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT COUNT(idx_dynamic) AS tp_count FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(fr_openid) AS tp_count FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` IN (1568006715744,1568006774136,15667986534059,15668025568788,15668028173192,15680066137797,15680066531657,15680066883438,15680067461843) LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT COUNT(fan_id) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.083000s ]
+---------------------------------------------------------------
+[ 2019-09-17T10:33:38+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/message/index
+[运行时间：1.207000s] [吞吐率：0.83req/s] [内存消耗：2,533.69kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------297291280683554201176765',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cdd8d872-f22f-4689-9e76-5ac7b087b8ae',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT COUNT(idx_dynamic) AS tp_count FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT COUNT(fr_openid) AS tp_count FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` IN (1568006715744,1568006774136,15667986534059,15668025568788,15668028173192,15680066137797,15680066531657,15680066883438,15680067461843) LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT COUNT(fan_id) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2019-09-17T10:35:13+08:00 ] 110.64.211.50 POST 110.64.211.5/weice/public/index/message/index
+[运行时间：1.172000s] [吞吐率：0.85req/s] [内存消耗：2,534.78kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.5',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:55644',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(idx_dynamic) AS tp_count FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT COUNT(fr_openid) AS tp_count FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` IN (1568006715744,1568006774136,15667986534059,15668025568788,15668028173192,15680066137797,15680066531657,15680066883438,15680067461843) LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(fan_id) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2019-09-17T10:35:18+08:00 ] 110.64.211.50 POST 110.64.211.5/weice/public/index/message/index
+[运行时间：1.223000s] [吞吐率：0.82req/s] [内存消耗：2,534.78kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.5',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:55644',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT COUNT(idx_dynamic) AS tp_count FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT COUNT(fr_openid) AS tp_count FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` IN (1568006715744,1568006774136,15667986534059,15668025568788,15668028173192,15680066137797,15680066531657,15680066883438,15680067461843) LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(fan_id) AS tp_count FROM `dy_fans` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2019-09-17T10:35:24+08:00 ] 110.64.211.50 POST 110.64.211.5/weice/public/index/message/index
+[运行时间：1.205000s] [吞吐率：0.83req/s] [内存消耗：2,534.00kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.5',
+  'connection' => 'keep-alive',
+  'content-length' => '9',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:55644',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Message->index[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(idx_dynamic) AS tp_count FROM `dy_dynamic` WHERE  `openid` = '10'  AND `create_time` BETWEEN '2019-09-01 00:00:00' AND '2019-10-01 00:00:00' LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT COUNT(fr_openid) AS tp_count FROM `dy_friend` WHERE  `openid` = '10' LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` = '10' [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(route_dy_id) AS tp_count FROM `dy_route` WHERE  `route_dy_id` IN (15667993817134,15675765875797) LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_fans` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT COUNT(fan_id) AS tp_count FROM `dy_fans` WHERE  `openid` = '10' LIMIT 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:08:29+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：1.775000s] [吞吐率：0.56req/s] [内存消耗：2,619.96kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------179859543942361856825020',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0f6252eb-3689-4d41-9aa5-0db81b003483',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.082000s ]
+[ error ] [8]未定义变量: aa[C:\xampp\htdocs\weice\application\index\controller\Index.php:62]
+---------------------------------------------------------------
+[ 2019-09-17T19:09:25+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.862000s] [吞吐率：1.16req/s] [内存消耗：2,504.72kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------347398861021999485364356',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '62c1e8b8-4923-4cf7-8d0b-17333cfb71e9',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:10:37+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.736000s] [吞吐率：1.36req/s] [内存消耗：2,505.72kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------272090679886499877329910',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a0210dd8-fd94-46dc-b166-249a1c2e945e',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:10:47+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.741000s] [吞吐率：1.35req/s] [内存消耗：2,505.72kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------288286339031297117715167',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9a00cb56-ee8a-4a42-8bf3-baa0a2560b94',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:11:33+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.783000s] [吞吐率：1.28req/s] [内存消耗：2,505.72kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------035406310381175205405345',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '07c39ac4-7e47-4fdc-9f55-e2f7da98ad6a',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.098000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.106000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.107000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:11:45+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.954000s] [吞吐率：1.05req/s] [内存消耗：2,619.96kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------285664402305241643633408',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7d18d285-aa93-4d7d-a226-90cd25201856',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.091000s ]
+[ error ] [8]未定义变量: aa[C:\xampp\htdocs\weice\application\index\controller\Index.php:66]
+---------------------------------------------------------------
+[ 2019-09-17T19:12:00+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.722000s] [吞吐率：1.39req/s] [内存消耗：2,505.72kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------386238605691545098329997',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8c21c05b-c50f-4d24-a0ac-36b8300f899b',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:12:51+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.575000s] [吞吐率：1.74req/s] [内存消耗：2,501.62kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------079668135430354790809541',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4a2bc08a-c078-4112-96bb-025bbfe45606',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:36:00+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.979000s] [吞吐率：1.02req/s] [内存消耗：2,631.88kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------673639494275957164786005',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '32e15e47-dbf0-4fed-8196-60531cfbd262',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.084000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'route_dy_id' in 'field list'[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-17T19:37:05+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.861000s] [吞吐率：1.16req/s] [内存消耗：2,513.59kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------068943061784024820520099',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c505ae5d-b459-48ff-81fc-6461e3c98516',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.152000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.115000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.113000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.119000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('odCXI5TUKcwGfp_vKWj7XlJcF438') [ RunTime:0.116000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:39:10+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.968000s] [吞吐率：1.03req/s] [内存消耗：2,513.95kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------374711026631004601519861',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1ab761b3-5d91-4133-93ec-3cf86861fff8',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.185000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.116000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.118000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.122000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('odCXI5TUKcwGfp_vKWj7XlJcF438') ORDER BY `create_time` DESC [ RunTime:0.121000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:39:21+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.763000s] [吞吐率：1.31req/s] [内存消耗：2,516.93kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------318066662216275675581672',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ebe150cc-6c25-4635-90a2-468e0183187b',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('11','odCXI5XSFVlxO1AJSqtRfbVM8pYA','10','odCXI5crQj3ie9EzDinn7ZJiCkjI') ORDER BY `create_time` DESC [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:39:35+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：1.529000s] [吞吐率：0.65req/s] [内存消耗：2,519.90kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------037367550776402705381695',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9fbe4726-fe8f-4888-95b9-462cdecc6f4a',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.238000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.148000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.147000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.139000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.152000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.150000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.150000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.156000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:39:53+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.799000s] [吞吐率：1.25req/s] [内存消耗：2,520.93kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------211428324841594358337139',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6bce7da2-74e7-4fc7-970c-9b2741bb785b',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.100000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('11','odCXI5XSFVlxO1AJSqtRfbVM8pYA','10','odCXI5crQj3ie9EzDinn7ZJiCkjI') ORDER BY `create_time` DESC [ RunTime:0.102000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:40:13+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：1.888000s] [吞吐率：0.53req/s] [内存消耗：2,528.09kb] [文件加载：44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------748760149570307235802794',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '12dc8fa5-c69c-49c2-b3e8-b554795bade1',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.219000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.151000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.148000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.153000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('11','odCXI5XSFVlxO1AJSqtRfbVM8pYA','10','odCXI5crQj3ie9EzDinn7ZJiCkjI') ORDER BY `create_time` DESC [ RunTime:0.149000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.159000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.159000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.157000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.165000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.166000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:41:39+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：1.617000s] [吞吐率：0.62req/s] [内存消耗：2,508.73kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------648709660711067321148920',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5ca68196-807b-47cd-921e-c43cfc393bed',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.345000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.251000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.248000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.243000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('odCXI5TUKcwGfp_vKWj7XlJcF438') ORDER BY `create_time` DESC [ RunTime:0.251000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:41:58+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：1.103000s] [吞吐率：0.91req/s] [内存消耗：2,625.87kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------850466731215620145459878',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bc1f3e3c-7017-42af-9e82-f1b22f78e88b',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.174000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.116000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.107000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.109000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('odCXI5TUKcwGfp_vKWj7XlJcF438') ORDER BY `create_time` DESC [ RunTime:0.105000s ]
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable[C:\xampp\htdocs\weice\application\index\controller\Index.php:302]
+---------------------------------------------------------------
+[ 2019-09-17T19:42:11+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.711000s] [吞吐率：1.41req/s] [内存消耗：2,508.73kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------678312016674072466161915',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6b028eb7-00bb-4a7b-b719-58cf1e471f0b',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('odCXI5TUKcwGfp_vKWj7XlJcF438') ORDER BY `create_time` DESC [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:42:40+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：1.304000s] [吞吐率：0.77req/s] [内存消耗：2,625.74kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------146063732138150657883220',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5811499b-41f5-4f4b-a509-67e6dba259ed',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.215000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.146000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.143000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.154000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('odCXI5TUKcwGfp_vKWj7XlJcF438') ORDER BY `create_time` DESC [ RunTime:0.154000s ]
+[ error ] [2]count(): Parameter must be an array or an object that implements Countable[C:\xampp\htdocs\weice\application\index\controller\Index.php:302]
+---------------------------------------------------------------
+[ 2019-09-17T19:43:20+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：1.721000s] [吞吐率：0.58req/s] [内存消耗：2,631.54kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------204504542666378738948048',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '27c43ba7-c206-4e32-833d-98ad28f09ae3',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.225000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.159000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.164000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.177000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('odCXI5TUKcwGfp_vKWj7XlJcF438') ORDER BY `create_time` DESC [ RunTime:0.175000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.137000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.103000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time`,`d`.`type` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.115000s ]
+[ error ] [8]未定义变量: aa[C:\xampp\htdocs\weice\application\index\controller\Index.php:105]
+---------------------------------------------------------------
+[ 2019-09-17T19:44:00+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：2.532000s] [吞吐率：0.39req/s] [内存消耗：2,654.39kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------973497450618421992104029',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f8163bc-15a0-4d9e-b178-da83953ccc42',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('11','odCXI5XSFVlxO1AJSqtRfbVM8pYA','10','odCXI5crQj3ie9EzDinn7ZJiCkjI') ORDER BY `create_time` DESC [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.103000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time`,`d`.`type` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time`,`d`.`type` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time`,`d`.`type` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time`,`d`.`type` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.102000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.097000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.096000s ]
+[ error ] [8]未定义变量: count[C:\xampp\htdocs\weice\application\index\controller\Index.php:323]
+---------------------------------------------------------------
+[ 2019-09-17T19:44:10+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：2.168000s] [吞吐率：0.46req/s] [内存消耗：2,553.37kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------242969358599680661765010',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3472c51e-7973-4e67-ab08-5c173c828b09',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('11','odCXI5XSFVlxO1AJSqtRfbVM8pYA','10','odCXI5crQj3ie9EzDinn7ZJiCkjI') ORDER BY `create_time` DESC [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time`,`d`.`type` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time`,`d`.`type` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time`,`d`.`type` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`create_time`,`d`.`type` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' GROUP BY `r`.`route_dy_id` ORDER BY `r`.`create_time` DESC [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '11' ORDER BY `r`.`create_time` DESC [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' ORDER BY `r`.`create_time` DESC [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = '10' ORDER BY `r`.`create_time` DESC [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `r`.`route_dy_id`,`d`.`describes`,`r`.`thumb_route`,`r`.`create_time`,`r`.`idx_dy_route`,`r`.`route` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` INNER JOIN `dy_route` `r` ON `d`.`idx_dynamic`=`r`.`route_dy_id` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' ORDER BY `r`.`create_time` DESC [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '11' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = '10' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `u`.`nickname`,`u`.`headimgurl`,`d`.`idx_dynamic` FROM `dy_user` `u` INNER JOIN `dy_dynamic` `d` ON `u`.`openid`=`d`.`openid` WHERE  `u`.`openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2019-09-17T19:46:10+08:00 ] 110.64.211.5 POST 110.64.211.5/weice/public/index/index/show
+[运行时间：0.752000s] [吞吐率：1.33req/s] [内存消耗：2,508.73kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------911753152234663626374963',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5f9eb986-4076-41c7-99b0-55cce81fb47e',
+  'host' => '110.64.211.5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5TUKcwGfp_vKWj7XlJcF438',
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ C:\xampp\htdocs\weice\application\index\controller\Index.php ]
+[ info ] [ RUN ] app\index\controller\Message->openid[ C:\xampp\htdocs\weice\application\index\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124000s ] mysql:host=47.93.49.200;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_friend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `fr_openid` FROM `dy_friend` WHERE  `openid` = 'odCXI5TUKcwGfp_vKWj7XlJcF438' [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `idx_dynamic` FROM `dy_dynamic` WHERE  `openid` IN ('odCXI5TUKcwGfp_vKWj7XlJcF438') ORDER BY `create_time` DESC [ RunTime:0.084000s ]

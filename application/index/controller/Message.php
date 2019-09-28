@@ -17,6 +17,14 @@ use think\Controller;
 class Message extends Controller
 {
     /*
+     * 获取openid
+     */
+    public function openid()
+    {
+        $dy['openid'] = $_POST['openid'];
+        return $dy;
+    }
+    /*
      * 上新（1个月为周期。1个月内没有上传新图片，则数据为归0；1个月上传新图片张数为上新的数据）
      */
     public function img_time($Query)
@@ -33,7 +41,7 @@ class Message extends Controller
     public function attention($Query)
     {
         $FriendModel = new Friend();
-        $user_profile = $FriendModel->where('openid', $Query)->value('fr_openid');
+        $user_profile = $FriendModel->where('openid', $Query)->count('fr_openid');
         return $user_profile;
 
     }

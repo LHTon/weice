@@ -155,7 +155,7 @@ class Friends extends Controller
 //        halt($sql);
         //判断粉丝表是否为空
         if (empty($sql)){
-            return "你还没有粉丝";
+            return 0;
         }
         //获取openid，用户名，头像
         $pic_name = $this->pic_name($sql);

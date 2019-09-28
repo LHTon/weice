@@ -8,6 +8,7 @@
 
 namespace app\index\controller;
 
+use app\index\model\Dynamic;
 use app\index\model\Friend;
 use think\Controller;
 use think\Db;
@@ -39,27 +40,36 @@ class Index extends Controller
     {
         //获取用户openid
         $dy = $this->openid();
+//        halt($dy);
 //        $dy['openid'] = $_GET['openid'];
-        for($i =0;$i<count($dy); $i++) {
-            $sql = Db::table('dy_user')
-                ->alias('u')
-                ->join('dy_dynamic d', 'u.openid = d.openid')
-                ->join('dy_route r', 'd.idx_dynamic = r.route_dy_id')
-                ->where('u.openid',$dy[$i])
-                ->field('r.route_dy_id')
-                ->order('r.create_time','desc')
-                ->group('r.route_dy_id')
-                ->select();
-            $sql1[] = $sql;
+        $DynamciModel = new Dynamic();
+        $sql = $DynamciModel->whereIn('openid',$dy)->order('create_time','desc')->column('idx_dynamic');
+//        print_r($sql);
+//        for($i =0;$i<count($dy); $i++) {
+//            $sql = Db::table('dy_user')
+//                ->alias('u')
+//                ->join('dy_dynamic d', 'u.openid = d.openid')
+//                ->join('dy_route r', 'd.idx_dynamic = r.route_dy_id')
+//                ->where('u.openid',$dy[$i])
+//                ->field('r.route_dy_id')
+//                ->order('r.create_time','desc')
+//                ->group('r.route_dy_id')
+//                ->select();
+//            $sql1[] = $sql;
+//        }
+//        halt($sql1);
+        if (empty($sql)) {
+            return 0;
         }
-        foreach ($sql1 as $key=>$value){
-            foreach ($value as $key1=>$value1){
-                foreach ($value1 as $k=>$v){
-                    $aa[] = $v;
-                }
-            }
-        }
-        return $aa;
+//        halt(0);
+//        foreach ($sql1 as $key=>$value){
+//            foreach ($value as $key1=>$value1){
+//                foreach ($value1 as $k=>$v){
+//                    $aa[] = $v;
+//                }
+//            }
+//        }
+        return $sql;
     }
 
 
@@ -100,7 +110,7 @@ class Index extends Controller
             }
 //            halt($aa);
         }
-//        halt($aa);
+        halt($aa);
         return $aa;
     }
 
@@ -157,7 +167,7 @@ class Index extends Controller
      * @throws \think\db\exception\ModelNotFoundException
      * @throws \think\exception\DbException
      */
-    private function timer(array $array)
+    public function timer(array $array)
     {
         //获取当前时间 & 时 & 分 & 秒
         $today =  date('Y-m-d H:i:s');
@@ -284,6 +294,12 @@ class Index extends Controller
         header('Access-Control-Allow-Origin: *');
         //获取所有图集唯一的标识符
         $arr = $this->route_dy_id();
+        /*
+         * 判断用户是否有资源ID，没有则返回0
+         */
+        if ($arr == 0) {
+            return 0;
+        }
 //        print_r($arr);
 //        exit();
         $count = count($arr);
