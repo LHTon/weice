@@ -1,0 +1,181 @@
+---------------------------------------------------------------
+[ 2019-09-13T15:39:38+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/index/email/index
+[运行时间：2.341000s] [吞吐率：0.43req/s] [内存消耗：2,316.78kb] [文件加载：39]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2ca14b83-9c17-40fa-b257-77b228093644',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------047947174962480027617530',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-13T16:05:55+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/index/email/index
+[运行时间：0.139000s] [吞吐率：7.19req/s] [内存消耗：2,282.73kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4327fe57-bd8b-47f1-a282-e5995068b2ff',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------235712742235372994908164',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\index\controller\PHPMailer' not found[C:\xampp\htdocs\weice\application\index\controller\Email.php:33]
+---------------------------------------------------------------
+[ 2019-09-13T16:06:26+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/index/email/index
+[运行时间：1.843000s] [吞吐率：0.54req/s] [内存消耗：2,237.85kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '63f6a854-ae00-432b-a088-d9547f396f98',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------368231619001781093597007',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-13T16:22:28+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/index/email/index
+[运行时间：0.054000s] [吞吐率：18.52req/s] [内存消耗：2,282.67kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5ac8e358-b08f-489d-927b-6d6579ea71db',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------419002974961488174756882',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'PHPMailer' not found[C:\xampp\htdocs\weice\application\index\controller\Email.php:33]
+---------------------------------------------------------------
+[ 2019-09-13T16:23:28+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/index/email/index
+[运行时间：1.150000s] [吞吐率：0.87req/s] [内存消耗：2,237.85kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '976ccc28-dc04-4d01-895f-e0f8c5ce4191',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------738026862625231634898702',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

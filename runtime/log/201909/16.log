@@ -1,0 +1,1615 @@
+---------------------------------------------------------------
+[ 2019-09-16T17:18:25+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：3.583000s] [吞吐率：0.28req/s] [内存消耗：2,345.10kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fb6f1b53-afa7-47c8-be75-7d0d956a0886',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------588835010698868993557159',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.544000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.569000s ]
+[ sql ] [ SQL ] SELECT `qrcode` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.361000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-111568625504.jpg'  WHERE  `openid` = '11' [ RunTime:0.951000s ]
+---------------------------------------------------------------
+[ 2019-09-16T17:19:37+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：1.454000s] [吞吐率：0.69req/s] [内存消耗：2,376.25kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cfdf8912-a2ae-4fde-b2e5-2f77bef1aa00',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------048930932821473987801620',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.610000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.413000s ]
+[ sql ] [ SQL ] SELECT `qrcode` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.363000s ]
+---------------------------------------------------------------
+[ 2019-09-16T17:23:49+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.444000s] [吞吐率：0.41req/s] [内存消耗：2,346.62kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:26779',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.528000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.362000s ]
+[ sql ] [ SQL ] SELECT `qrcode` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.349000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='https://lhtong.cn/weice/public/uploads/qrcode/code-odCXI5crQj3ie9EzDinn7ZJiCkjI1568625829.jpg'  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.365000s ]
+---------------------------------------------------------------
+[ 2019-09-16T17:27:16+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：3.480000s] [吞吐率：0.29req/s] [内存消耗：2,346.62kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:26779',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.117000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.374000s ]
+[ sql ] [ SQL ] SELECT `qrcode` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.488000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='https://lhtong.cn/weice/public/uploads/qrcode/code-odCXI5crQj3ie9EzDinn7ZJiCkjI1568626035.jpg'  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.734000s ]
+---------------------------------------------------------------
+[ 2019-09-16T17:29:31+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：3.026000s] [吞吐率：0.33req/s] [内存消耗：2,345.62kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2680869b-3918-47d1-8abb-9a15d6e002d5',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------618354243706258946765644',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.599000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.364000s ]
+[ sql ] [ SQL ] SELECT `qrcode` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.361000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-odCXI5crQj3ie9EzDinn7ZJiCkjI1568626170.jpg'  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.935000s ]
+---------------------------------------------------------------
+[ 2019-09-16T17:29:53+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：1.309000s] [吞吐率：0.76req/s] [内存消耗：2,377.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:26779',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.527000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.377000s ]
+[ sql ] [ SQL ] SELECT `qrcode` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.345000s ]
+---------------------------------------------------------------
+[ 2019-09-16T17:35:37+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：1.540000s] [吞吐率：0.65req/s] [内存消耗：2,377.59kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:26779',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.635000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.442000s ]
+[ sql ] [ SQL ] SELECT `qrcode` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.385000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:13:33+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.659000s] [吞吐率：0.38req/s] [内存消耗：2,349.40kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a3a147f7-59a5-4e8d-9f5f-be7c676764c8',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------545183109527851848141153',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.549000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.413000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.367000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-111568632412.jpg'  WHERE  `openid` = '11' [ RunTime:0.381000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:14:38+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.763000s] [吞吐率：0.36req/s] [内存消耗：2,351.02kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:47415',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.533000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.362000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.916000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-odCXI5crQj3ie9EzDinn7ZJiCkjI1568632477.jpg'  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.359000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:18:11+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：1.566000s] [吞吐率：0.64req/s] [内存消耗：2,383.41kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '751bf24b-a633-4c6d-bd5f-9d69609864aa',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------880616105719586740177460',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.520000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.387000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.366000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:19:06+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.332000s] [吞吐率：0.43req/s] [内存消耗：2,383.41kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3fa540c8-542e-4596-bcba-dedd07f20fa1',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------285676055122631834572691',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.650000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.444000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:1.005000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:19:37+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.468000s] [吞吐率：0.41req/s] [内存消耗：2,349.40kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '187cda82-2957-4d75-9084-7c7262bd271a',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------635641965726565753520833',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.529000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.393000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.354000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-111568632777.jpg'  WHERE  `openid` = '11' [ RunTime:0.380000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:21:13+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.322000s] [吞吐率：0.43req/s] [内存消耗：2,351.02kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:47415',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.517000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.371000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.398000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-odCXI5crQj3ie9EzDinn7ZJiCkjI1568632873.jpg'  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.397000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:21:57+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：1.308000s] [吞吐率：0.76req/s] [内存消耗：2,382.05kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '13a68ff8-a7f1-4ebe-9dcc-cd223cb86a13',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------778970015353553188278800',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.519000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.378000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.357000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:22:18+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.865000s] [吞吐率：0.35req/s] [内存消耗：2,349.96kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cead81f7-9a5b-40e9-a760-70199c6a98db',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------023088433776177535723530',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.564000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.487000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.356000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-odCXI5crQj3ie9EzDinn7ZJiCkjI1568632937.jpg'  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.841000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:22:48+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：1.313000s] [吞吐率：0.76req/s] [内存消耗：2,383.11kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:47415',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.527000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.367000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.345000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:22:51+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.352000s] [吞吐率：0.43req/s] [内存消耗：2,349.40kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ad3815e-2e6f-4334-a1ef-2b7e4924770b',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------374030456731261880691659',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.535000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.351000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.338000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-111568632970.jpg'  WHERE  `openid` = '11' [ RunTime:0.401000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:23:21+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.175000s] [吞吐率：0.46req/s] [内存消耗：2,349.96kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f1a19e9d-ace3-4c90-9a67-ed77c569baba',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------033730020569106011216605',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5XSFVlxO1AJSqtRfbVM8pYA',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.528000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.358000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-odCXI5XSFVlxO1AJSqtRfbVM8pYA1568633001.jpg'  WHERE  `openid` = 'odCXI5XSFVlxO1AJSqtRfbVM8pYA' [ RunTime:0.378000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:28:01+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.560000s] [吞吐率：0.39req/s] [内存消耗：2,345.89kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '86d17095-9487-495c-ac64-a6143452a43d',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------911362880260646845918586',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.548000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.387000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.356000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-odCXI5crQj3ie9EzDinn7ZJiCkjI1568633281.jpg'  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.412000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:28:30+08:00 ] 110.64.211.50 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：1.322000s] [吞吐率：0.76req/s] [内存消耗：2,379.04kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://127.0.0.1:47415',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-dest' => 'empty',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/1.02.1907300 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'https://servicewechat.com/wx30cbd5bf82ee6334/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.519000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.343000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.382000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:35:13+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.232000s] [吞吐率：0.45req/s] [内存消耗：2,350.33kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0f480f42-1265-4145-abb7-771be99e2660',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------685905514642195001301668',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.533000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.375000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.394000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code-odCXI5crQj3ie9EzDinn7ZJiCkjI1568633713.jpg'  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.367000s ]
+---------------------------------------------------------------
+[ 2019-09-16T19:36:31+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/qrcode
+[运行时间：2.378000s] [吞吐率：0.42req/s] [内存消耗：2,349.90kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8b1e3a78-e46e-4b5a-9f8c-0e9349e419f6',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------511305378832711531658934',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '189',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => 'odCXI5crQj3ie9EzDinn7ZJiCkjI',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->qrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.516000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.348000s ]
+[ sql ] [ SQL ] SELECT `qrcode`,`nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.340000s ]
+[ sql ] [ SQL ] UPDATE `dy_user`  SET `qrcode`='http://110.64.211.77/weice/public/uploads/qrcode/code.jpg'  WHERE  `openid` = 'odCXI5crQj3ie9EzDinn7ZJiCkjI' [ RunTime:0.569000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:24:30+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.429000s] [吞吐率：0.70req/s] [内存消耗：2,409.28kb] [文件加载：45]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6350e89c-9917-4362-bfb2-14e35e0c4e68',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------387611896533903959163165',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.547000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.372000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.367000s ]
+[ error ] [8]Array to string conversion[C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php:46]
+---------------------------------------------------------------
+[ 2019-09-16T20:25:52+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.372000s] [吞吐率：0.73req/s] [内存消耗：2,364.23kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0539738c-5897-4307-8a44-85f941cb65ef',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------661281803484034917456709',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.570000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.380000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.357000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:26:10+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.419000s] [吞吐率：0.70req/s] [内存消耗：2,364.23kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8b9af63d-7ada-4518-9075-00837c379f02',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------335339650695812071213296',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.592000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.376000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.393000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:29:07+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.374000s] [吞吐率：0.73req/s] [内存消耗：2,402.50kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '846ee216-df19-4719-83ce-a0206996196b',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------564769982067805563934100',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.523000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.412000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.376000s ]
+[ error ] [0]variable type error： array[C:\xampp\htdocs\weice\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-09-16T20:32:15+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：2.056000s] [吞吐率：0.49req/s] [内存消耗：2,409.74kb] [文件加载：45]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1b060345-0d61-480d-86f4-6af5fe1d7e2e',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------024449923702874107312827',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.099000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.382000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.502000s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php:45]
+---------------------------------------------------------------
+[ 2019-09-16T20:32:28+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.405000s] [吞吐率：0.71req/s] [内存消耗：2,409.74kb] [文件加载：45]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a0fc8a33-5f6b-4be1-a635-faafea5fb211',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------383901438995342084466680',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.542000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.450000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.350000s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php:45]
+---------------------------------------------------------------
+[ 2019-09-16T20:32:58+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.352000s] [吞吐率：0.74req/s] [内存消耗：2,365.88kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '655e0d11-cf5b-4fd5-b5c0-60fa9f31d155',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------242847286017408535138608',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.536000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.370000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.391000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:33:59+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.485000s] [吞吐率：0.67req/s] [内存消耗：2,364.24kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ab95868b-fc12-49d6-8b29-fb726efd8256',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------498517014346447525257805',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.654000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.379000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.395000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:35:17+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：5.067000s] [吞吐率：0.20req/s] [内存消耗：2,409.60kb] [文件加载：45]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3ab35dad-4fa0-4d0f-8bb7-f60b5632005a',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------527470830555455652632127',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.571000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.914000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.504000s ]
+[ error ] [8]Array to string conversion[C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php:49]
+---------------------------------------------------------------
+[ 2019-09-16T20:35:59+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.415000s] [吞吐率：0.71req/s] [内存消耗：2,364.48kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b2df9eb0-62f7-42c5-9408-30c6e99d9536',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------962518710501202362326898',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.585000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.411000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.367000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:37:08+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.285000s] [吞吐率：0.78req/s] [内存消耗：2,366.26kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8a5ba10c-93cf-4172-ab96-9612620ca446',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------757210289423697211388020',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.524000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.345000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:37:56+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.288000s] [吞吐率：0.78req/s] [内存消耗：2,366.26kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '133fcbe8-faca-4650-93d0-66f65a42da0e',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------678892324760778481865208',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.532000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.355000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.346000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:38:44+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.457000s] [吞吐率：0.69req/s] [内存消耗：2,410.23kb] [文件加载：45]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fb99b36a-7ecb-4784-a044-26bf1f77daa0',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------529305685759090773314972',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.621000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.387000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.371000s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php:51]
+---------------------------------------------------------------
+[ 2019-09-16T20:39:08+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：10.680000s] [吞吐率：0.09req/s] [内存消耗：2,366.70kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3fc268fc-4024-4b14-8e27-f0f6ed8cf67d',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------361458217368646838254289',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:9.693000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.501000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.433000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:39:10+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.362000s] [吞吐率：0.73req/s] [内存消耗：2,366.70kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '078b0504-ebe9-4b43-bf4e-54f388257cf5',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------106415944049769426505321',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.541000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.386000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.379000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:40:05+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：2.199000s] [吞吐率：0.45req/s] [内存消耗：2,366.38kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bb50a409-250a-41a2-a5e8-03db48737ea2',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------225762009970436271179801',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.219000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.448000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.464000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:40:29+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：2.401000s] [吞吐率：0.42req/s] [内存消耗：2,410.23kb] [文件加载：45]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9aaeca58-a01c-4f63-af40-74f934406161',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------951693601429133286978397',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.521000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:1.459000s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php:52]
+---------------------------------------------------------------
+[ 2019-09-16T20:43:41+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.337000s] [吞吐率：0.75req/s] [内存消耗：2,403.32kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4956427b-bc2d-4617-93a5-c5dcfe4c32c6',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------823749368166063591685825',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.528000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.381000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.358000s ]
+[ error ] [0]variable type error： object[C:\xampp\htdocs\weice\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-09-16T20:44:02+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.662000s] [吞吐率：0.60req/s] [内存消耗：2,402.78kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7104d7ce-0d44-42c6-a35b-1a6be84b6e1b',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------416827921168490569127068',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.672000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.445000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.480000s ]
+[ error ] [0]variable type error： object[C:\xampp\htdocs\weice\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-09-16T20:44:24+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.380000s] [吞吐率：0.72req/s] [内存消耗：2,403.30kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '25f744e2-893d-44f4-b275-3bd41917b6f6',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------446345076911817545695146',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.535000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.399000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.372000s ]
+[ error ] [0]variable type error： array[C:\xampp\htdocs\weice\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-09-16T20:46:39+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.344000s] [吞吐率：0.74req/s] [内存消耗：2,364.70kb] [文件加载：41]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fd6ae2e3-4b40-4985-9487-15dbdc27b7cd',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------225676566018384144445587',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.537000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.383000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.364000s ]
+---------------------------------------------------------------
+[ 2019-09-16T20:47:38+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.399000s] [吞吐率：0.71req/s] [内存消耗：2,410.59kb] [文件加载：45]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a01fef46-fa27-4e6a-9a26-7f1d8e6cb297',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------181820875889747782792043',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.568000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.383000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.373000s ]
+[ error ] [2]json_decode() expects parameter 1 to be string, object given[C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php:54]
+---------------------------------------------------------------
+[ 2019-09-16T20:47:57+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.279000s] [吞吐率：0.78req/s] [内存消耗：2,403.32kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f96bce8-c343-4cd0-8ea8-0eec5d9f1a35',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------634134616958368516848042',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.512000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.347000s ]
+[ error ] [0]variable type error： object[C:\xampp\htdocs\weice\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2019-09-16T20:51:59+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：1.401000s] [吞吐率：0.71req/s] [内存消耗：2,366.42kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8cf006e9-dfa3-49a4-a994-71a4bd994241',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------246600488447213697438210',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.562000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_user` [ RunTime:0.381000s ]
+[ sql ] [ SQL ] SELECT `nickname`,`headimgurl` FROM `dy_user` WHERE  `openid` = '11' [ RunTime:0.404000s ]
+---------------------------------------------------------------
+[ 2019-09-16T21:21:03+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/index/headimgurl/headimglist
+[运行时间：0.201000s] [吞吐率：4.98req/s] [内存消耗：2,308.52kb] [文件加载：42]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'headimgurl',
+    2 => 'headimglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '887556ce-b738-4c25-9652-804eff30689b',
+  'host' => '110.64.211.77',
+  'content-type' => 'multipart/form-data; boundary=--------------------------513074876497942495896737',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '163',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+)
+[ info ] [ RUN ] app\index\controller\Headimgurl->headimglist[ C:\xampp\htdocs\weice\application\index\controller\Headimgurl.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'121.33.213.130' (using password: YES)[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]

@@ -3,9 +3,10 @@
 namespace app\index\controller;
 
 use think\Controller;
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-use think\Session;
+use phpmailer\PHPMailer\PHPMailer;
+use phpmailer\PHPMailer\Exception;
+use think\Cache;
+//use think\Session;
 
 class Email extends Controller
 {
@@ -23,8 +24,10 @@ class Email extends Controller
         $data = input('post.');
         $title = "注册微册邮箱的验证码";
         $code=rand(100000,999999);
-        Session::set('qqcode',$code);
-        echo (Session::get('qqcode'));
+        Cache::set('qqcode',$code);
+        echo (Cache::get('qqcode'));
+//        Session::set('qqcode',$code);
+//        echo (Session::get('qqcode'));
         $content = "邮件内容是您注册微册的验证码是：".$code."，如果非本人操作无需理会！";
 
         $mail = new PHPMailer();

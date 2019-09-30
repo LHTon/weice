@@ -32,4 +32,25 @@ class Headimgurl extends Controller
         }
 
     }
+
+    //头像和昵称列表
+    public function headimglist()
+    {
+        $data = input('post.');
+
+        $info = Db::name('user')
+            ->where('openid',$data['openid'])
+            ->field('nickname,headimgurl')
+            ->select();
+
+        foreach ($info as $k => $v)
+        {
+           $arr = [
+               'nickname' => $v['nickname'],
+               'headimgurl' => $v['headimgurl']
+           ];
+        }
+        halt($arr);
+
+    }
 }

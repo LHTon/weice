@@ -13,13 +13,13 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '103.126.100.17',
+    'hostname'        => '47.93.49.200',
     // 数据库名
     'database'        => 'weice',
     // 用户名
-    'username'        => 'weice',
+    'username'        => 'root',
     // 密码
-    'password'        => 'G86J418Cy6',
+    'password'        => 'B09c66976421',
     // 端口
     'hostport'        => '',
     // 连接dsn

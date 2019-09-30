@@ -25,25 +25,31 @@ class Albumlst extends Controller
             where d.idx_dynamic = r.route_dy_id
             and d.idx_tabs = t.idx_tabs
             and d.openid = '$openid'
+            and d.type = 0
 			GROUP BY route_dy_id"
         );
-//        halt($result);
 
-        foreach($result as $rt)
-        {
-            $arr[] = [
-                'describes' => $rt['describes'],
-                'tabname'   =>  [ $rt['tabname']],
-                'route_dy_id'   => $rt['route_dy_id'],
-                'thumb_route' => $rt['thumb_route'],
-                'create_time' => $rt['create_time'],
-                'toutel' => $rt['toutel'],
-                'is_hot' => $rt['is_hot']
+        if ($result) {
+            foreach($result as $rt)
+            {
+                $arr[] = [
+                    'describes' => $rt['describes'],
+                    'tabname'   =>  [ $rt['tabname']],
+                    'route_dy_id'   => $rt['route_dy_id'],
+                    'thumb_route' => $rt['thumb_route'],
+                    'create_time' => $rt['create_time'],
+                    'toutel' => $rt['toutel'],
+                    'is_hot' => $rt['is_hot']
 
-            ];
+                ];
+            }
+            $cs = json_encode($arr);
+            echo $cs;
+        } else {
+            return 0;
         }
-        $cs = json_encode($arr);
-        echo $cs;
+
+
     }
 
     //处理图集设置为热点图集

@@ -31,8 +31,8 @@ class Video extends Controller
         //获取用户ID
         $openid = action('index/Message/openid');
         $video = $this->video($openid);
-        $video = json_encode($video);
-        return $video;
+        $videos = json_encode($video);
+        return $videos;
     }
 
     //遍历视频
@@ -72,7 +72,7 @@ class Video extends Controller
 
         //获取视频资源ID
             foreach ( $route_id as $k => $v) {
-                $data[] = $RouteModel->where('route_dy_id' ,$v)->column('route_dy_id,route');
+                $data[] = $RouteModel->where('route_dy_id' ,$v)->column('route_dy_id,route,thumb_route');
             }
 
         //将二维数组变一维数组
@@ -90,11 +90,8 @@ class Video extends Controller
                 }
             }
         }
-        halt($dymanic);
+//        halt($dymanic);
         return $dymanic;
 
     }
-
-
-
 }

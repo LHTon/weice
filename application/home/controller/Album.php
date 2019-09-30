@@ -12,22 +12,32 @@ class Album extends Controller
     /**
      * 新建相册
      */
-    public function index(Request $request)
+    public function index()
     {
-        $data = $request -> post();
+        $data = input('post.');
 
-        $re = Db::name('album')
-            ->insert(
-                [
-                    'name' => $data['name'],
-                    'openid' => $data['openid']
+        $se = Db::name('album')
+            ->where('openid',$data['openid'])
+            ->where('name',$data['name'])
+            ->select();
+
+        if (empty($se)) {
+            $re = Db::name('album')
+                ->insert(
+                    [
+                        'name' => $data['name'],
+                        'openid' => $data['openid']
                     ]
-            );
-        if($re) {
-            return 1;
+                );
+            if($re) {
+                return 1;
+            } else {
+                return 0;
+            }
         } else {
-            return 0;
+            return '相册名已存在';
         }
+
     }
 
     /**
@@ -96,17 +106,27 @@ class Album extends Controller
     public function tabs()
     {
         $data = input('post.');
-        $result = Db::name('tabs')
-            ->insert(
-                [
-                    'openid' => $data['openid'],
-                    'tabname' => $data['tabname']
-                ]
-            );
-        if ($result) {
-            return 1;
+
+        $se = Db::name('tabs')
+            ->where('openid',$data['openid'])
+            ->where('tabname',$data['tabname'])
+            ->select();
+
+        if (empty($se)) {
+            $result = Db::name('tabs')
+                ->insert(
+                    [
+                        'openid' => $data['openid'],
+                        'tabname' => $data['tabname']
+                    ]
+                );
+            if ($result) {
+                return 1;
+            } else {
+                return 0;
+            }
         } else {
-            return 0;
+            return '标签名已存在';
         }
     }
 }
