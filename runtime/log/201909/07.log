@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2019-09-07T21:03:07+08:00 ] 0.0.0.0 GET localhost/weice/public/home/index
+[运行时间：0.326000s] [吞吐率：3.07req/s] [内存消耗：1,161.98kb] [文件加载：32]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5395149824; _ga=GA1.1.755718266.1554783737; Phpstorm-16c8fc58=6d5b542c-55c9-4fd8-9fe8-90302ffee2fb; Phpstorm-961746f9=53e40b80-1e31-4b54-be3c-97d12ebdbef8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]exec(): Unable to fork [ffmpeg -i 1.mp4 -y mjpeg -ss 3 -t 1 -s 554x960 a.jpg][C:\xampp\htdocs\weice\application\home\controller\Index.php:3]

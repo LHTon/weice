@@ -16,4 +16,13 @@ class Dynamic extends Model
         $result = $this->save($data);
         return $result;
     }
+
+    public function user()
+    {
+        return $this->belongsTo('User');
+    }
+    public function route()
+    {
+        return $this->hasMany('Route','route_dy_id','idx_dy_route');
+    }
 }

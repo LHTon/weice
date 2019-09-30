@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"C:\xampp\htdocs\weice\public/../application/admin\view\index\index.html";i:1561016246;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:71:"C:\xampp\htdocs\weice\public/../application/admin\view\index\index.html";i:1567506121;}*/ ?>
 <!DOCTYPE html>
 <html><head>
 	    <meta charset="utf-8">

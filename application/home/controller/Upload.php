@@ -12,6 +12,10 @@ use think\Db;
 use think\Request;
 use think\Image;
 use app\home\model\Route as RouteModel;
+use think\Loader;
+use Qiniu\Auth;
+use Qiniu\Storage\UploadManager;
+use Qiniu\Storage\BucketManager;
 
 class Upload extends Controller
 {
@@ -24,45 +28,107 @@ class Upload extends Controller
         $files = request()->file('image');
 //        halt($file);
         if ($file) {
-            $filePath = "V";
-            $filePaths = ROOT_PATH . 'public' . DS . 'uploads' . DS . $filePath;
-            if (!file_exists($filePaths)) {
-                mkdir($filePaths, 0777, true);
-            }
-            $info = $file->validate(['size'=>104857600,'ext'=>'svg,mp4'])->move($filePaths);
-            if ($info) {
-                $viopath = 'uploads/' . $filePath . '/' . $getSaveName = str_replace("\\", "/", $info->getSaveName());
-                $re = 'http://weicess.com/weice/public/' . $viopath;
-                $routeid = time().rand(1,10000);
-                $describes = [
-                    'idx_dynamic' => $routeid,
-                    'openid'     => $data['openid'],
-                    'describes'  => $data['describes'],
-                    'idx_tabs'   => $data['idx_tabs'],
-                    'type'       => 1
-//
-                ];
-                $res = model('Dynamic') -> add($describes);
-                if($res) {
-                    echo '添加描述成功';
-                } else {
-                    echo '添加描述失败';
-                }
-                $da = [
-                    'route_dy_id' => $routeid,
-                    'route'       => $re,
-                ];
-                $se = model('Route')->add($da);
-                if($se) {
-                    return 1;
-                } else {
-                    return 0;
-                }
 
-            } else {
-                // 上传失败获取错误信息
-                return $file->getError();
+
+            //将视频存储在七牛云上
+            Loader::import('phpsdk.autoload',EXTEND_PATH);
+            $data = input('post.');
+
+
+            $accessKey = 'HQGQglK3BL_-9p_BbrDh3dL7ng5fW8IxOiGX8gnA';
+            $secretKey = 'HQPkbjauhrn_pqR1qPy-brs5GOsZYgC7wHywiaUV';
+            $auth = new Auth($accessKey, $secretKey);  //实例化
+            $bucket='weices';//存储空间
+            $token = $auth->uploadToken($bucket);
+            $uploadMgr = new UploadManager();
+            $filePath = $_FILES['video']['tmp_name'];//'./php-logo.png';  //接收图片信息
+            if($_FILES['video']['type']=='video/mp4'){
+                $key = 'video'.time().'.mp4';
+//            }elseif($_FILES['video']['type']=='audio/mp3'){
+//                $key = 'audio'.time().'.mp3';
+//            }else{
+//                $key = 'png'.time().'.png';
             }
+            list($ret, $err) = $uploadMgr->putFile($token, $key, $filePath);
+            $vpic = 'http://pxjkvuz0y.bkt.clouddn.com/' . $key.'?vframe/jpg/offset/1';
+            $path ='http://pxjkvuz0y.bkt.clouddn.com/' . $ret['key'];
+            if ($err !== null) {
+                echo '上传失败';
+            } else{
+                echo 1;
+            }
+
+            $routeid = time().rand(1,10000);
+            $describes = [
+                'idx_dynamic' => $routeid,
+                'openid'     => $data['openid'],
+                'describes'  => $data['describes'],
+                'idx_tabs'   => $data['idx_tabs'],
+                'type'       => 1
+//
+            ];
+            $res = model('Dynamic') -> add($describes);
+            if($res) {
+                echo '添加描述成功';
+            } else {
+                echo '添加描述失败';
+            }
+            $da = [
+                'route_dy_id' => $routeid,
+                'route'       => $path,
+                'thumb_route' => $vpic
+            ];
+            $se = model('Route')->add($da);
+            if($se) {
+                return 1;
+            } else {
+                return 0;
+            }
+
+
+
+
+
+              //将视频储存在本地上的
+//            $filePath = "V";
+//            $filePaths = ROOT_PATH . 'public' . DS . 'uploads' . DS . $filePath;
+//            if (!file_exists($filePaths)) {
+//                mkdir($filePaths, 0777, true);
+//            }
+//            $info = $file->validate(['size'=>104857600,'ext'=>'svg,mp4'])->move($filePaths);
+//            if ($info) {
+//                $viopath = 'uploads/' . $filePath . '/' . $getSaveName = str_replace("\\", "/", $info->getSaveName());
+//                $re = 'http://weicess.com/weice/public/' . $viopath;
+//                $routeid = time().rand(1,10000);
+//                $describes = [
+//                    'idx_dynamic' => $routeid,
+//                    'openid'     => $data['openid'],
+//                    'describes'  => $data['describes'],
+//                    'idx_tabs'   => $data['idx_tabs'],
+//                    'type'       => 1
+////
+//                ];
+//                $res = model('Dynamic') -> add($describes);
+//                if($res) {
+//                    echo '添加描述成功';
+//                } else {
+//                    echo '添加描述失败';
+//                }
+//                $da = [
+//                    'route_dy_id' => $routeid,
+//                    'route'       => $re,
+//                ];
+//                $se = model('Route')->add($da);
+//                if($se) {
+//                    return 1;
+//                } else {
+//                    return 0;
+//                }
+//
+//            } else {
+//                // 上传失败获取错误信息
+//                return $file->getError();
+//            }
         }
 
         if($files)
@@ -271,6 +337,7 @@ class Upload extends Controller
      */
     public function tablist()
     {
+        header('Access-Control-Allow-Origin: *');
         $data = input('post.');
 
         $result = Db::name('tabs')

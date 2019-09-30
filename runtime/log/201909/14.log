@@ -1,0 +1,198 @@
+---------------------------------------------------------------
+[ 2019-09-14T10:24:29+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/home/upload/index
+[运行时间：0.067000s] [吞吐率：14.93req/s] [内存消耗：1,587.83kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '760303e1-dba8-4d36-81a5-0ce9e37ad19c',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------121360541192288721033648',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '38244',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '最新版的球鞋',
+  'idx_tabs' => '1',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-14T10:25:03+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/home/upload/index
+[运行时间：2.472000s] [吞吐率：0.40req/s] [内存消耗：2,847.22kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'upload',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a71a3a92-a6e0-4eea-a5d9-47f43fe8109f',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------216822847099871977069565',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '38243',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'openid' => '11',
+  'describes' => '最新版的球鞋',
+  'idx_tabs' => '1',
+  'albumid' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Upload->index[ C:\xampp\htdocs\weice\application\home\controller\Upload.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.524000s ] mysql:host=103.126.100.17;dbname=weice;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_dynamic` [ RunTime:0.357000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_dynamic` (`idx_dynamic` , `openid` , `describes` , `albumid` , `idx_tabs`) VALUES (15684279014570 , '11' , '最新版的球鞋' , 1 , 1) [ RunTime:0.358000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dy_route` [ RunTime:0.346000s ]
+[ sql ] [ SQL ] INSERT INTO `dy_route` (`route_dy_id` , `route` , `thumb_route`) VALUES (15684279014570 , 'http://weicess.com/weice/public/uploads/T/20190914/9e9d7730f487f2d3f2e5540bdaf99f9a.jpg' , 'http://weicess.com/weice/public/uploads/T/thumb/20190914/9e9d7730f487f2d3f2e5540bdaf99f9a.jpg') [ RunTime:0.342000s ]
+---------------------------------------------------------------
+[ 2019-09-14T10:52:12+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/index/email/index
+[运行时间：0.227000s] [吞吐率：4.41req/s] [内存消耗：1,619.95kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '83176555-d1b4-4848-ad53-ae806947067f',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------997152766303867392194732',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'lib\PHPMailer' not found[C:\xampp\htdocs\weice\application\index\controller\Email.php:34]
+---------------------------------------------------------------
+[ 2019-09-14T10:54:00+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/index/email/index
+[运行时间：0.078000s] [吞吐率：12.82req/s] [内存消耗：2,335.65kb] [文件加载：43]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '46e5a08a-be23-4c8c-b7ef-4f61e7f5b4b7',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------368216361106935984564561',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'PHPMailer\PHPMailer\PHPMailer' not found[C:\xampp\htdocs\weice\application\index\controller\Email.php:33]
+---------------------------------------------------------------
+[ 2019-09-14T10:54:25+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/index/email/index
+[运行时间：0.940000s] [吞吐率：1.06req/s] [内存消耗：2,317.96kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e5de8842-b0df-48a4-b574-048d84d7607b',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------864327693844842773096521',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-14T11:05:35+08:00 ] 127.0.0.1 POST 127.0.0.1/weice/public/index.php/index/email/index
+[运行时间：1.804000s] [吞吐率：0.55req/s] [内存消耗：2,317.96kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'email',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0ec35516-a09c-4a67-9b5e-8ad184e0e136',
+  'host' => '127.0.0.1',
+  'content-type' => 'multipart/form-data; boundary=--------------------------026890439467776168410643',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=eunagjefe6qrb15ah60d1sc1cv',
+  'content-length' => '177',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'email' => '2449382217@qq.com',
+)
+[ info ] [ RUN ] app\index\controller\Email->index[ C:\xampp\htdocs\weice\application\index\controller\Email.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,93 @@
+---------------------------------------------------------------
+[ 2019-09-20T16:35:10+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/sqrcode
+[è¿è¡Œæ—¶é—´ï¼š1.318000s] [åžåçŽ‡ï¼š0.76req/s] [å†…å­˜æ¶ˆè€—ï¼š2,639.95kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'sqrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'content-length' => '180',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------356628192972557196573115',
+  'postman-token' => 'a132328d-f41e-4935-a60c-38b662b9b003',
+)
+[ info ] [ PARAM ] array (
+  'route_dy_id' => '15684281366527',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->sqrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-09-20T16:35:48+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/sqrcode
+[è¿è¡Œæ—¶é—´ï¼š1.177000s] [åžåçŽ‡ï¼š0.85req/s] [å†…å­˜æ¶ˆè€—ï¼š2,639.95kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'sqrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'content-length' => '180',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------858435829442612709097012',
+  'postman-token' => 'bcf4dec8-4a79-485e-88fb-cb97cd9316d3',
+)
+[ info ] [ PARAM ] array (
+  'route_dy_id' => '15684281366527',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->sqrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-09-20T16:41:30+08:00 ] 110.64.211.77 POST 110.64.211.77/weice/public/index.php/home/qrcode/sqrcode
+[è¿è¡Œæ—¶é—´ï¼š1.075000s] [åžåçŽ‡ï¼š0.93req/s] [å†…å­˜æ¶ˆè€—ï¼š2,639.95kb] [æ–‡ä»¶åŠ è½½ï¼š44]
+[ info ] [ LANG ] C:\xampp\htdocs\weice\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'qrcode',
+    2 => 'sqrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '110.64.211.77',
+  'user-agent' => 'PostmanRuntime/7.16.3',
+  'content-length' => '180',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------252552456814533996692417',
+  'postman-token' => '67281396-7b1f-4bb7-984a-dbdd41aaa5dd',
+)
+[ info ] [ PARAM ] array (
+  'route_dy_id' => '15684281366527',
+)
+[ info ] [ RUN ] app\home\controller\qrcode->sqrcode[ C:\xampp\htdocs\weice\application\home\controller\Qrcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[C:\xampp\htdocs\weice\thinkphp\library\think\db\Connection.php:295]
